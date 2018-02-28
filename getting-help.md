@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-11-29"
+  years: 2017,2018
+lastupdated: "2018-02-28"
 
 ---
 
@@ -20,8 +20,8 @@ If you have problems or questions when using the FortiGate Security Appliance (F
 
 When using the forums to ask a question, tag your question so that it is seen by the IBM Cloud development teams.
 
-* If you have technical questions about the FortiGate Security Appliance (FSA) 1Gbps, post your question on [Stack Overflow](https://stackoverflow.com/search?q=fsa-1g+ibm-bluemix) and tag your question with "fsa-1g" and "ibm-bluemix".
-* For questions about the service and getting started instructions, use the [IBM developerWorks dW Answers](https://developer.ibm.com/answers/topics/fsa-1g.html?smartspace=bluemix) forum. Include the "fsa-1g" and "bluemix" tags.
+* If you have technical questions about the FortiGate Security Appliance (FSA) 1Gbps, post your question on [Stack Overflow](https://stackoverflow.com/search?q=fsa-1g+ibm-cloud) and tag your question with "fsa-1g" and "ibm-cloud".
+* For questions about the service and getting started instructions, use the [IBM developerWorks dW Answers](https://developer.ibm.com/answers/topics/fsa-1g.html?smartspace=ibm-cloud) forum. Include the "fsa-1g" and "ibm-cloud" tags.
 
 See [Getting help](https://console.bluemix.net/docs/support/index.html#getting-help) for more details about using the forums.
 
