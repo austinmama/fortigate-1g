@@ -1,0 +1,32 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="fortigate-1g" audience="network" href="/docs/infrastructure/fortigate-1g/getting-started.html"}
+FortiGate Security Appliance (FSA) mit 1 Gbit/s
+
+    {: .navgroup id="learn"}
+    getting-started.md
+    about.md
+    default-deployment.md
+    [Firewalls kennenlernen](https://console.bluemix.net/docs/infrastructure/fortigate-10g/explore-firewalls.html#explore-firewalls)
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    adding-fsa.md
+    viewing-hardware-firewalls-account.md
+    managing-fsa.md
+    managing-rules.md
+    securing-fsa.md
+    bypass.md
+    cancelling.md
+    {: .navgroup-end}
+    
+    {: .navgroup id="reference"}
+    [IBM Cloud IP-Bereiche](https://console.bluemix.net/docs/infrastructure/hardware-firewall-dedicated/ips.html)
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    faqs.md
+    known-limitations.md
+    getting-help.md
+    {: .navgroup-end}
