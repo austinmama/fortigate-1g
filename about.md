@@ -32,4 +32,4 @@ Since monthly server bandwidth is recorded at the server switch port, traffic bl
 
 **Features:** Stateful Packet Inspection, VLAN Protection, Ingress Firewall Rules, Egress Firewall Rules, NAT, SSL VPN Termination, IPSec VPN Termination, Advanced Logging, High Availability (Optional)
 
-**Throughput:** 2000Mbps
+**Throughput:** 1Gbps (2Gbps Aggregated)
