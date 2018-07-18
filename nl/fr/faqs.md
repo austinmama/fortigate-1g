@@ -69,8 +69,8 @@ Tous les pare-feux n'offrent pas forcément de réseau VPN et toutes les options
 
 ## Lorsque je sélectionne l'option Haute disponibilité, quelles sont les étapes à suivre pour tirer parti de cette fonction ?
 
-Aucune. Lorsqu'il est commandé avec l'option Haute disponibilité, IBM Cloud fournit automatiquement les dispositifs en configuration haute disponibilité. Si le dispositif principal échoue, un autre dispositif passif prend le relais en tant qu'instance active principale et commence à soumettre du trafic. Alors que ce basculement est en principe automatique, il est recommandé de surveiller les serveurs et de vérifier que le trafic est transmis correctement.
+Aucune. Lorsqu'il est commandé avec l'option Haute disponibilité, IBM Cloud fournit automatiquement les dispositifs en configuration haute disponibilité.  Si le dispositif principal échoue, un autre dispositif passif prend le relais en tant qu'instance active principale et commence à soumettre du trafic. Alors que ce basculement est en principe automatique, il est recommandé de surveiller les serveurs et de vérifier que le trafic est transmis correctement.
 
 ## Quels sont les produits de pare-feu qui prennent en charge la conversion d'adresses réseau NAT public vers privé et/ou la segmentation de VLAN privé ?
 
-Aucun produit de pare-feu matériel n'a accès au réseau privé. Une passerelle réseau est nécessaire pour fournir ces fonctions en ligne et les produits NetScaler ont accès à la fois aux réseaux publics et privés.
+Aucun produit de pare-feu matériel n'a accès au réseau privé.  Une passerelle réseau est nécessaire pour fournir ces fonctions en ligne et les produits NetScaler ont accès à la fois aux réseaux publics et privés.

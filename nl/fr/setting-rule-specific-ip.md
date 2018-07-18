@@ -25,7 +25,7 @@ Vous pouvez configurer une règle de pare-feu FortiGate consistant à n'autorise
     * Source Address = Adresse IP et sous-réseau de l'adresse IP que vous souhaitez autoriser. L'adresse peut être saisie avec deux formats différents : 10.10.20.[1-14] ou 10.10.20.1/255.255.255.240.
     * Destination Interface/Zone  = v###-inside
     * Destination Address = Adresse IP spécifique / adresse IP du serveur dont vous souhaitez octroyer l'accès, si vous envisagez d'octroyer l'accès à l'un de vos serveurs Web, vous pouvez sélectionner "all".
-    * Service = Type de service à autoriser, par exemple HTTP, SSH, SMB, DHCP. S'il n'y a aucun service spécifique, vous pouvez sélectionner "ANY" pour autoriser tous les services selon cette règle.
+    * Service = Type de service à autoriser, par exemple HTTP, SSH, SMB, DHCP.  S'il n'y a aucun service spécifique, vous pouvez sélectionner "ANY" pour autoriser tous les services selon cette règle.
     * Action = ACCEPT
     * Cliquez sur OK pour enregistrer la règle
     * Testez la règle à l'aide de la commande ping et d'une adresse IP de serveur pour confirmer si vous pouvez accéder au serveur à partir d'une adresse autorisée et à partir d'une adresse refusée.

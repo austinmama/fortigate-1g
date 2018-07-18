@@ -17,7 +17,7 @@ lastupdated: "2017-11-29"
 # Bekannte Einschränkungen
 Die FortiGate Security Appliance (FSA) mit 1 Gbit/s hat folgende bekannte Einschränkungen:
 
-* Inkompatibel mit dem Windows-Netzlastenausgleich (NLB) aufgrund der Verarbeitung von ARP. 
+* Inkompatibel mit dem Windows-Netzlastenausgleich (NLB) aufgrund der Verarbeitung von ARP.
 
 * Die Failover-Funktionalität für hohe Verfügbarkeit wird dem Benutzer nicht zur Verfügung gestellt. Wenn die Master-Firewall nicht funktioniert, aber kein automatischer Failover erfolgt, wird ein Support-Ticket benötigt. Die Geräteüberwachung für kritische Services wird empfohlen, um sicherzustellen, dass Firewalls den Datenverkehr richtig weiterleiten.
 

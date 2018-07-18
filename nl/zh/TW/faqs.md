@@ -16,7 +16,7 @@ lastupdated: "2018-01-16"
 
 # 常見問題 (FAQ)
 
-下列是使用「FortiGate 安全應用裝置 (FSA) 1Gbps」時的常見問題。
+下列是使用 FortiGate Security Appliance (FSA) 1Gbps 時的常見問題。
 
 ## 何謂防火牆？
 
@@ -29,17 +29,17 @@ lastupdated: "2018-01-16"
 ## IBM 提供哪些防火牆產品？
 您可以找到 IBM Cloud 中提供的所有防火牆產品的詳細比較資料，方法是檢閱本[主題 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://console.bluemix.net/docs/infrastructure/fortigate-10g/explore-firewalls.html#explore-firewalls){: new_window}。 
 
-## 「FortiGate 安全應用裝置 1Gbps」是否與 IBM 的負載平衡器產品相容？
+## FortiGate Security Appliance 1Gbps 是否與 IBM 的負載平衡器產品相容？
 
 是的。FSA 1Gbps 與雲端負載平衡服務、本端負載平衡器，以及 Citrix Netscaler VPX 和 MPX 相容。
 
 ## 公用資料流量是否先通過負載平衡器或防火牆？
 
-負載平衡產品會先從公用網際網路進來、接著是「硬體防火牆」產品，最後是 NetScaler 產品（連同客戶伺服器）。
+負載平衡產品會先從公用網際網路進來、接著是 Hardware Firewall 產品，最後是 NetScaler 產品（連同客戶伺服器）。
 
 ## IBM 是否會收取防火牆頻寬費用？
 
-「FortiGate 安全應用裝置 1Gbps」不會針對頻寬進行計量。此外，FSA 還可以透過限制伺服器必須回應的資料流量來減少總頻寬使用率。
+FortiGate Security Appliance 1Gbps 不會針對頻寬進行計量。此外，FSA 還可以透過限制伺服器必須回應的資料流量來減少總頻寬使用率。
 
 ## 什麼是 Windows 防火牆中的灰色埠？
 
@@ -51,9 +51,9 @@ IBM Cloud 提供許多可用於伺服器的不同服務，包括 Evault、SNMP �
 
 如需容許通過防火牆的 IP 位址及 IP 範圍清單，請進到[這裡](https://console.bluemix.net/docs/infrastructure/hardware-firewall-dedicated/ips.html){: new_window}。 
 
-## 「FortiGate 安全應用裝置 1Gbps」會保護的最大伺服器數目是多少？
+## FortiGate Security Appliance 1Gbps 會保護的最大伺服器數目是多少？
 
-「FortiGate 安全應用裝置 1Gbps」可以保護公用 VLAN 上的每台伺服器。不過，需要注意的是，由於這些防火牆裝置連接 2Gbps 的上行鏈路，因此我們建議擴充防火牆實例的數目以符合應用程式的效能需求。您可以透過在 pod 內部署其他公用 VLAN 防火牆來達到此目的，以允許新增其他防火牆及相關聯的計算資源。
+FortiGate Security Appliance 1Gbps 可以保護公用 VLAN 上的每台伺服器。不過，需要注意的是，由於這些防火牆裝置連接 2Gbps 的上行鏈路，因此我們建議擴充防火牆實例的數目以符合應用程式的效能需求。您可以透過在 pod 內部署其他公用 VLAN 防火牆來達到此目的，以允許新增其他防火牆及相關聯的計算資源。
 
 ## 每一個防火牆產品隨附哪些 VPN 選項？
 
@@ -62,7 +62,7 @@ IBM Cloud 提供許多可用於伺服器的不同服務，包括 Evault、SNMP �
 * 每個客戶都可以收到連接到我們的專用網路的無限制 SSL VPN 連線。這些連線可以進行建立，方法是在登入「客戶入口網站」時按一下頁面頂端的 VPN 鏈結。
 * 客戶也可以為每一個帳戶收到一個 PPTP VPN。他們可以將其他 PPTP VPN 使用者以 5 個一組、每個月額外 5 美元的價格新增到其帳戶中。
 * IBM Cloud 還提供基本的多方承租戶 IPSec VPN 服務。
-* 「FortiGate 安全應用裝置 1Gbps」提供 SSL 和 IPSec VPN 選項，並只能存取公用網路（無法存取 IBM Cloud 專用網路）。
+* FortiGate Security Appliance 1Gbps 提供 SSL 和 IPSec VPN 選項，並只能存取公用網路（無法存取 IBM Cloud 專用網路）。
 * 「網路閘道」在公用或專用網路上提供 SSL、IPSec 及 OpenVPN 功能。
 * NetScaler 產品可以在公用或專用網路上提供 SSL 及 IPSec VPN。
 * 客戶也可以將 VPN 解決方案部署到其 IBM Cloud 環境內的伺服器上。
@@ -73,4 +73,4 @@ IBM Cloud 提供許多可用於伺服器的不同服務，包括 Evault、SNMP �
 
 ## 哪些防火牆產品支援公用到專用 NAT 及（或）專用 VLAN 區段？
 
-沒有任何「硬體防火牆」產品可以存取專用網路。需要「網路閘道」在行內提供這些功能，而 NetScaler 產品可以同時存取公用和專用網路。
+沒有任何 Hardware Firewall 產品可以存取專用網路。需要「網路閘道」在行內提供這些功能，而 NetScaler 產品可以同時存取公用和專用網路。

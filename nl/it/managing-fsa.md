@@ -27,6 +27,6 @@ Quando il firewall viene aggiunto per la prima volta alla VLAN, viene consentito
 
 	Le informazioni di gestione includono **Management IP**, **Username** e **Password**. Questo Management IP è accessibile pubblicamente per impostazione predefinita. Per scopi di automazione o per casi di utilizzo avanzati, la gestione è inoltre disponibile utilizzando SSH con le stesse credenziali e lo stesso IP.
 5. Per accedere alla GUI, fai clic sul link Management IP e immetti il nome utente e la password forniti. 
-6. Dalla IU di gestione, puoi gestire FortiGate Security Appliance come un amministratore VDOM. Per le funzioni di gestione non disponibili utilizzando la IU di gestione, come la gestione dei certificati SSL, l'avvio di un failover HA manuale, il riavvio, l'aggiornamento o l'esecuzione di un ripristino della configurazione predefinito, deve essere aperto un ticket di supporto.
+6. Dalla IU di gestione, puoi gestire FortiGate Security Appliance come un amministratore VDOM. Per le funzioni di gestione non disponibili utilizzando la IU di gestione, come la gestione dei SSL Certificates, l'avvio di un failover HA manuale, il riavvio, l'aggiornamento o l'esecuzione di un ripristino della configurazione predefinito, deve essere aperto un ticket di supporto.
 
 Fortinet conserva [la documentazione online includendo una guida di riferimento dettagliata interattiva ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](http://cookbook.fortinet.com/fortigate/){: new_window} che può essere utilizzata come riferimento durante la configurazione.

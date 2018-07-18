@@ -43,7 +43,7 @@ Dans la liste des unités associées, vous pouvez cliquer sur chaque unité et f
 
 Pour les réseaux locaux virtuels ayant **Firewall-vlanXXXX.networklayer.com** dans la zone **Passerelle/pare-feu**, vous pouvez cliquer sur le lien de ce pare-feu pour en afficher les détails. Les détails de l'unité comprennent le routeur associé, le réseau local virtuel (VLAN), les sous-réseaux IPv4/IPv6, les unités associées à ce VLAN et les commandes permettant de router le trafic via ou hors du pare-feu.
 
-Les dispositifs de sécurité FortiGate (FSA) ont une adresse IP de gestion, un nom d'utilisateur et un mot de passe. La gestion des dispositifs FSA s'effectue via leur propre interface graphique ou leur console SSH.
+Les dispositifs de sécurité FortiGate (FSA) ont une adresse IP de gestion, un nom d'utilisateur et un mot de passe.  La gestion des dispositifs FSA s'effectue via leur propre interface graphique ou leur console SSH.
 
 ## Détails de la passerelle réseau
 

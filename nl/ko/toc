@@ -5,10 +5,10 @@
 FSA(FortiGate Security Appliance) 1Gbps
 
     {: .navgroup id="learn"}
-    getting-started.md
+getting-started.md
     about.md
     default-deployment.md
-    [방화벽 탐색](https://console.bluemix.net/docs/infrastructure/fortigate-10g/explore-firewalls.html#explore-firewalls)
+    [방화벽 탐색](../fortigate-10g/explore-firewalls.html)
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
@@ -22,7 +22,7 @@ FSA(FortiGate Security Appliance) 1Gbps
     {: .navgroup-end}
     
     {: .navgroup id="reference"}
-    [IBM Cloud IP 범위](https://console.bluemix.net/docs/infrastructure/hardware-firewall-dedicated/ips.html)
+    [IBM Cloud IP 범위](../hardware-firewall-dedicated/ips.html)
     {: .navgroup-end}
 
     {: .navgroup id="help"}

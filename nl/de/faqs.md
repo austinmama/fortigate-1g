@@ -69,8 +69,8 @@ Nicht alle Firewalls bieten VPN an und nicht alle VPN-Optionen sind identisch. D
 
 ## Wenn die Option "Hochverfügbarkeit" ausgewählt wurde, welche Schritte müssen dann durchgeführt werden, um dieses Feature zu nutzen?
 
-Keine. Bei einer Bestellung mit Hochverfügbarkeit (HA) stellt IBM Cloud die Appliances automatisch in der HA-Konfiguration bereit. Wenn die primäre Einheit ausfällt, übernimmt eine sekundäre passive Einheit die Funktion der primären aktiven Instanz, um den Datenverkehr weiterzuleiten. Während dieses Failover normalerweise automatisch erfolgt, empfiehlt es sich, die Server zu überwachen und sicherzustellen, dass der Datenverkehr erfolgreich übertragen wird.
+Keine. Bei einer Bestellung mit Hochverfügbarkeit (HA) stellt IBM Cloud die Appliances automatisch in der HA-Konfiguration bereit.  Wenn die primäre Einheit ausfällt, übernimmt eine sekundäre passive Einheit die Funktion der primären aktiven Instanz, um den Datenverkehr weiterzuleiten. Während dieses Failover normalerweise automatisch erfolgt, empfiehlt es sich, die Server zu überwachen und sicherzustellen, dass der Datenverkehr erfolgreich übertragen wird.
 
-## Welche Firewallprodukte unterstützen die Public-to-Private-NAT- bzw. private VLAN-Segmentierung? 
+## Welche Firewallprodukte unterstützen die Public-to-Private-NAT- bzw. private VLAN-Segmentierung?
 
-Keines der Hardware-Firewallprodukte hat Zugriff auf das private Netz. Ein Netzgateway muss diese Funktionen inline bereitstellen. Die NetScaler-Produkte haben Zugriff auf das öffentliche und private Netz.
+Keines der Hardware-Firewallprodukte hat Zugriff auf das private Netz.  Ein Netzgateway muss diese Funktionen inline bereitstellen. Die NetScaler-Produkte haben Zugriff auf das öffentliche und private Netz.

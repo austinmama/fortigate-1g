@@ -28,7 +28,7 @@ Die rechte Spalte **Gateway/Firewall** enthält Details über den implementierte
 - **Firewall hinzufügen** gibt an, dass in diesem VLAN keine Firewalls für Server vorhanden sind.
 - **Einzeln geschützte Server** gibt an, dass mindestens ein Server eine Hardware-Firewall (freigegeben) verwendet und keine Hardware-Firewall (dediziert), keine FortiGate Security Appliance und kein Netzgateway vorhanden ist. VLAN-Firewalls und Netzgateways können nicht auf einem VLAN mit einzeln geschützten Servern platziert werden.
 - **Firewall-vlanXXXX.networklayer.com** gibt an, dass eine Hardware-Firewall (dediziert) oder eine FortiGate Security Appliance vorhanden ist. Einem VLAN kann nur eine VLAN-Firewall oder ein Netzgateway zugeordnet werden. Ein Server kann jedoch im öffentlichen VLAN durch eine VLAN-Firewall geschützt und im privaten Netz mit einem Netzgateway verknüpft werden.
-- **Gateway-Name** gibt an, dass das VLAN mit diesem Netzgateway verknüpft ist. 
+- **Gateway-Name** gibt an, dass das VLAN mit diesem Netzgateway verknüpft ist.
 
 ## Details zu einzeln geschützten Servern
 
@@ -43,7 +43,7 @@ In der Liste der zugeordneten Einheiten können Sie auf jede Einheit klicken und
 
 Bei VLANs, die **Firewall-vlanXXXX.networklayer.com** im Feld **Gateway/Firewall** enthalten, können Sie auf den Firewall-Link klicken, um die Details der Firewall anzuzeigen. Zu den Einheitendetails gehören die zugehörigen Router, VLANs, IPv4/IPv6-Teilnetze, die mit diesem VLAN verbundenen Einheiten sowie die Steuerelemente für die Weiterleitung des Datenverkehrs durch oder um die Firewall herum.
 
-Die FortiGate Security Appliance-Einheiten enthalten Verwaltungs-IP-Adresse, Benutzername und Kennwort. Die Verwaltung der FortiGate Security Appliances erfolgt über eine eigene Benutzerschnittstelle oder eine SSH-basierte Konsole.
+Die FortiGate Security Appliance-Einheiten enthalten Verwaltungs-IP-Adresse, Benutzername und Kennwort.  Die Verwaltung der FortiGate Security Appliances erfolgt über eine eigene Benutzerschnittstelle oder eine SSH-basierte Konsole.
 
 ## Details des Netzgateways
 

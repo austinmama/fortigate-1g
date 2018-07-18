@@ -40,7 +40,7 @@ credenciais.
 5. Para acessar a GUI, clique no link IP de gerenciamento e insira o nome do usuário e a senha fornecidos. 
 6. Na IU de gerenciamento, é possível gerenciar o FortiGate Security Appliance
 como Administrador de VDOM. Para funções de gerenciamento não disponíveis usando a IU de
-gerenciamento, como gerenciar Certificados SSL, iniciar um failover de HA manual,
+gerenciamento, como gerenciar SSL Certificates, iniciar um failover de HA manual,
 reinicializar, fazer upgrade ou executar uma restauração de configuração padrão, um
 chamado de suporte precisa ser aberto.
 

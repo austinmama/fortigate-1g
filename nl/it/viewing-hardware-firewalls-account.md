@@ -26,8 +26,8 @@ Ogni riga nella tabella rappresenta una VLAN nella tua infrastruttura. IBM Cloud
 La colonna all'estrema destra **Gateway/Firewall** contiene i dettagli su quale protezione firewall è in uso, ad esempio:
 
 - **Add Firewall** indica che non ci sono firewall in uso per i server su questa VLAN.
-- **Individually Protected Servers** indica che uno o più server sta utilizzando un firewall hardware (condiviso) e non è in uso un firewall hardware (dedicato), FortiGate Security Appliance o un gateway di rete. I gateway di rete e i firewall della VLAN non possono essere utilizzati su una VLAN che ha server protetti individualmente.
-- **Firewall-vlanXXXX.networklayer.com** indica che è in uso un firewall hardware (dedicato) o un FortiGate Security Appliance. Può essere associato solo un firewall VLAN o un gateway di rete a una VLAN, ma un server può essere protetto su una VLAN pubblica da un firewall VLAN e associato a una rete privata con un gateway di rete.
+- **Individually Protected Servers** indica che uno o più server sta utilizzando un Hardware Firewall (Shared) e non è in uso un Hardware Firewall (Dedicated), FortiGate Security Appliance o un gateway di rete. I gateway di rete e i firewall della VLAN non possono essere utilizzati su una VLAN che ha server protetti individualmente.
+- **Firewall-vlanXXXX.networklayer.com** indica che è in uso un Hardware Firewall (Dedicated) o un FortiGate Security Appliance. Può essere associato solo un firewall VLAN o un gateway di rete a una VLAN, ma un server può essere protetto su una VLAN pubblica da un firewall VLAN e associato a una rete privata con un gateway di rete.
 - **GatewayName** indica che la VLAN viene associata a tale gateway di rete.
 
 ## Dettagli dei server protetti individualmente

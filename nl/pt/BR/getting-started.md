@@ -18,7 +18,7 @@ lastupdated: "2017-11-29"
 O Fortigate Security Appliance (FSA) 1Gbps fornece aos clientes uma camada
 essencial de segurança que evita a ocorrência de tráfego indesejado nos servidores,
 reduzindo a superfície de ataque e permitindo que os recursos do servidor sejam
-dedicados ao uso desejado. O FSA é um dispositivo de rede conectado para envio
+dedicados ao uso desejado.  O FSA é um dispositivo de rede conectado para envio
 de dados do ambiente do servidor (pod), bloqueando o tráfego indesejado antes que ele
 atinja o servidor.  
 
@@ -28,8 +28,7 @@ Você pode pedir o FSA 1Gbps na página VLANs no portal do cliente.
 2. Na navegação do Portal do cliente, selecione **Rede > Gerenciamento de
 IP > VLANs**.
 3. Role para a VLAN que você deseja proteger e clique no link **Incluir
-firewall** na mesma linha. Esse link abre a página **Pedir firewall de
-hardware (dedicado)**.
+firewall** na mesma linha. Esse link abre a página **Pedir Hardware Firewall (Dedicated)**
 4. Selecione **FortiGate Security Appliance** para pedir um
 único firewall ou **FortiGate Security Appliance (alta
 disponibilidade)** para pedir um par de firewalls. 

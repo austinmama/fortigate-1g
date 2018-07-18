@@ -25,6 +25,6 @@ um chamado de suporte será necessário. O monitoramento de dispositivo para ser
 críticos é recomendável para assegurar que os firewalls estejam passando o tráfego
 apropriadamente.
 
-* O FortiGate Security Appliance não pode ser implementado em uma VLAN atualmente associada a um Gateway de rede, a um Firewall de hardware ou a outro FortiGate Security Appliance.
+* O FortiGate Security Appliance não pode ser implementado em uma VLAN atualmente associada a um Gateway de rede, a um Hardware Firewall ou a outro FortiGate Security Appliance.
 
 * O FortiGate Security Appliance está associado a uma única VLAN pública do cliente (a VLAN "interna") e não pode acessar a rede privada.

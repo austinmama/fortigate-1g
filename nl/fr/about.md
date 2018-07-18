@@ -14,9 +14,9 @@ lastupdated: "2017-11-29"
 {:tip: .tip}
 {:download: .download}
 
-# A propos de
+# A propos
 
-Un dispositif de sécurité FortiGate 1 Gbit/s (FSA) est un périphérique réseau à service exclusif dédié connecté en amont d'un serveur, qui protège un ou tous les serveurs sur un réseau local virtuel (VLAN) public. Il s'achète en plus d'un serveur et peut être ajouté à un VLAN à tout moment. IBM Cloud déploie le [portail client ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](http://www.fortinet.com/sites/default/files/productdatasheets/FortiGate-300C.pdf){: new_window} dans un domaine virtuel (VDOM) sur le dispositif dédié, octroyant ainsi aux utilisateurs l'accès complet à ce domaine virtuel sans compromettre l'intégrité de l'unité. 
+Un dispositif de sécurité FortiGate 1 Gbit/s (FSA) est un périphérique réseau à service exclusif dédié connecté en amont d'un serveur, qui protège un ou tous les serveurs sur un réseau local virtuel (VLAN) public. Il s'achète en plus d'un serveur et peut être ajouté à un VLAN à tout moment.  IBM Cloud déploie le [portail client ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](http://www.fortinet.com/sites/default/files/productdatasheets/FortiGate-300C.pdf){: new_window} dans un domaine virtuel (VDOM) sur le dispositif dédié, octroyant ainsi aux utilisateurs l'accès complet à ce domaine virtuel sans compromettre l'intégrité de l'unité. 
 
 Avec le dispositif FSA 1 Gbit/s, vous avez accès aux fonctions avancées et vous avez la possibilité d'adapter le périphérique à vos besoins à un degré nettement supérieur comparé à d'autres produits. Le pare-feu bloque ou oriente le trafic avant qu'il n'atteigne le serveur. Les principaux avantages sont les suivants : un serveur ne traite que le "bon" trafic et la bande passante peut être limitée pour les communications moins critiques. 
 
@@ -32,4 +32,4 @@ Comme la bande passante mensuelle du serveur est enregistrée au niveau du port 
 
 **Fonctions :** filtrage dynamique de paquets (SPI), protection de VLAN, règles de pare-feu (trafic entrant), règles de pare-feu (trafic sortant), NAT, terminaison VPN SSL, terminaison VPN IPSec, journalisation avancée, haute disponibilité (facultatif)
 
-**Débit :** 2000 Mbit/s
+**Débit :** 1 Gbit/s (2 Gbit/s en débit agrégé) 

@@ -14,7 +14,7 @@ lastupdated: "2018-01-16"
 {:tip: .tip}
 {:download: .download}
 
-# Perguntas Mais Freqüentes
+# Perguntas mais frequentes
 
 A seguir estão as perguntas mais frequentes ao trabalhar com o firewall do FortiGate Security Appliance (FSA) 1Gbps.
 
@@ -31,11 +31,11 @@ Você pode encontrar uma comparação detalhada de todos os produtos de firewall
 
 ## O FortiGate Security Appliance 1Gbps é compatível com produtos de balanceador de carga da IBM?
 
-Sim.O FSA 1Gbps é compatível com o serviço de balanceamento de carga em nuvem, o balanceador de carga local, bem como o Citrix Netscaler VPX e MPX.
+Sim. O FSA 1Gbps é compatível com o serviço de balanceamento de carga em nuvem, o balanceador de carga local, bem como o Citrix Netscaler VPX e MPX.
 
 ## O tráfego público passa primeiro através do meu balanceador de carga ou do firewall?
 
-Vindos da Internet pública, os produtos de balanceamento de carga são os primeiros, os produtos de Firewall de hardware vêm em seguida e os produtos NetScaler são os últimos (junto com os servidores dos clientes).
+Vindos da Internet pública, os produtos de balanceamento de carga são os primeiros, os produtos do Hardware Firewall vêm em seguida e os produtos NetScaler são os últimos (junto com os servidores dos clientes).
 
 ## A IBM cobra pela largura de banda do firewall?
 
@@ -69,8 +69,8 @@ Nem todos os firewalls oferecem VPN e nem todas as opções de VPN são as mesma
 
 ## Quando eu seleciono a opção Alta disponibilidade, quais etapas que eu preciso tomar para aproveitar esse recurso?
 
-Nenhuma. Quando solicitado em HA, o IBM Cloud provisiona automaticamente os dispositivos na configuração de HA. No caso de o dispositivo primário falhar, um dispositivo passivo secundário assumirá como instância ativa primária e começará a passar o tráfego. Embora esse failover seja geralmente automático, a melhor prática é monitorar os servidores e assegurar que o tráfego esteja sendo passado com êxito.
+Nenhuma. Quando solicitado em HA, o IBM Cloud provisiona automaticamente os dispositivos na configuração de HA.  No caso de o dispositivo primário falhar, um dispositivo passivo secundário assumirá como instância ativa primária e começará a passar o tráfego. Embora esse failover seja geralmente automático, a melhor prática é monitorar os servidores e assegurar que o tráfego esteja sendo passado com êxito.
 
 ## Quais produtos de firewall suportam NAT público para privado e/ou segmentação de VLAN privada?
 
-Nenhum dos produtos de Firewall de hardware tem acesso à rede privada. Um Gateway de rede é necessário para fornecer esses recursos sequenciais e os produtos NetScaler têm acesso às redes pública e privada.
+Nenhum dos produtos do Hardware Firewall tem acesso à rede privada.  Um Gateway de rede é necessário para fornecer esses recursos sequenciais e os produtos NetScaler têm acesso às redes pública e privada.

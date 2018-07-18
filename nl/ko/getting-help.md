@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-11-29"
+  years: 2017,2018
+lastupdated: "2018-02-28"
 
 ---
 
@@ -20,8 +20,8 @@ FSA(FortiGate Security Appliance) 1Gbps를 사용할 때 문제점이 발생하�
 
 질문을 작성하는 데 포럼을 사용하는 경우 IBM Cloud 개발 팀에서 확인할 수 있도록 질문에 태그를 지정하십시오.
 
-* FSA(FortiGate Security Appliance) 1Gbps에 대한 기술 관련 질문이 있는 경우 [Stack Overflow](https://stackoverflow.com/search?q=fsa-1g+ibm-bluemix)에 질문을 게시하고 "fsa-1g" 및 "ibm-bluemix"를 사용하여 질문에 태그를 지정하십시오.
-* 서비스 및 시작하기 지시사항에 대한 질문이 있는 경우에는 [IBM developerWorks dW Answers](https://developer.ibm.com/answers/topics/fsa-1g.html?smartspace=bluemix) 포럼을 사용하십시오. "fsa-1g" 및 "bluemix" 태그를 포함하십시오.
+* FSA(FortiGate Security Appliance) 1Gbps에 대한 기술 관련 질문이 있는 경우 [Stack Overflow](https://stackoverflow.com/search?q=fsa-1g+ibm-cloud)에 질문을 게시하고 "fsa-1g" 및 "ibm-cloud"를 사용하여 태그를 지정하십시오.
+* 서비스 및 시작하기 지시사항에 대한 질문이 있는 경우에는 [IBM developerWorks dW Answers](https://developer.ibm.com/answers/topics/fsa-1g.html?smartspace=ibm-cloud) 포럼을 사용하십시오. "fsa-1g" 및 "ibm-cloud" 태그를 포함하십시오.
 
 포럼 사용에 대한 세부사항은 [도움 받기](https://console.bluemix.net/docs/support/index.html#getting-help)를 참조하십시오.
 

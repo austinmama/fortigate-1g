@@ -36,14 +36,14 @@ Para VLAN que tienen **Servidores protegidos individualmente** en el campo **Pas
 
 En la lista de dispositivos asociados, puede pulsar en cada dispositivo y desplazarse hasta la parte inferior del separador Configuración. Verá **Cortafuegos** en la sección Complementos con el valor **Instalado** o **No instalado** en el estado.
 
-- **No instalado** indica que no hay ningún cortafuegos establecido para ese dispositivo. 
+- **No instalado** indica que no hay ningún cortafuegos establecido para ese dispositivo.
 - **Instalado** indica que hay un cortafuegos establecido, y habrá un separador **Cortafuegos** disponible en el dispositivo, donde podrá gestionar la configuración del cortafuegos.
 
 ## Detalles del cortafuegos dedicado
 
 Para VLAN que tienen **Cortafuegos-vlanXXXX.networklayer.com** en el campo **Pasarela/cortafuegos**, puede pulsar en el enlace de ese cortafuegos para visualizar los detalles del cortafuegos. Los detalles del dispositivo incluyen el direccionador asociado, la VLAN, las subredes IPv4/IPv6, los dispositivos asociados con la VLAN y los controles para direccionar el tráfico a través del cortafuegos o sortear el cortafuegos.
 
-Los dispositivos de seguridad FortiGate tendrán la IP de gestión, el nombre de usuario y la contraseña. La gestión de los dispositivos de seguridad FortiGate se completa mediante su propia GUI o consola basada en SSH.
+Los dispositivos de seguridad FortiGate tendrán la IP de gestión, el nombre de usuario y la contraseña.  La gestión de los dispositivos de seguridad FortiGate se completa mediante su propia GUI o consola basada en SSH.
 
 ## Detalles de pasarela de red
 

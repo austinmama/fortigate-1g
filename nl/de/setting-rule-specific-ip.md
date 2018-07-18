@@ -25,7 +25,7 @@ Sie können eine FortiGate-Firewallregel so konfigurieren, dass nur Zugriff von 
     * Quellenadresse = Die IP-Adresse und das Teilnetz der IP-Adresse, die zugelassen werden soll. Adressen können in zwei verschiedenen Formaten eingegeben werden: 10.10.20.[1-14] oder 10.10.20.1/255.255.255.240.
     * Zielschnittstelle/Zone  = v###-inside
     * Zieladresse = Die spezifischen IP-Adressen des Servers, der Zugriff erhalten soll. Wenn Sie Zugriff auf einen Ihrer Web-Server gewähren möchten, können Sie "Alle" auswählen.
-    * Service = Der zugelassene Servicetyp, wie HTTP, SSH, SMB, DHCP. Wenn es keinen bestimmten Service gibt, können Sie "Beliebige" auswählen, damit nach dieser Regel alle Services zugelassen werden.
+    * Service = Der zugelassene Servicetyp, wie HTTP, SSH, SMB, DHCP.  Wenn es keinen bestimmten Service gibt, können Sie "Beliebige" auswählen, damit nach dieser Regel alle Services zugelassen werden.
     * Aktion = ACCEPT
     * Klicken Sie auf "OK", um die Regel zu speichern.
     * Testen Sie Ihre Regel mit dem Ping-Befehl und der IP-Adresse eines Servers, um zu bestätigen, ob Sie von einer zulässigen Adresse sowie von einer nicht zulässigen Adresse auf den Server zugreifen können.

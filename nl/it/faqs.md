@@ -35,7 +35,7 @@ Sì. Il FSA 1Gbps è compatibile con il servizio di bilanciamento del carico clo
 
 ## Il traffico pubblico passa prima nel mio programma di bilanciamento del carico o nel firewall?
 
-Per il traffico proveniente da internet pubblico, i prodotti di bilanciamento del carico vengono prima, i prodotti firewall hardware vengono dopo e i prodotti NetScaler vengono per ultimi (insieme ai server dei clienti).
+Per il traffico proveniente da internet pubblico, i prodotti di bilanciamento del carico vengono prima, i prodotti Hardware Firewall vengono dopo e i prodotti NetScaler vengono per ultimi (insieme ai server dei clienti).
 
 ## IBM effettua un addebito per la larghezza di banda del firewall?
 
@@ -73,4 +73,4 @@ Nessuna. Quando ordinato con HA, IBM Cloud esegue automaticamente il provisionin
 
 ## Quali prodotti firewall supportano il NAT da pubblico a privato e/o la segmentazione della VLAN privata?
 
-Nessuno dei prodotti firewall hardware ha accesso alla rete privata.  È necessario un gateway di rete per fornire queste funzionalità incorporate e che i prodotti NetScaler abbiano accesso sia alla rete pubblica che privata.
+Nessuno dei prodotti Hardware Firewall ha accesso alla rete privata.  È necessario un gateway di rete per fornire queste funzionalità incorporate e che i prodotti NetScaler abbiano accesso sia alla rete pubblica che privata.

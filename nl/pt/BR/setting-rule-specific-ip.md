@@ -28,7 +28,7 @@ localizados na tela Detalhes do dispositivo sob a seção rotulada 'Gerenciament
     * Endereço de destino = o IP específico/os IPs do servidor aos quais você deseja
 dar acesso; caso queira dar acesso a qualquer um de seus servidores da web, você pode
 selecionar 'todos'.
-    * Serviço = o tipo de Serviço, como HTTP, SSH, SMB, DHCP, a ser permitido. Se não houver serviço específico, você poderá selecionar 'ANY' para permitir todos os serviços por essa regra.
+    * Serviço = o tipo de Serviço, como HTTP, SSH, SMB, DHCP, a ser permitido.  Se não houver serviço específico, você poderá selecionar 'ANY' para permitir todos os serviços por essa regra.
     * Ação = ACCEPT
     * Clique em OK para salvar a regra
     * Teste sua regra usando o comando ping e um endereço IP de servidores para confirmar se você pode acessar o servidor de um Endereço permitido e de um Endereço negado.

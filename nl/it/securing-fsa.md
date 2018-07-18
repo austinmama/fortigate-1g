@@ -14,7 +14,7 @@ lastupdated: "2017-11-29"
 {:tip: .tip}
 {:download: .download}
 
-# Proteggi il FortiGate Security Appliance 
+# Proteggi il FortiGate Security Appliance
 
 Puoi configurare il FortiGate Security Appliance (FSA) 1Gbps per soddisfare i requisiti di conformità e sicurezza. IBM Cloud fornisce un account amministratore VDOM con una password assegnata casualmente. I clienti possono ruotare tale password, creare utenti di sola lettura e limitare l'accesso in base agli "host attendibili", che accettano il traffico solo da IP di origine specificati (fino a tre). Per completare queste attività:
 

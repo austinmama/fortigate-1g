@@ -32,4 +32,4 @@ Poiché la larghezza di banda del server viene registrata mensilmente nella port
 
 **Funzioni:** Filtraggio stateful dei pacchetti, Protezione VLAN, Regole firewall Ingress, Regole firewall Egress, NAT, Terminazione VPN SSL, Terminazione VPN IPSec, Registrazione avanzata, Elevata disponibilità (facoltativa)
 
-**Velocità effettiva:** 2000Mbps
+**Velocità effettiva:** 1Gbps (2Gbps aggregati)

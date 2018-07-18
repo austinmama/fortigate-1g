@@ -25,7 +25,7 @@ Puede configurar una regla de cortafuegos FortiGate para permitir el acceso al s
     * Source Address = la dirección IP y la subred de la IP que desea permitir. La dirección puede especificarse en dos formatos diferentes: 10.10.20.[1-14] o 10.10.20.1/255.255.255.240.
     * Destination Interface/Zone  = v###-inside
     * Destination Address = la(s) IP específica(s) del servidor al que desee dar acceso, si desea dar acceso a cualquiera de los servidores web, seleccione 'all'.
-    * Service = el tipo de servicio, como HTTP, SSH, SMB, DHCP que desea permitir. Si no hay ningún servicio específico, puede seleccionar 'ANY' para permitir todos los servicios con esta regla.
+    * Service = el tipo de servicio, como HTTP, SSH, SMB, DHCP que desea permitir.  Si no hay ningún servicio específico, puede seleccionar 'ANY' para permitir todos los servicios con esta regla.
     * Action = ACCEPT
     * Pulse OK para guardar la regla
     * Pruebe la regla mediante el mandato ping y una dirección IP de servidor para confirmar si puede acceder al servidor desde una dirección permitida y desde una dirección denegada.

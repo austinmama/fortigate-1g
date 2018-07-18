@@ -43,7 +43,7 @@ lastupdated: "2018-01-18"
 
 **게이트웨이/방화벽** 필드에 **Firewall-vlanXXXX.networklayer.com**이 있는 VLAN의 경우, 해당 방화벽 링크를 클릭하여 방화벽의 세부사항을 표시할 수 있습니다. 디바이스 세부사항에는 연관된 라우터, VLAN, IPv4/IPv6 서브넷, VLAN과 연관된 디바이스 및 방화벽을 통과하거나 방화벽 주위의 트래픽 라우팅에 대한 제어가 포함됩니다.
 
-FortiGate Security Appliance 디바이스에는 관리 IP, 사용자 이름 및 비밀번호가 있습니다. FortiGate Security Appliances의 관리는 자체 GUI 또는 SSH 기반의 콘솔을 통해 완료됩니다.
+FortiGate Security Appliance 디바이스에는 관리 IP, 사용자 이름 및 비밀번호가 있습니다.  FortiGate Security Appliances의 관리는 자체 GUI 또는 SSH 기반의 콘솔을 통해 완료됩니다.
 
 ## 네트워크 게이트웨이 세부사항
 

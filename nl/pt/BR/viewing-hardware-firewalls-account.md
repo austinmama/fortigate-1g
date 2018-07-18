@@ -31,12 +31,12 @@ A coluna da extrema direita **Gateway/Firewall** contém detalhes sobre qual pro
 
 - **Incluir firewall** indica que não há firewalls em vigor para servidores nessa VLAN.
 - **Servidores individualmente protegidos** indica que um
-ou mais servidores estão usando um Firewall de hardware (compartilhado) e que não há um
-Firewall de hardware (dedicado), um FortiGate Security Appliance ou um Gateway de rede em
+ou mais servidores estão usando um Hardware Firewall (compartilhado) e que não há um
+Hardware Firewall (Dedicated), um FortiGate Security Appliance ou um Gateway de rede em
 vigor. Os firewalls de VLAN e os gateways de rede não podem ser colocados em uma VLAN que
 tem servidores protegidos individualmente.
 - **Firewall-vlanXXXX.networklayer.com** indica que há um
-Firewall de hardware (dedicado) ou um FortiGate Security Appliance em vigor. Somente um
+Hardware Firewall (Dedicated) ou um FortiGate Security Appliance em vigor. Somente um
 firewall de VLAN ou um gateway de rede pode ser associado a uma VLAN, mas um servidor pode
 ser protegido na VLAN pública por um firewall de VLAN e associado na rede privada a um
 gateway de rede.
@@ -68,7 +68,7 @@ associado, VLAN, sub-redes IPv4/IPv6, os dispositivos associados a essa VLAN e o
 controles para rotear o tráfego através ou ao redor do firewall.
 
 Os dispositivos FortiGate Security Appliance terão o IP de gerenciamento, o nome de
-usuário e a senha. O gerenciamento dos FortiGate Security Appliances é concluído por meio da sua própria GUI ou console baseado em SSH.
+usuário e a senha.  O gerenciamento dos FortiGate Security Appliances é concluído por meio da sua própria GUI ou console baseado em SSH.
 
 ## Detalhes do gateway de rede
 

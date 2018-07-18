@@ -69,8 +69,8 @@ No todos los cortafuegos ofrecen VPN y no todas las opciones de VPN son las mism
 
 ## Cuando selecciono la opción de alta disponibilidad, ¿qué pasos debo seguir para utilizar esta característica?
 
-Ninguno. Cuando se realizan los pedidos en alta disponibilidad, IBM Cloud suministra automáticamente los dispositivos en configuración de alta disponibilidad. En el caso de que el dispositivo primario falle, un dispositivo pasivo secundario continuará como instancia activa primaria y empezará a transferir el tráfico. Aunque esta migración tras error suele ser automática, es recomendable supervisar los servidores y verificar que el tráfico se transmite satisfactoriamente.
+Ninguno. Cuando se realizan los pedidos en alta disponibilidad, IBM Cloud suministra automáticamente los dispositivos en configuración de alta disponibilidad.  En el caso de que el dispositivo primario falle, un dispositivo pasivo secundario continuará como instancia activa primaria y empezará a transferir el tráfico. Aunque esta migración tras error suele ser automática, es recomendable supervisar los servidores y verificar que el tráfico se transmite satisfactoriamente.
 
 ## ¿Qué productos de cortafuegos son compatibles con la segmentación de VLAN privada o NAT pública a privada?
 
-Ninguno de los productos de cortafuegos de hardware tiene acceso a la red privada. Se necesita una pasarela de red para proporcionar estas funciones incorporadas y que los productos NetScaler tengan acceso a las redes públicas y privadas.
+Ninguno de los productos de cortafuegos de hardware tiene acceso a la red privada.  Se necesita una pasarela de red para proporcionar estas funciones incorporadas y que los productos NetScaler tengan acceso a las redes públicas y privadas.

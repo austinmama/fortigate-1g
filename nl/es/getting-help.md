@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-11-29"
+  years: 2017,2018
+lastupdated: "2018-02-28"
 
 ---
 
@@ -20,8 +20,8 @@ Si tiene problemas o preguntas al utilizar el dispositivo de seguridad FortiGate
 
 Al utilizar los foros para formular una pregunta, etiquete la pregunta para que la vean los equipos de desarrollo de IBM Cloud.
 
-* Si tiene preguntas técnicas sobre el dispositivo de seguridad FortiGate (FSA) de 1 Gbps, publique su pregunta en [Stack Overflow](https://stackoverflow.com/search?q=fsa-1g+ibm-bluemix) y etiquete la pregunta con "fsa-1g" e "ibm-bluemix".
-* Para preguntas referidas al servicio e instrucciones de cómo empezar, utilice el foro [IBM developerWorks dW Answers](https://developer.ibm.com/answers/topics/fsa-1g.html?smartspace=bluemix). Incluya las etiquetas "fsa-1g" y "bluemix".
+* Si tiene preguntas técnicas sobre el dispositivo de seguridad FortiGate (FSA) de 1 Gbps, publique su pregunta en [Stack Overflow](https://stackoverflow.com/search?q=fsa-1g+ibm-cloud) y etiquete la pregunta con "fsa-1g" e "ibm-cloud".
+* Para formular preguntas sobre el servicio y obtener instrucciones de iniciación, utilice el foro [IBM developerWorks dW Answers](https://developer.ibm.com/answers/topics/fsa-1g.html?smartspace=ibm-cloud). Incluya las etiquetas "fsa-1g" e "ibm-cloud".
 
 Consulte [Obtención de ayuda](https://console.bluemix.net/docs/support/index.html#getting-help) para obtener más detalles sobre el uso de los foros.
 
