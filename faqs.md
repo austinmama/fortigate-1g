@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017,2018
-lastupdated: "2018-01-16"
+lastupdated: "2018-11-12"
 
 ---
 
@@ -27,7 +27,7 @@ A firewall is a network device that is connected upstream from a server. The fir
 The primary advantage of having a firewall is that your server only has to handle “good” traffic – this means your resource is solely being used for its intended purpose as opposed to handling unwanted traffic, too.
 
 ## What firewall products does IBM offer?
-You can find a detailed comparison of all firewall products offered in the IBM Cloud by reviewing this [topic ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/docs/infrastructure/fortigate-10g/explore-firewalls.html#explore-firewalls){: new_window}. 
+You can find a detailed comparison of all firewall products offered in the IBM Cloud by reviewing this [topic ![External link icon](../../icons/launch-glyph.svg "External link icon")](../../infrastructure/fortigate-10g/explore-firewalls.html#explore-firewalls){: new_window}. 
 
 ## Is the FortiGate Security Appliance 1Gbps compatible with IBM's load balancer products?
 
@@ -49,7 +49,7 @@ These ports generally cannot be modified; however, if you reset the firewall rul
 
 ## What IP ranges do I allow through the firewall?
 
-For the list of IP addresses and IP ranges to allow through the firewall, go [here](https://console.bluemix.net/docs/infrastructure/hardware-firewall-dedicated/ips.html){: new_window}. 
+For the list of IP addresses and IP ranges to allow through the firewall, go [here](../../infrastructure/hardware-firewall-dedicated/ips.html){: new_window}. 
 
 ## What is the maximum number of servers that the FortiGate Security Appliance 1Gbps will protect?
 
