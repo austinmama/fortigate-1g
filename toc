@@ -8,7 +8,7 @@ FortiGate Security Appliance (FSA) 1Gbps
     getting-started.md
     about.md
     default-deployment.md
-    [Explore Firewalls](../fortigate-10g/explore-firewalls.html)
+    [Explore Firewalls](../docs/infrastructure/fortigate-10g/explore-firewalls.html)
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
@@ -22,7 +22,7 @@ FortiGate Security Appliance (FSA) 1Gbps
     {: .navgroup-end}
     
     {: .navgroup id="reference"}
-    [IBM Cloud IP Ranges](../hardware-firewall-dedicated/ips.html)
+    [IBM Cloud IP Ranges](../docs/infrastructure/hardware-firewall-dedicated/ips.html)
     {: .navgroup-end}
 
     {: .navgroup id="help"}
