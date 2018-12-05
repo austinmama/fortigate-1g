@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-11-29"
+lastupdated: "2018-11-12"
 
 ---
 
@@ -32,4 +32,4 @@ Comme la bande passante mensuelle du serveur est enregistrée au niveau du port 
 
 **Fonctions :** filtrage dynamique de paquets (SPI), protection de VLAN, règles de pare-feu (trafic entrant), règles de pare-feu (trafic sortant), NAT, terminaison VPN SSL, terminaison VPN IPSec, journalisation avancée, haute disponibilité (facultatif)
 
-**Débit :** 1 Gbit/s (2 Gbit/s en débit agrégé) 
+**Débit :** 1 Gbit/s (2 Gbit/s en débit agrégé)

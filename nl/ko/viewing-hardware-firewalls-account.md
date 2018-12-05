@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017,2018
-lastupdated: "2018-01-18"
+lastupdated: "2018-11-12"
 
 ---
 
@@ -26,8 +26,8 @@ lastupdated: "2018-01-18"
 오른쪽 열 **게이트웨이/방화벽**에는 어떤 방화벽 보호가 준비되어 있는지에 대한 세부사항이 포함됩니다. 예를 들어, 다음과 같습니다.
 
 - **방화벽 추가**는 이 VLAN에 서버에 대한 방화벽이 준비되지 않았음을 표시합니다.
-- **개별적으로 보호되는 서버**는 하나 이상의 서버가 하드웨어 방화벽(공유)을 사용하고 있으며 하드웨어 방화벽(전용), FortiGate Security Appliance 또는 네트워크 게이트웨이가 준비되지 않았음을 표시합니다. VLAN 방화벽 및 네트워크 게이트웨이는 개별적으로 보호되는 서버가 있는 VLAN에 배치될 수 없습니다.
-- **Firewall-vlanXXXX.networklayer.com**은 하드웨어 방화벽(전용) 또는 FortiGate Security Appliance가 준비되지 않았음을 표시합니다. 하나의 VLAN 방화벽 또는 네트워크 게이트웨이만 VLAN과 연관될 수 있으나 서버는 VLAN 방화벽에 의해 공용 VLAN에서 보호될 수 있으며 네트워크 게이트웨이를 사용하여 사설 네트워크와 연관될 수 있습니다.
+- **개별적으로 보호되는 서버**는 하나 이상의 서버가 하드웨어 방화벽(공유)을 사용하고 있으며 Hardware Firewall (Dedicated), FortiGate Security Appliance 또는 네트워크 게이트웨이가 준비되지 않았음을 표시합니다. VLAN 방화벽 및 네트워크 게이트웨이는 개별적으로 보호되는 서버가 있는 VLAN에 배치될 수 없습니다.
+- **Firewall-vlanXXXX.networklayer.com**은 Hardware Firewall (Dedicated) 또는 FortiGate Security Appliance가 준비되지 않았음을 표시합니다. 하나의 VLAN 방화벽 또는 네트워크 게이트웨이만 VLAN과 연관될 수 있으나 서버는 VLAN 방화벽에 의해 공용 VLAN에서 보호될 수 있으며 네트워크 게이트웨이를 사용하여 사설 네트워크와 연관될 수 있습니다.
 - **GatewayName**은 해당 네트워크 게이트웨이와 연관된 VLAN을 표시합니다.
 
 ## 개별적으로 보호되는 서버 세부사항

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-10-30"
+lastupdated: "2018-11-12"
 
 ---
 
@@ -18,7 +18,7 @@ lastupdated: "2017-10-30"
 
 Para ignorar las reglas de cortafuegos, realice el procedimiento siguiente:
 
-1. En el navegador, abra el  [Portal de clientes ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){: new_window} e inicie sesión en su cuenta.
+1. En el navegador, abra el [Portal de clientes ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){: new_window} e inicie sesión en su cuenta.
 2. En la navegación del Portal de clientes, vaya a **Red > Gestión de IP > VLAN** y pulse el dispositivo de cortafuegos que desea ignorar.
 3. En la página **Detalles de dispositivo**, en el separador **Configuración**, utilice el menú desplegable **Acciones** para seleccionar **Definir omisión de ruta** o pulse el botón **Ignorar reglas** en la sección **Estado:**. 
 

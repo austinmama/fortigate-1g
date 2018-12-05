@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017,2018
-lastupdated: "2018-01-18"
+lastupdated: "2018-11-12"
 
 ---
 
@@ -23,7 +23,7 @@ Pour voir quels sont les réseaux locaux virtuels protégés par des pare-feux e
 
 Chaque ligne du tableau représente un réseau local virtuel (VLAN) dans votre infrastructure. IBM Cloud remplit automatiquement les informations "Numéro de VLAN" et "Routeur principal" en indiquant le vrai numéro de réseau local virtuel et le routeur sur lequel il est configuré. La zone "Nom" peut être utilisée pour attribuer un nom reconnaissable au réseau local virtuel (par exemple, DMZ, Intranet, Public ou Base de données).
 
-La colonne à l'extrême droite **Passerelle/pare-feu** contient les détails de la protection par par-feu en vigueur, par exemple :
+La colonne à l'extrême droite **Passerelle/pare-feu** contient les détails de la protection par pare-feu en vigueur, par exemple :
 
 - **Ajouter pare-feu** indique qu'il n'y a aucun pare-feu en vigueur pour les serveurs de ce réseau local virtuel.
 - **Serveurs protégés individuellement** indique qu'un ou plusieurs serveurs utilisent un pare-feu matériel (partagé) et qu'il n'y a aucun pare-feu matériel (dédié), aucun dispositif de sécurité FortiGate, ni passerelle réseau en vigueur. Les pare-feux VLAN et les passerelles réseau ne peuvent pas être appliqués sur un VLAN comprenant des serveurs protégés individuellement.

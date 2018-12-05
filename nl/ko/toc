@@ -1,11 +1,11 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="fortigate-1g" audience="network" href="/docs/infrastructure/fortigate-1g/getting-started.html"}
+{: .toc subcollection="fortigate-1g" audience="network" arm="3662772" href="/docs/infrastructure/fortigate-1g/getting-started.html" path="infrastructure/fortigate-1g"}
 FSA(FortiGate Security Appliance) 1Gbps
 
     {: .navgroup id="learn"}
-getting-started.md
+    getting-started.md
     about.md
     default-deployment.md
     [방화벽 탐색](../fortigate-10g/explore-firewalls.html)

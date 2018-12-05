@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017,2018
-lastupdated: "2018-01-18"
+lastupdated: "2018-11-12"
 
 ---
 
@@ -34,7 +34,7 @@ La columna **Pasarela/cortafuegos** del extremo derecho contiene detalles sobre 
 
 Para VLAN que tienen **Servidores protegidos individualmente** en el campo **Pasarela/cortafuegos**, puede pulsar en el enlace del número de VLAN asociada para visualizar los detalles de la VLAN, incluidos los dispositivos asociados.
 
-En la lista de dispositivos asociados, puede pulsar en cada dispositivo y desplazarse hasta la parte inferior del separador Configuración. Verá **Cortafuegos** en la sección Complementos con el valor **Instalado** o **No instalado** en el estado.
+En la lista de dispositivos asociados, puede pulsar en cada dispositivo y desplazarse hasta la parte inferior del separador Configuración. Verá **Cortafuegos** con el estado **Instalado** o **No instalado**.
 
 - **No instalado** indica que no hay ningún cortafuegos establecido para ese dispositivo.
 - **Instalado** indica que hay un cortafuegos establecido, y habrá un separador **Cortafuegos** disponible en el dispositivo, donde podrá gestionar la configuración del cortafuegos.
