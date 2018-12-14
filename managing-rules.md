@@ -30,7 +30,7 @@ FortiGate utilizes the concept of a "policy", which includes the ability to acce
 
     **Source Device Type:** This applies the policy to a device created in the "User and Device" panel.
 
-    **Outgoing Interface:** Either the private-facing interface(inside interface) for ingress rules or compute-facing interface (outside interface) for egress rules.
+    **Outgoing Interface:** Either the private-facing interface (inside interface) for ingress rules or compute-facing interface (outside interface) for egress rules.
 
     **Destination Address:** This is the target IP(s) of the traffic. The IP must be added to the "Addresses" list on the "Objects Menu." Note that an "All" option is available.
 
