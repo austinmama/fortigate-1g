@@ -29,7 +29,7 @@ A firewall is a network device that is connected upstream from a server. The fir
 
 The primary advantage of having a firewall is that your server only has to handle “good” traffic – this means your resource is solely being used for its intended purpose as opposed to handling unwanted traffic, too.
 
-## What firewall products does IBM offer?
+## What firewall products does IBM© offer?
 {:faq}
 
 You can find a detailed comparison of all firewall products offered in the IBM Cloud by reviewing this [topic ![External link icon](../../icons/launch-glyph.svg "External link icon")](/docs/infrastructure/fortigate-10g/explore-firewalls.html#explore-firewalls){: new_window}. 

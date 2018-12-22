@@ -44,7 +44,7 @@ FortiGate utilizes the concept of a "policy", which includes the ability to acce
 
     **Traffic Shaping:** This allows you to configure the maximum and guaranteed (minimum) bandwidth available to the traffic. A maximum connections limit can also be set on a per-IP shaper. 
 
-    DSCP settings are not effective since user generated QoS information is ignored by the IBM Cloud platform.
+    DSCP settings are not effective since user generated QoS information is ignored by the IBM© Cloud platform.
 
     **Logging Options:** Configures when "Allowed" traffic is recorded. This setting (and especially the "Capture Packets" option) utilize device resources.
 

@@ -21,7 +21,7 @@ To see which VLANs are protected with Firewalls and to find more details of indi
 1. From your browser, open [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} and log into your account.
 2. In the Customer Portal navigation, select **Network > IP Management > VLANs**.
 
-Each row in the table represents a VLAN in your infrastructure. IBM Cloud populates the "VLAN Number" and "Primary Router" information automatically indicating the true VLAN number and the router that it is configured on. The "Name" field can be used to give the VLAN a recognizable name (such as DMZ, Intranet, Public, or Database).
+Each row in the table represents a VLAN in your infrastructure. IBM© Cloud populates the "VLAN Number" and "Primary Router" information automatically indicating the true VLAN number and the router that it is configured on. The "Name" field can be used to give the VLAN a recognizable name (such as DMZ, Intranet, Public, or Database).
 
 The far right column **Gateway/Firewall** contains details about what firewall protection is in place, for example:
 
