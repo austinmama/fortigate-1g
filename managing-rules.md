@@ -14,11 +14,11 @@ lastupdated: "2018-11-12"
 {:tip: .tip}
 {:download: .download}
 
-# Manage Firewall Rules (Policies)
+# Managing Fortigate Firewall Rules (Policies)
 
 FortiGate utilizes the concept of a "policy", which includes the ability to accept/deny traffic, apply security profiles, shape traffic, log traffic, and schedule a timeframe for a policy to apply. To assemble a policy, you must first create the objects that will take part in it. 
 
-1. Log into the appliance using the credentials found in the **Device Details** page in the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window}. Follow the How to [Manage the FortiGate Security Appliance](managing-fsa.html) instructions to find the credentials.
+1. Log into the appliance using the credentials found in the **Device Details** page in the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window}. Follow the How to [Manage the FortiGate Security Appliance](/docs/infrastructure/fortigate-1g?topic=fortigate-1g-managing-the-fortigate-security-appliance-1gbps) instructions to find the credentials.
 2. After logging into the appliance, navigate to the **Policy and Objects** menu and select the protocol you wish to manage (such as IPv4 or IPv6). Policies are implemented against traffic based on the Sequence Number on the far left. Users can drag a policy higher in the list to have it implemented earlier or vice versa.
 3. To add a policy, click **Create New** and refer to these field definitions:
 
@@ -36,7 +36,7 @@ FortiGate utilizes the concept of a "policy", which includes the ability to acce
 
     **Service:** This determines the service that the policy will apply to. An "ALL" option is available as well as numerous standard services. Additional services can be added in the Services menu under Objects.
 
-    **Action:** Accepts or denys the traffic. 
+    **Action:** Accepts or denies the traffic. 
 
     **Firewall / Network Options:** Enables or disables NAT and its associated options.
 
