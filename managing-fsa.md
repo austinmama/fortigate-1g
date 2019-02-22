@@ -21,7 +21,7 @@ When the firewall is first added to the VLAN, all traffic is allowed. You need t
 1. From your browser, open [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} and log into your account.
 2. In the Customer Portal navigation, select **Network > IP Management > VLANs**. 
 
-	**Tip:** To view only Public VLANs, click on the **Filter** drop down and enter ``fcr`` in the **Primary Router**.
+	**Tip:** To view only Public VLANs, click on the **Filter** drop down and enter ``fcr`` in the **Primary Router** field.
 3. Scroll to the VLAN you want to manage and click on the link of the firewall name in the **GATEWAY/FIREWALL** column to go to the **Device Details** page.
 4. In the **Device Details** page, you can view the associated subnets, the current "Status" of the firewall routing, and the management information. 
 
