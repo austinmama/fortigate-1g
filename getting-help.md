@@ -15,6 +15,7 @@ lastupdated: "2018-11-12"
 {:download: .download}
 
 # Getting Help and Support for Fortigate Security Appliance 1Gbps
+{: #getting-help-and-support-for-fortigate-security-appliance-1gbps}
 
 If you have problems or questions when using the FortiGate Security Appliance (FSA) 1Gbps, you can get help by searching for information or by asking questions through one of the forums listed below. You can also open a support ticket.
 

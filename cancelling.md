@@ -15,6 +15,7 @@ lastupdated: "2018-11-12"
 {:download: .download}
 
 # Canceling a Firewall
+{: #canceling-a-firewall}
 
 Firewalls can be cancelled at any time, by performing the following procedure:
 

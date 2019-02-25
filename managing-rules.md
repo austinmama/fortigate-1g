@@ -15,6 +15,7 @@ lastupdated: "2018-11-12"
 {:download: .download}
 
 # Managing Fortigate Firewall Rules (Policies)
+{: #managing-fortigate-firewall-rules-policies-}
 
 FortiGate utilizes the concept of a "policy", which includes the ability to accept/deny traffic, apply security profiles, shape traffic, log traffic, and schedule a timeframe for a policy to apply. To assemble a policy, you must first create the objects that will take part in it. 
 

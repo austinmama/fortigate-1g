@@ -15,6 +15,7 @@ lastupdated: "2018-11-12"
 {:download: .download}
 
 # Managing the FortiGate Security Appliance 1Gbps
+{: #managing-the-fortigate-security-appliance-1gbps}
 
 When the firewall is first added to the VLAN, all traffic is allowed. You need to add rules to the firewall in order to control the traffic. 
 

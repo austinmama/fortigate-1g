@@ -16,6 +16,7 @@ lastupdated: "2018-11-12"
 {:faq: data-hd-content-type='faq'}
 
 # FAQs for Fortigate Security Appliance 1Gbps
+{: #faqs-for-fortigate-security-appliance-1gbps}
 
 The following are frequently asked questions when working with the FortiGate Security Appliance (FSA) 1Gbps firewall.
 

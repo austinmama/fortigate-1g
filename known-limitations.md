@@ -15,6 +15,8 @@ lastupdated: "2018-11-12"
 {:download: .download}
 
 # Known Limitations of Fortigate Security Appliance 1Gbps
+{: #known-limitations-of-fortigate-security-appliance-1gbps}
+
 The FortiGate Security Appliance (FSA) 1Gbps has the following known limitations:
 
 * Incompatible with Windows Network Load Balancing (NLB) due to the way ARP is processed.

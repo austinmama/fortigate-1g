@@ -15,6 +15,7 @@ lastupdated: "2018-11-12"
 {:download: .download}
 
 # Viewing your Fortigate Firewalls
+{: #viewing-your-fortigate-firewalls}
 
 To see which VLANs are protected with Firewalls and to find more details of individual Firewalls, go to the VLANs page.
 
