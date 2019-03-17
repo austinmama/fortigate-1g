@@ -4,6 +4,10 @@ copyright:
   years: 2017,2018
 lastupdated: "2018-11-12"
 
+keywords: faqs, questions, firewall, fortigate, traffic, public, private, bandwidth, ports, ip, vpn, nat, vlan
+
+subcollection: fortigate-1g
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -33,7 +37,7 @@ The primary advantage of having a firewall is that your server only has to handl
 ## What firewall products does IBM© offer?
 {:faq}
 
-You can find a detailed comparison of all firewall products offered in the IBM Cloud by reviewing [this topic](/docs/infrastructure/fortigate-10g?topic=fortigate-10g-exploring-firewalls). 
+You can find a detailed comparison of all firewall products offered in the IBM Cloud by reviewing [this topic](/docs/infrastructure/fortigate-10g?topic=fortigate-10g-exploring-firewalls).
 
 ## Is the FortiGate Security Appliance 1Gbps compatible with IBM's load balancer products?
 {:faq}
@@ -61,7 +65,7 @@ These ports generally cannot be modified; however, if you reset the firewall rul
 ## What IP ranges do I allow through the firewall?
 {:faq}
 
-For the list of IP addresses and IP ranges to allow through the firewall, go [here](/docs/infrastructure/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-ibm-cloud-ip-ranges). 
+For the list of IP addresses and IP ranges to allow through the firewall, go [here](/docs/infrastructure/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-ibm-cloud-ip-ranges).
 
 ## What is the maximum number of servers that the FortiGate Security Appliance 1Gbps will protect?
 {:faq}

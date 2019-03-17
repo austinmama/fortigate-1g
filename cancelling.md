@@ -4,6 +4,10 @@ copyright:
   years: 2017, 2018
 lastupdated: "2018-11-12"
 
+keywords: cancel, firewall
+
+subcollection: fortigate-1g
+
 ---
 
 {:shortdesc: .shortdesc}

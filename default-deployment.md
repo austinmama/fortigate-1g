@@ -4,6 +4,10 @@ copyright:
   years: 2017
 lastupdated: "2018-11-12"
 
+keywords: default, deployment
+
+subcollection: fortigate-1g
+
 ---
 
 {:shortdesc: .shortdesc}

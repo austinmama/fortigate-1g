@@ -4,6 +4,10 @@ copyright:
   years: 2017
 lastupdated: "2018-11-12"
 
+keywords: known, limitations, problems, nlb, fsa
+
+subcollection: fortigate-1g
+
 ---
 
 {:shortdesc: .shortdesc}
