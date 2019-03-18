@@ -14,7 +14,9 @@ lastupdated: "2018-11-12"
 {:tip: .tip}
 {:download: .download}
 
-# 開始使用
+# 開始使用 Fortigate Security Appliance 1Gbps
+{: #getting-started-with-fortigate-security-appliance-1gbps}
+
 FortiGate Security Appliance (FSA) 1Gbps 為客戶提供一個基本的安全層，其可防止不想要的資料流量到達您的伺服器、減少您的攻擊面，並允許您的伺服器資源專用於其預期的用途。FSA 是從伺服器環境 (pod) 上游連接的網路裝置，在不想要的資料流量到達您的伺服器之前封鎖它。  
 
 您可以從客戶入口網站中的 VLAN 頁面訂購 FSA 1Gbps。

@@ -14,9 +14,10 @@ lastupdated: "2018-11-12"
 {:tip: .tip}
 {:download: .download}
 
-# デフォルトのデプロイメント
+# Fortigate Security Appliance 1Gbps のデフォルト・デプロイメント
+{: #default-deployment-of-a-fortigate-security-appliance-1gbps}
 
-FortiGate Security Appliance (FSA) 1Gbps は、単一の仮想ドメイン (通常は firewall001) として専用アプライアンスにデプロイされます。 お客様は、アプライアンスのリソース (プロセッサー、メモリーなど) にフルアクセスできますが、デバイス・レベルの構成へのアクセスは制限されます。これは、IBM Cloud でデバイスを効果的にサポートできるようにするためです。
+FortiGate Security Appliance (FSA) 1Gbps は、単一の仮想ドメイン (通常は firewall001) として専用アプライアンスにデプロイされます。 お客様は、アプライアンスのリソース (プロセッサー、メモリーなど) にフルアクセスできますが、デバイス・レベルの構成へのアクセスは制限されます。これは、IBM© Cloud でデバイスを効果的にサポートできるようにするためです。
 
 FSA は、NAT モードでデプロイされ、パブリック・ネットワーク・インフラストラクチャー内の 2 つの VLAN/ネットワークに配備されます。 外部 VLAN は IBM Cloud パブリック VLAN で、ここでトラフィックはデータ・センターに入り、FSA にルーティングされます。 内部 VLAN は、お客様が割り当てた保護対象のパブリック FCR (フロントエンド・カスタマー・ルーター) VLAN で、ここにお客様のサーバー・リソースが配備されます。  
 

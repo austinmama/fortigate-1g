@@ -15,7 +15,8 @@ lastupdated: "2018-11-12"
 {:download: .download}
 {:faq: data-hd-content-type='faq'}
 
-# Perguntas mais frequentes
+# Perguntas mais frequentes sobre o FortiGate Security Appliance 1Gbps
+{: #faqs-for-fortigate-security-appliance-1gbps}
 
 A seguir estão as perguntas mais frequentes ao trabalhar com o firewall do FortiGate Security Appliance (FSA) 1Gbps.
 
@@ -29,10 +30,10 @@ Um firewall é um dispositivo de rede conectado para envio de dados de um servid
 
 A principal vantagem de ter um firewall é que seu servidor terá de manipular apenas o tráfego "bom", o que significa que seu recurso está sendo usado exclusivamente para o propósito desejado, não para a manipulação do tráfego indesejado.
 
-## Quais produtos de firewall a IBM oferece?
+## Quais produtos de firewall a IBM© oferece?
 {:faq}
 
-Você pode encontrar uma comparação detalhada de todos os produtos de firewall oferecidos no IBM Cloud revisando este [tópico ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](/docs/infrastructure/fortigate-10g/explore-firewalls.html#explore-firewalls){: new_window}. 
+É possível localizar uma comparação detalhada de todos os produtos de firewall oferecidos no IBM Cloud revisando [este tópico](/docs/infrastructure/fortigate-10g?topic=fortigate-10g-exploring-firewalls). 
 
 ## O FortiGate Security Appliance 1Gbps é compatível com produtos de balanceador de carga da IBM?
 {:faq}
@@ -60,7 +61,7 @@ Essas portas geralmente não podem ser modificadas; no entanto, se você reconfi
 ## Quais intervalos de IP posso permitir através do firewall?
 {:faq}
 
-Para obter a lista de endereços IP e intervalos de IP a serem permitidos através do firewall, clique [aqui](/docs/infrastructure/hardware-firewall-dedicated/ips.html){: new_window}. 
+Para obter a lista de endereços IP e intervalos de IP a serem permitidos através do firewall, clique [aqui](/docs/infrastructure/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-ibm-cloud-ip-ranges). 
 
 ## Qual é o número máximo de servidores que o FortiGate Security Appliance 1Gbps protegerá?
 {:faq}

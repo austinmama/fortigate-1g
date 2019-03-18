@@ -14,15 +14,16 @@ lastupdated: "2018-11-12"
 {:tip: .tip}
 {:download: .download}
 
-# Efetuar bypass das regras de firewall
+# Efetuando bypass das regras de firewall
+{: #bypassing-the-firewall-rules}
 
 Para efetuar bypass das regras de firewall, execute o procedimento a seguir:
 
 1. Em seu navegador, abra [Portal do Cliente ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){: new_window} e efetue login em sua conta.
 2. Na navegação do Portal do cliente, acesse **Rede > Gerenciamento de IP > VLANs** e clique no dispositivo de firewall cujo bypass você deseja efetuar.
-3. Na página **Detalhes do dispositivo**, na guia **Configuração**, você pode usar o menu suspenso **Ações** para escolher **Configurar bypass de rota** ou, na seção **Status:**, você pode clicar no botão **Efetuar bypass de regras**. 
+3. Na página **Detalhes do dispositivo**, é possível usar o menu suspenso **Ações** para escolher **Configurar bypass de regra** ou, na seção **Status:**, é possível clicar no botão **Efetuar bypass de regras**. O bypass das regras leva aproximadamente dois minutos para entrar em vigor. O Status deve mudar para "Efetuando bypass de todas as regras".
 
-	Outra opção é rotear ao redor do firewall, o que você pode fazer clicando no botão **Rotear ao redor**. De qualquer maneira, é necessário receber um diálogo de confirmação. Clique em **Sim** para confirmar a ação. O bypass das regras leva aproximadamente dois minutos para entrar em vigor. Enquanto estiver no modo bypass, o "Status" será "Roteando AO REDOR do firewall".
+	Outra opção é rotear em torno do firewall. É possível usar o menu suspenso **Ações** para escolher **Configurar bypass da rota** ou, na seção **Status:**, é possível clicar no botão **Rotear em torno**. De qualquer maneira, é necessário receber um diálogo de confirmação. Clique em **Sim** para confirmar a ação. O bypass da rota leva aproximadamente dois minutos para entrar em vigor. Enquanto estiver no modo bypass, o "Status" será "Roteando AO REDOR do firewall".
 
 ## Ativar as regras novamente
 

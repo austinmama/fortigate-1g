@@ -14,7 +14,8 @@ lastupdated: "2018-11-12"
 {:tip: .tip}
 {:download: .download}
 
-# Gerenciar o FortiGate Security Appliance
+# Gerenciando o FortiGate Security Appliance 1Gbps
+{: #managing-the-fortigate-security-appliance-1gbps}
 
 Quando o firewall é incluído primeiro na VLAN, todo o tráfego é permitido. Você
 precisa incluir regras no firewall para controlar o tráfego. 
@@ -23,8 +24,7 @@ precisa incluir regras no firewall para controlar o tráfego.
 2. Na navegação do Portal do cliente, selecione **Rede > Gerenciamento de
 IP > VLANs**. 
 
-	**Dica:** para visualizar somente VLANs públicas, clique no menu
-suspenso **Filtrar** e insira ``fcr`` no **Roteador primário**.
+	**Dica:** para visualizar somente VLANs públicas, clique no menu suspenso **Filtro** e insira ``fcr`` no campo **Roteador primário**.
 3. Role para a VLAN que você deseja gerenciar e clique no link do nome do firewall
 na coluna **GATEWAY/FIREWALL** para acessar a página
 **Detalhes do dispositivo**.

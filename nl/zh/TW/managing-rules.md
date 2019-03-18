@@ -15,11 +15,12 @@ lastupdated: "2018-11-12"
 {:download: .download}
 
 # 管理防火牆規則（原則）
+{: #managing-fortigate-firewall-rules-policies-}
 
 FortiGate 利用「原則」的概念，其中包括接受/拒絕資料流量、套用安全設定檔、調整資料流量、記載資料流量，以及為要套用的原則排定時間表等功能。
 若要彙編原則，您必須先建立將參與其中的物件。 
 
-1. 使用[客戶入口網站 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){: new_window} 的**裝置詳細資料**頁面中找到的認證來登入應用裝置。請遵循如何[管理 FortiGate Security Appliance](managing-fsa.html) 指示來尋找認證。
+1. 使用[客戶入口網站 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){: new_window} 的**裝置詳細資料**頁面中找到的認證來登入應用裝置。請遵循如何[管理 FortiGate Security Appliance](/docs/infrastructure/fortigate-1g?topic=fortigate-1g-managing-the-fortigate-security-appliance-1gbps) 指示來尋找認證。
 2. 登入應用裝置之後，導覽至**原則及物件**功能表，然後選取您想要管理的通訊協定（例如 IPv4 或 IPv6）。原則會根據最左邊的「序號」針對資料流量進行實作。使用者可以在清單中將原則拖高一點，以便早點進行實作，反之亦然。
 3. 若要新增原則，請按一下**建立新的項目**，並參照下列這些欄位定義：
 
@@ -45,7 +46,7 @@ FortiGate 利用「原則」的概念，其中包括接受/拒絕資料流量、
 
     **資料流量調整：**這可讓您配置資料流量可用的最大和保證（最小）頻寬。連線數上限也可以在按照每一個 IP 的調整器上進行設定。 
 
-    DSCP 設定無效，因為 IBM Cloud 平台會忽略使用者產生的 QoS 資訊。
+    DSCP 設定無效，因為 IBM© Cloud 平台會忽略使用者產生的 QoS 資訊。
 
     **記載選項：**配置何時記錄「允許的」資料流量。此設定（以及特別是「擷取封包」選項）會使用裝置資源。
 

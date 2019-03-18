@@ -14,9 +14,10 @@ lastupdated: "2018-11-12"
 {:tip: .tip}
 {:download: .download}
 
-# Acerca de
+# Acerca de Fortigate Security Appliance 1Gbps
+{: #about-fortigate-security-appliance-1gbps}
 
-Un dispositivo de seguridad Fortigate de 1 Gbps (FSA) es un dispositivo de red dedicado de un solo arrendatario conectado de forma ascendente desde un servidor que protege cualquier servidor (o todos) de una VLAN pública. Se adquiere por separado del servidor y se puede añadir a una VLAN en cualquier momento.  IBM Cloud despliega el [Portal de clientes ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](http://www.fortinet.com/sites/default/files/productdatasheets/FortiGate-300C.pdf){: new_window} dentro de un dominio virtual (VDOM) en el dispositivo dedicado, permitiendo a los clientes un acceso completo a ese dominio virtual sin comprometer la integridad del dispositivo. 
+Un dispositivo de seguridad Fortigate de 1 Gbps (FSA) es un dispositivo de red dedicado de un solo arrendatario conectado de forma ascendente desde un servidor que protege cualquier servidor (o todos) de una VLAN pública. Se adquiere por separado del servidor y se puede añadir a una VLAN en cualquier momento.  IBM© Cloud despliega el [Portal de clientes ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](http://www.fortinet.com/sites/default/files/productdatasheets/FortiGate-300C.pdf){: new_window} dentro de un dominio virtual (VDOM) en el dispositivo dedicado, permitiendo a los clientes un acceso completo a ese dominio virtual sin comprometer la integridad del dispositivo. 
 
 Con el FSA de 1 Gbps, los clientes tienen acceso a funciones avanzadas y la capacidad de ajustar el dispositivo en un grado mucho mayor que otros productos. El cortafuegos bloquea o configura el tráfico antes de que llegue al servidor. Las ventajas principales son que el servidor sólo tiene que manejar el tráfico 'bueno' y que el ancho de banda se puede limitar a las comunicaciones menos críticas. 
 

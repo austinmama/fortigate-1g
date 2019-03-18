@@ -15,14 +15,15 @@ lastupdated: "2018-11-12"
 {:download: .download}
 
 # Firewallregeln umgehen
+{: #bypassing-the-firewall-rules}
 
 Führen Sie die folgenden Schritte aus, um die Firewallregeln zu umgehen:
 
 1. Öffnen Sie im Browser das [Kundenportal ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){: new_window} und melden Sie sich bei Ihrem Konto an.
 2. Wählen Sie in der Navigation des Kundenportals **Netz > IP-Verwaltung > VLANs** aus und klicken Sie auf das Firewallgerät, das Sie umgehen möchten.
-3. Sie können auf der Seite **Gerätedetails** in der Registerkarte **Konfiguration** das Dropdown-Menü **Aktionen** verwenden, um den Abschnitt **Route-Umgehung einrichten** auszuwählen. Sie können auch im Abschnitt **Status:** auf die Schaltfläche **Regeln umgehen** klicken. 
+3. Sie können auf der Seite **Gerätedetails** das Dropdown-Menü **Aktionen** verwenden, um den Abschnitt **Regelumgehung einrichten** auszuwählen. Sie können auch im Abschnitt **Status:** auf die Schaltfläche **Regeln umgehen** klicken. Das Umgehen der Regeln wird in etwa zwei Minuten wirksam. Der Status muss sich so ändern, dass angegeben wird, dass alle Regeln umgangen werden.
 
-	Eine weitere Möglichkeit, den Datenverkehr um die Firewall herum zu leiten, ist das Klicken auf die Schaltfläche **Umleiten**. Bei beiden Möglichkeiten wird ein Bestätigungsdialog angezeigt. Klicken Sie auf **Ja**, um die Aktion zu bestätigen. Das Umgehen der Regeln wird in etwa zwei Minuten wirksam. Im Umgehungsmodus gibt der Status an, dass der Datenverkehr um die Firewall herum geleitet wird.
+	Eine weitere Möglichkeit ist, den Datenverkehr um die Firewall herumzuleiten. Sie können das Dropdown-Menü **Aktionen** verwenden, um den Abschnitt **Route-Umgehung einrichten** auszuwählen. Sie können auch im Abschnitt **Status:** auf die Schaltfläche **Routing um eine Firewall** klicken. Bei beiden Möglichkeiten wird ein Bestätigungsdialog angezeigt. Klicken Sie auf **Ja**, um die Aktion zu bestätigen. Das Umgehen der Routen wird in etwa zwei Minuten wirksam. Im Umgehungsmodus gibt der Status an, dass der Datenverkehr um die Firewall herum geleitet wird.
 
 ## Regeln wieder aktivieren
 

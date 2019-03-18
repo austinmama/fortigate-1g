@@ -14,14 +14,15 @@ lastupdated: "2018-11-12"
 {:tip: .tip}
 {:download: .download}
 
-# 管理 FortiGate Security Appliance
+# 管理 FortiGate Security Appliance (FSA) 1Gbps
+{: #managing-the-fortigate-security-appliance-1gbps}
 
 首次将防火墙添加到 VLAN 时，会允许所有流量。要控制流量，需要向防火墙添加规则。 
 
 1. 从浏览器中，打开[客户门户网站 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){: new_window}，然后登录到您的帐户。
-2. 在客户门户网站导航中，选择**网络 > IP 管理 > VLAN**。 
+2. 在“客户门户网站”导航中，选择**网络 > IP 管理 > VLAN**。 
 
-	**提示：**要仅查看公用 VLAN，请单击**过滤器**下拉菜单，然后在**主要路由器**中输入 ``fcr``。
+	**提示：**要仅查看公用 VLAN，请单击**过滤器**下拉菜单，然后在**主路由器**字段中输入 ``fcr``。
 3. 滚动到要管理的 VLAN，然后单击**网关/防火墙**列中防火墙名称的链接，以转至**设备详细信息**页面。
 4. 在**设备详细信息**页面中，可以查看关联的子网、防火墙路由的当前“状态”以及管理信息。 
 

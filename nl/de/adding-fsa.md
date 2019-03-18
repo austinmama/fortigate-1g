@@ -15,6 +15,7 @@ lastupdated: "2018-11-12"
 {:download: .download}
 
 # Eine FortiGate Security Appliance zu einem öffentlichen VLAN hinzufügen
+{: #adding-a-fortigate-security-appliance-to-a-public-vlan}
 
 Gehen Sie wie folgt vor, um eine FortiGate Security Appliance zu einem öffentlichen VLAN hinzuzufügen:
 

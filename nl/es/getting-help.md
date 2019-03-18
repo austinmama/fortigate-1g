@@ -14,15 +14,16 @@ lastupdated: "2018-11-12"
 {:tip: .tip}
 {:download: .download}
 
-# Obtención de ayuda y soporte
+# Ayuda y soporte de Fortigate Security Appliance 1Gbps
+{: #getting-help-and-support-for-fortigate-security-appliance-1gbps}
 
 Si tiene problemas o preguntas al utilizar el dispositivo de seguridad FortiGate (FSA) de 1 Gbps, puede obtener ayuda buscando información o planteando preguntas a través de uno de los foros listados más abajo. También puede abrir una incidencia de soporte.
 
-Al utilizar los foros para formular una pregunta, etiquete la pregunta para que la vean los equipos de desarrollo de IBM Cloud.
+Al utilizar los foros para formular una pregunta, etiquete la pregunta para que la vean los equipos de desarrollo de IBM© Cloud.
 
 * Si tiene preguntas técnicas sobre el dispositivo de seguridad FortiGate (FSA) de 1 Gbps, publique su pregunta en [Stack Overflow](https://stackoverflow.com/search?q=fsa-1g+ibm-cloud) y etiquete la pregunta con "fsa-1g" e "ibm-cloud".
 * Para formular preguntas sobre el servicio y obtener instrucciones de iniciación, utilice el foro [IBM developerWorks dW Answers](https://developer.ibm.com/answers/topics/fsa-1g.html?smartspace=ibm-cloud). Incluya las etiquetas "fsa-1g" e "ibm-cloud".
 
-Consulte [Obtención de ayuda](/docs/support/index.html#getting-help) para obtener más detalles sobre el uso de los foros.
+Consulte [Obtención de ayuda](https://{DomainName}/docs/get-support?topic=get-support-using-avatar) para obtener más detalles sobre el uso de los foros.
 
-Para obtener información sobre cómo abrir una incidencia de soporte de IBM o sobre los niveles de soporte y la gravedad de las incidencias, consulte [Cómo obtener soporte](/docs/support/index.html#contacting-support).
+Para obtener información sobre cómo abrir una incidencia de soporte de IBM, o sobre los niveles de soporte y la gravedad de las incidencias, consulte [Cómo obtener soporte](/docs/get-support?topic=get-support-contacting-bluemix-support-dedicated-local).

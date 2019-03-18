@@ -15,14 +15,15 @@ lastupdated: "2018-11-12"
 {:download: .download}
 
 # Contournement des règles de pare-feu
+{: #bypassing-the-firewall-rules}
 
 Pour contourner les règles de pare-feu, procédez comme suit :
 
 1. Depuis votre navigateur, ouvrez le [portail client ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){: new_window} et connectez-vous à votre compte.
 2. Dans la navigation du portail client, accédez à **Réseau > Gestion IP > VLAN** et cliquez sur l'unité pare-feu que vous souhaitez contourner.
-3. Sur la page **Détails de l'unité**, dans l'onglet **Configuration**, vous pouvez utiliser le menu déroulant **Actions** pour sélectionner **Paramétrer mode de contournement de route** ou, à la section **Statut :**, vous pouvez cliquer sur le bouton **Contourner les Règles**. 
+3. Sur la page **Détails de l'unité**, vous pouvez utiliser le menu déroulant **Actions** sélectionner **Paramétrer mode de contournement des règles** ou, dans la section **Statut :**, cliquer sur le bouton **Contourner les Règles**. Le contournement des règles prend environ deux minutes pour entrer en vigueur. Le statut doit passer sur "Contourner toutes les Règles".
 
-	Une autre option consiste à contourner le pare-feu, ce que vous pouvez faire en cliquant sur le bouton **Route Autour**. Dans tous les cas, vous devriez obtenir une boîte de dialogue de confirmation. Cliquez sur **Oui** pour confirmer l'action. Le contournement des règles prend environ deux minutes pour entrer en vigueur. En mode contournement, la zone "Statut" indique "Routage AUTOUR du pare-feu".
+	Une autre option est de prendre une route autour du pare-feu. Vous pouvez utiliser le menu déroulant **Actions** pour sélectionner **Paramétrer mode de contournement de route** ou, dans la section **Statut :**, cliquer sur le bouton **Route autour**. Dans tous les cas, vous devriez obtenir une boîte de dialogue de confirmation. Cliquez sur **Oui** pour confirmer l'action. La mise en oeuvre effective d'une route autour prend approximativement deux minutes. En mode contournement, la zone "Statut" indique "Routage AUTOUR du pare-feu".
 
 ## Réactivation des règles
 

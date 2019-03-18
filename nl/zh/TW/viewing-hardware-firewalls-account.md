@@ -14,14 +14,15 @@ lastupdated: "2018-11-12"
 {:tip: .tip}
 {:download: .download}
 
-# 檢視您的防火牆
+# 檢視 Fortigate 防火牆
+{: #viewing-your-fortigate-firewalls}
 
 若要查看哪些 VLAN 受防火牆保護，並尋找個別防火牆的相關詳細資料，請移至 VLAN 頁面。
 
 1. 從瀏覽器中，開啟[客戶入口網站 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){: new_window} 並登入您的帳戶。
 2. 在「客戶入口網站」導覽中，選取**網路 > IP 管理 > VLAN**。
 
-表格中的每一列代表基礎架構中的 VLAN。IBM Cloud 會自動移入「VLAN 號碼」和「主要路由器」資訊，以指出真實的 VLAN 號碼及在其上所配置的路由器。「名稱」欄位可用來為 VLAN 提供一個可識別的名稱（例如 DMZ、內部網路、公用或資料庫）。
+表格中的每一列代表基礎架構中的 VLAN。IBM© Cloud 會自動移入「VLAN 號碼」和「主要路由器」資訊，以指出真實的 VLAN 號碼及在其上所配置的路由器。「名稱」欄位可用來為 VLAN 提供一個可識別的名稱（例如 DMZ、內部網路、公用或資料庫）。
 
 最右邊的直欄**閘道/防火牆**包含何種防火牆保護準備就緒的相關詳細資料，例如：
 

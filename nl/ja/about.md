@@ -14,9 +14,10 @@ lastupdated: "2018-11-12"
 {:tip: .tip}
 {:download: .download}
 
-# 製品情報
+# Fortigate Security Appliance 1Gbps について
+{: #about-fortigate-security-appliance-1gbps}
 
-Fortigate Security Appliance  (FSA) 1Gbps は、サーバーの上流に接続する専用の単一テナント・ネットワーク・デバイスで、パブリック VLAN 上の任意またはすべてのサーバーを保護します。 サーバーとは別に購入し、いつでも VLAN に追加できます。  IBM Cloud では、仮想ドメイン (VDOM) 内の[カスタマー・ポータル![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://www.fortinet.com/sites/default/files/productdatasheets/FortiGate-300C.pdf){: new_window}が専用アプライアンスにデプロイされます。これにより、お客様は、デバイスの整合性を損なうことなく、その仮想ドメインにフルアクセスできます。 
+Fortigate Security Appliance  (FSA) 1Gbps は、サーバーの上流に接続する専用の単一テナント・ネットワーク・デバイスで、パブリック VLAN 上の任意またはすべてのサーバーを保護します。 サーバーとは別に購入し、いつでも VLAN に追加できます。  IBM© Cloud では、仮想ドメイン (VDOM) 内の[カスタマー・ポータル![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://www.fortinet.com/sites/default/files/productdatasheets/FortiGate-300C.pdf){: new_window}が専用アプライアンスにデプロイされます。これにより、お客様は、デバイスの整合性を損なうことなく、その仮想ドメインにフルアクセスできます。 
 
 FSA 1Gbps では、お客様は、拡張機能にアクセスすること、および他の製品よりもはるかに詳細にデバイスを微調整することができます。 このファイアウォールにより、トラフィックがサーバーに到達する前に、それらのトラフィックがブロックまたはシェーピングされます。 主な利点は、サーバーで「有効な」トラフィックのみ処理すれば済む点、および重要度が低い通信に対しては帯域幅を制限できる点です。 
 

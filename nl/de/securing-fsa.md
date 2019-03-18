@@ -14,11 +14,12 @@ lastupdated: "2018-11-12"
 {:tip: .tip}
 {:download: .download}
 
-# Die FortiGate Security Appliance sichern
+# FortiGate Security Appliance mit 1 Gbit/s schützen
+{: #securing-the-fortigate-security-appliance-1-gbps}
 
-Sie können die FortiGate Security Appliance (FSA) mit 1 Gbit/s konfigurieren, um Sicherheits- und Compliance-Anforderungen zu erfüllen. IBM Cloud stellt ein VDOM-Administratorkonto mit einem zufällig generierten Kennwort bereit. Kunden können dieses Kennwort regelmäßig ändern, schreibgeschützte Benutzer erstellen und den Zugriff anhand "vertrauenswürdiger Hosts" einschränken, wodurch nur Datenverkehr von (bis zu drei) bestimmten Quellen-IP-Adressen zugelassen werden. Gehen Sie wie folgt vor, um diese Aktivitäten abzuschließen:
+Sie können die FortiGate Security Appliance (FSA) mit 1 Gbit/s konfigurieren, um Sicherheits- und Compliance-Anforderungen zu erfüllen. IBM© Cloud stellt ein VDOM-Administratorkonto mit einem zufällig generierten Kennwort bereit. Kunden können dieses Kennwort regelmäßig ändern, schreibgeschützte Benutzer erstellen und den Zugriff anhand "vertrauenswürdiger Hosts" einschränken, wodurch nur Datenverkehr von (bis zu drei) bestimmten Quellen-IP-Adressen zugelassen werden. Gehen Sie wie folgt vor, um diese Aktivitäten abzuschließen:
 
-1. Melden Sie sich bei der Appliance mit den Berechtigungsnachweisen an, die auf der Seite **Gerätedetails** im [Kundenportal ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){: new_window} zu finden sind. Folgen Sie den Anweisungen in [Die FortiGate Security Appliance verwalten](managing-fsa.html), um die Berechtigungsnachweise zu suchen.
+1. Melden Sie sich bei der Appliance mit den Berechtigungsnachweisen an, die auf der Seite **Gerätedetails** im [Kundenportal ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){: new_window} zu finden sind. Folgen Sie den Anweisungen in [Die FortiGate Security Appliance verwalten](/docs/infrastructure/fortigate-1g?topic=fortigate-1g-managing-the-fortigate-security-appliance-1gbps), um die Berechtigungsnachweise zu suchen.
 2. Navigieren Sie nach der Anmeldung bei der Appliance zu **System > Administrator > Administratoren**. Alle Zugriffe und Änderungen werden protokolliert.
 3. Um einzelne Schnittstellen zu konfigurieren, navigieren Sie zu **System > Netz > Schnittstellen**.
 

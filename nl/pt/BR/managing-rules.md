@@ -14,11 +14,12 @@ lastupdated: "2018-11-12"
 {:tip: .tip}
 {:download: .download}
 
-# Gerenciar regras de firewall (políticas)
+# Gerenciando regras de firewall do FortiGate (políticas)
+{: #managing-fortigate-firewall-rules-policies-}
 
 O FortiGate utiliza o conceito de "política", que inclui a capacidade de aceitar/negar tráfego, aplicar perfis de segurança, formar tráfego, registrar tráfego e planejar um intervalo de tempo para a aplicação de uma política. Para montar uma política, deve-se primeiro criar os objetos que farão parte dela. 
 
-1. Efetue login no dispositivo usando as credenciais encontradas na página **Detalhes do dispositivo** no [Portal do cliente ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){: new_window}. Siga as instruções de como [Gerenciar o FortiGate Security Appliance](managing-fsa.html) para localizar as credenciais.
+1. Efetue login no dispositivo usando as credenciais encontradas na página **Detalhes do dispositivo** no [Portal do cliente ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){: new_window}. Siga as instruções de como [Gerenciar o FortiGate Security Appliance](/docs/infrastructure/fortigate-1g?topic=fortigate-1g-managing-the-fortigate-security-appliance-1gbps) para localizar as credenciais.
 2. Depois de efetuar login no dispositivo, navegue para o menu **Política e objetos** e selecione o protocolo que deseja gerenciar (como IPv4 ou IPv6). As políticas são implementadas com relação ao tráfego baseado no número de sequência na extrema esquerda. Os usuários podem arrastar uma política mais alta na lista para ser implementada antes ou vice-versa.
 3. Para incluir uma política, clique em **Criar novo** e consulte estas definições de campo:
 
@@ -44,7 +45,7 @@ O FortiGate utiliza o conceito de "política", que inclui a capacidade de aceita
 
     **Forma de tráfego:** isso permite configurar a largura de banda máxima e garantida (mínima) disponível ao tráfego. Um limite máximo de conexões também pode ser configurado em um shaper por IP. 
 
-    Configurações de DSCP não são eficazes, visto que o usuário que gerou as informações de QoS é ignorado pela plataforma IBM Cloud.
+    As configurações de DSCP não são efetivas, pois as informações de QoS geradas pelo usuário são ignoradas pela plataforma IBM© Cloud.
 
     **Opções de criação de log:** configura quando tráfego "Permitido" é registrado. Essa configuração (e especialmente a opção "Capturar Pacotes") utiliza recursos do dispositivo.
 

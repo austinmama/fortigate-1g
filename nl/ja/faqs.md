@@ -15,7 +15,8 @@ lastupdated: "2018-11-12"
 {:download: .download}
 {:faq: data-hd-content-type='faq'}
 
-# FAQ
+# Fortigate Security Appliance 1Gbps の FAQ
+{: #faqs-for-fortigate-security-appliance-1gbps}
 
 以下は、FortiGate Security Appliance (FSA) 1Gbps ファイアウォールの使用についてのよくあるご質問です。
 
@@ -29,10 +30,10 @@ lastupdated: "2018-11-12"
 
 ファイアウォールを使用する主な利点は、サーバーで処理する必要があるのが「良好な」トラフィックのみになるという点です。つまり、サーバーのリソースをその本来の目的にのみ使用でき、不要なトラフィックの処理に使用せずに済みます。
 
-## IBM はどのようなファイアウォール製品を提供していますか?
+## IBM© はどのようなファイアウォール製品を提供していますか?
 {:faq}
 
-この[トピック![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](/docs/infrastructure/fortigate-10g/explore-firewalls.html#explore-firewalls){: new_window}を参照すると、IBM Cloud で提供されるすべてのファイアウォール製品の詳しい比較を確認できます。 
+[このトピック](/docs/infrastructure/fortigate-10g?topic=fortigate-10g-exploring-firewalls)を参照すると、IBM Cloud で提供されるすべてのファイアウォール製品の詳しい比較を確認できます。 
 
 ## FortiGate Security Appliance 1Gbps は IBM のロード・バランサー製品に対応していますか?
 {:faq}
@@ -47,7 +48,8 @@ lastupdated: "2018-11-12"
 ## IBM ではファイアウォールの帯域幅に対して課金していますか?
 {:faq}
 
-FortiGate Security Appliance 1Gbps は、帯域幅では課金されません。 また、FSA では、サーバーが応答する必要があるトラフィックを制限することで、総帯域幅使用率を削減できます。{:faq}
+FortiGate Security Appliance 1Gbps は、帯域幅では課金されません。 また、FSA では、サーバーが応答する必要があるトラフィックを制限することで、総帯域幅使用率を削減できます。
+{:faq}
 
 ## Windows ファイアウォールでグレー化されているポートは何ですか?
 {:faq}
@@ -59,7 +61,7 @@ IBM Cloud は、Evault、SNMP、Nagios モニタリングなど、サーバー�
 ## どの IP 範囲を、ファイアウォール通過の許可対象にしますか?
 {:faq}
 
-ファイアウォールを通過できるようにする IP アドレスおよび IP 範囲のリストについては、[ここ](/docs/infrastructure/hardware-firewall-dedicated/ips.html){: new_window}を参照してください。 
+ファイアウォールを通過できるようにする IP アドレスおよび IP 範囲のリストについては、[ここ](/docs/infrastructure/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-ibm-cloud-ip-ranges)を参照してください。 
 
 ## FortiGate Security Appliance 1Gbps が保護するサーバーの最大数はどのくらいですか?
 {:faq}

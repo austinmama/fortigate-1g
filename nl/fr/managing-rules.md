@@ -15,10 +15,11 @@ lastupdated: "2018-11-12"
 {:download: .download}
 
 # Gestion des règles de pare-feu (politiques)
+{: #managing-fortigate-firewall-rules-policies-}
 
 FortiGate utilise le concept de "politique" (policy), qui englobe la possibilité d'accepter ou de refuser du trafic, appliquer des profils de sécurité, constituer et journaliser du trafic, ainsi que de planifier une période d'application de la politique. Pour constituer une politique, vous devez d'abord créer les objets qui en feront partie. 
 
-1. Connectez-vous au dispositif à l'aide des données d'identification indiquées à la page **Détails de l'unité** dans le [portail client ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){: new_window}. Suivez les instructions indiquant comment [gérer le dispositif de sécurité FortiGate (FSA)](managing-fsa.html) pour obtenir les données d'identification.
+1. Connectez-vous au dispositif à l'aide des données d'identification indiquées à la page **Détails de l'unité** dans le [portail client ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){: new_window}. Suivez les instructions indiquant comment [gérer le dispositif de sécurité FortiGate (FSA)](/docs/infrastructure/fortigate-1g?topic=fortigate-1g-managing-the-fortigate-security-appliance-1gbps) pour obtenir les données d'identification.
 2. Une fois connecté au dispositif, accédez au menu **Policy and Objects** et sélectionnez le protocole que vous souhaitez gérer (par exemple, IPv4 ou IPv6). Les politiques sont implémentées pour le trafic en fonction du numéro de séquence indiqué à l'extrême gauche. Les utilisateurs peuvent faire glisser une politique plus haut dans la liste pour l'implémenter plus tôt ou vice versa.
 3. Pour ajouter une politique, cliquez sur **Create New** et référez-vous à la définition de ces zones :
 
@@ -44,7 +45,7 @@ FortiGate utilise le concept de "politique" (policy), qui englobe la possibilit�
 
     **Traffic Shaping:** Cette option vous permet de configurer la bande passante maximale et garantie (minimum) disponible pour le trafic. Un nombre maximal de connexions peut également être défini sur un modélisateur par adresse IP. 
 
-    Les paramètres DSCP ne sont pas en vigueur car les informations de qualité de service (QoS) générées sont ignorées par la plateforme IBM Cloud.
+    Les paramètres DSCP ne sont pas en vigueur car les informations de qualité de service (QoS) générées sont ignorées par la plateforme IBM© Cloud.
 
     **Logging Options:** Configure le moment d'enregistrement du trafic autorisé. Ce paramètre (et notamment l'option "Capture Packets") utilise les ressources de l'unité.
 

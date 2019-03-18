@@ -14,9 +14,10 @@ lastupdated: "2018-11-12"
 {:tip: .tip}
 {:download: .download}
 
-# 關於
+# 關於 Fortigate Security Appliance 1Gbps
+{: #about-fortigate-security-appliance-1gbps}
 
-Fortigate Security Appliance 1Gbps (FSA) 是一個從伺服器上游連接的專用單一租戶網路裝置，用於保護公用 VLAN 上的任何或所有伺服器。它是與伺服器分開購買的，且可隨時新增至 VLAN 中。IBM Cloud 會在專用應用裝置上的「虛擬網域 (VDOM)」內部署[客戶入口網站 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](http://www.fortinet.com/sites/default/files/productdatasheets/FortiGate-300C.pdf){: new_window}，容許客戶完全存取該虛擬網域，而不會影響裝置的完整性。 
+Fortigate Security Appliance 1Gbps (FSA) 是一個從伺服器上游連接的專用單一租戶網路裝置，用於保護公用 VLAN 上的任何或所有伺服器。它是與伺服器分開購買的，且可隨時新增至 VLAN 中。IBM© Cloud 會在專用應用裝置上的「虛擬網域 (VDOM)」內部署[客戶入口網站 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](http://www.fortinet.com/sites/default/files/productdatasheets/FortiGate-300C.pdf){: new_window}，容許客戶完全存取該虛擬網域，而不會影響裝置的完整性。 
 
 使用 FSA 1Gbps，客戶可以存取進階功能，並且能夠將裝置微調到比其他產品還要高的程度。防火牆在資料流量快要到達伺服器之前會封鎖或調整資料流量。主要優點在於伺服器只需處理「良好的」資料流量，而且可能會針對較不重要的通訊限制頻寬。 
 

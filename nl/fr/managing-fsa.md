@@ -14,7 +14,8 @@ lastupdated: "2018-11-12"
 {:tip: .tip}
 {:download: .download}
 
-# Gestion du dispositif de sécurité FortiGate
+# Gestion du dispositif de sécurité FortiGate 1 Gbit/s
+{: #managing-the-fortigate-security-appliance-1gbps}
 
 La première fois qu'un pare-feu est ajouté au réseau local virtuel (VLAN), tout le trafic est autorisé. Vous devez ajouter des règles au pare-feu pour contrôler le trafic. 
 

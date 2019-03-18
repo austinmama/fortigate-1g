@@ -14,13 +14,11 @@ lastupdated: "2018-11-12"
 {:tip: .tip}
 {:download: .download}
 
-# Implementação padrão
+# Implementação padrão de um FortiGate Security Appliance 1Gbps
+{: #default-deployment-of-a-fortigate-security-appliance-1gbps}
 
 O FortiGate Security Appliance (FSA) 1Gbps é implementado como um único domínio
-virtual (geralmente firewall001) em um dispositivo dedicado. O cliente tem acesso total
-aos recursos do dispositivo (processadores, memória e assim por diante), mas o acesso à
-configuração no nível do dispositivo é restrito para assegurar que o IBM Cloud possa
-efetivamente suportar o dispositivo.
+virtual (geralmente firewall001) em um dispositivo dedicado. O cliente tem acesso total aos recursos do dispositivo (processadores, memória e assim por diante), mas o acesso à configuração de nível de dispositivo é restrito a fim de assegurar que o IBM© Cloud possa suportar efetivamente o dispositivo.
 
 O FSA é implementado no modo NAT e reside em duas VLANs/redes dentro da
 infraestrutura de rede pública. A VLAN externa é a VLAN pública do IBM Cloud, na qual o

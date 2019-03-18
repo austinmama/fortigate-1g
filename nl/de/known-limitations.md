@@ -14,7 +14,9 @@ lastupdated: "2018-11-12"
 {:tip: .tip}
 {:download: .download}
 
-# Bekannte Einschränkungen
+# Bekannte Einschränkungen bei Fortigate Security Appliance mit 1 Gbit/s
+{: #known-limitations-of-fortigate-security-appliance-1gbps}
+
 Die FortiGate Security Appliance (FSA) mit 1 Gbit/s hat folgende bekannte Einschränkungen:
 
 * Inkompatibel mit dem Windows-Netzlastenausgleich (NLB) aufgrund der Verarbeitung von ARP.

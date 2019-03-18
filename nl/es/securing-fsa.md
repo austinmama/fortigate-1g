@@ -14,11 +14,12 @@ lastupdated: "2018-11-12"
 {:tip: .tip}
 {:download: .download}
 
-# Proteger el dispositivo de seguridad FortiGate
+# Seguridad de FortiGate Security Appliance 1 Gbps
+{: #securing-the-fortigate-security-appliance-1-gbps}
 
-Puede configurar el dispositivo de seguridad FortiGate (FSA) de 1 Gbps para que cumpla con los requisitos de seguridad y conformidad. IBM Cloud proporciona una cuenta de administrador VDOM con una contraseña asignada aleatoriamente. Los clientes pueden rotar la contraseña, crear usuarios de solo lectura y restringir el acceso en función de los hosts de confianza, para que solo se acepte el tráfico de IP de origen especificadas (hasta tres). Para completar estas actividades:
+Puede configurar el dispositivo de seguridad FortiGate (FSA) de 1 Gbps para que cumpla con los requisitos de seguridad y conformidad. IBM© Cloud proporciona una cuenta de administrador VDOM con una contraseña asignada aleatoriamente. Los clientes pueden rotar la contraseña, crear usuarios de solo lectura y restringir el acceso en función de los hosts de confianza, para que solo se acepte el tráfico de IP de origen especificadas (hasta tres). Para completar estas actividades:
 
-1. Inicie sesión en el dispositivo utilizando las credenciales de la página **Detalles de dispositivo** en el [Portal de clientes ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){: new_window}. Sigas las instrucciones de [Gestionar el dispositivo de seguridad FortiGate](managing-fsa.html) para obtener las credenciales.
+1. Inicie sesión en el dispositivo utilizando las credenciales de la página **Detalles de dispositivo** en el [Portal de clientes ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){: new_window}. Sigas las instrucciones de [Gestionar el dispositivo de seguridad FortiGate](/docs/infrastructure/fortigate-1g?topic=fortigate-1g-managing-the-fortigate-security-appliance-1gbps) para obtener las credenciales.
 2. Después de iniciar sesión en el dispositivo, vaya a **System > Admin > Administrators**. Se registran todos los accesos y los cambios.
 3. Para configurar interfaces individuales, vaya a **System > Network > Interfaces**.
 

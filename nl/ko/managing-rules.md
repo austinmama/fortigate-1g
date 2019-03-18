@@ -14,11 +14,12 @@ lastupdated: "2018-11-12"
 {:tip: .tip}
 {:download: .download}
 
-# 방화벽 규칙(정책) 관리
+# Fortigate 방화벽 규칙(정책) 관리
+{: #managing-fortigate-firewall-rules-policies-}
 
 FortiGate는 트래픽을 허용/거부하고 보안 프로파일을 적용하고, 트래픽을 구체화하고, 트래픽을 기록하며 적용할 정책에 대한 시간 범위를 스케줄링하는 기능을 포함하는 "정책" 개념을 사용합니다. 정책을 어셈블링하려면 먼저 참여할 오브젝트를 작성해야 합니다. 
 
-1. [고객 포털 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){: new_window}의 **디바이스 세부사항** 페이지에서 찾을 수 있는 인증 정보를 사용하여 어플라이언스에 로그인하십시오. [FortiGate Security Appliance를 관리](managing-fsa.html)하는 방법에 대한 지시사항에 따라 인증 정보를 찾으십시오.
+1. [고객 포털 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){: new_window}의 **디바이스 세부사항** 페이지에서 찾을 수 있는 인증 정보를 사용하여 어플라이언스에 로그인하십시오. [FortiGate Security Appliance를 관리](/docs/infrastructure/fortigate-1g?topic=fortigate-1g-managing-the-fortigate-security-appliance-1gbps)하는 방법에 대한 지시사항에 따라 인증 정보를 찾으십시오.
 2. 어플라이언스에 로그인한 다음 **정책 및 오브젝트** 메뉴로 이동하여 관리할 프로토콜(IPv4 또는 IPv6 등)을 선택하십시오. 왼쪽의 순서 번호를 기반으로 하여 트래픽에 대해 정책이 구현됩니다. 사용자가 정책을 목록 내에서 위로 끌어오면 먼저 구현되며 반대의 경우도 마찬가지입니다.
 3. 정책을 추가하려면 **새로 작성**을 클릭하고 다음과 같은 필드 정의를 참조하십시오.
 
@@ -44,7 +45,7 @@ FortiGate는 트래픽을 허용/거부하고 보안 프로파일을 적용하�
 
     **트래픽 구체화:** 이 옵션을 사용하면 트래픽에 사용 가능한 최대 및 보장되는(최소) 대역폭을 구성할 수 있습니다. IP당 쉐이퍼에서 최대 연결 제한도 설정할 수 있습니다. 
 
-    사용자가 생성한 QoS 정보가 IBM Cloud 플랫폼에서 무시되므로 DSCP 설정은 적용되지 않습니다.
+    사용자가 생성한 QoS 정보가 IBM© Cloud 플랫폼에서 무시되므로 DSCP 설정은 적용되지 않습니다.
 
     **로깅 옵션:** "허용되는" 트래픽이 기록되는 시기를 구성합니다. 이 설정(특히 "패킷 캡처" 옵션)은 디바이스 리소스를 사용합니다.
 

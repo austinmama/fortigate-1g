@@ -14,7 +14,9 @@ lastupdated: "2018-11-12"
 {:tip: .tip}
 {:download: .download}
 
-# 既知の制限
+# Fortigate Security Appliance 1Gbps の既知の制限
+{: #known-limitations-of-fortigate-security-appliance-1gbps}
+
 FortiGate Security Appliance (FSA) 1Gbps には、以下の既知の制限があります。
 
 * ARP の処理方法が原因で Windows Network Load Balancing (NLB) とは非互換です。

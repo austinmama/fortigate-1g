@@ -15,7 +15,8 @@ lastupdated: "2018-11-12"
 {:download: .download}
 {:faq: data-hd-content-type='faq'}
 
-# 常见问题
+# FortiGate Security Appliance (FSA) 1Gbps 常见问题
+{: #faqs-for-fortigate-security-appliance-1gbps}
 
 以下是使用 FortiGate Security Appliance (FSA) 1Gbps 防火墙时的常见问题。
 
@@ -29,10 +30,10 @@ lastupdated: "2018-11-12"
 
 使用防火墙的主要好处在于，服务器仅需要处理“好”流量，这意味着您的资源仅会用于预期目的，而不会用于处理不需要的流量。
 
-## IBM 提供了哪些防火墙产品？
+## IBM© 提供哪些防火墙产品？
 {:faq}
 
-有关 IBM Cloud 中提供的所有防火墙产品的详细对比信息，可查看此[主题 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](/docs/infrastructure/fortigate-10g/explore-firewalls.html#explore-firewalls){: new_window}。 
+您可以通过查看此[主题](/docs/infrastructure/fortigate-10g?topic=fortigate-10g-exploring-firewalls)，找到 IBM Cloud 中提供的所有防火墙产品的详细对比信息。 
 
 ## FortiGate Security Appliance 1Gbps 是否与 IBM 的负载均衡器产品兼容？
 {:faq}
@@ -42,7 +43,7 @@ lastupdated: "2018-11-12"
 ## 公共流量会首先通过我的负载均衡器还是防火墙？
 {:faq}
 
-公共因特网流量会首先通过负载均衡产品，然后通过硬件防火墙产品，最后通过 NetScaler 产品（以及客户服务器）。
+公共因特网流量会首先通过负载均衡产品，然后通过 Hardware Firewall 产品，最后通过 NetScaler 产品（以及客户服务器）。
 
 ## IBM 是否对防火墙带宽收费？
 {:faq}
@@ -60,7 +61,7 @@ IBM Cloud 提供了很多不同的服务可用于您的服务器，包括 Evault
 ## 我应允许哪些 IP 范围通过防火墙？
 {:faq}
 
-有关允许通过防火墙的 IP 地址和 IP 范围的列表，请转至[此处](/docs/infrastructure/hardware-firewall-dedicated/ips.html){: new_window}。 
+有关允许通过防火墙的 IP 地址和 IP 范围的列表，请转至[此处](/docs/infrastructure/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-ibm-cloud-ip-ranges)。 
 
 ## FortiGate Security Appliance 1Gbps 最多可保护多少台服务器？
 {:faq}
@@ -88,4 +89,4 @@ FortiGate Security Appliance 1Gbps 可保护公用 VLAN 上的每台服务器。
 ## 哪些防火墙产品支持公用到专用 NAT 和/或专用 VLAN 分段？
 {:faq}
 
-硬件防火墙产品无法访问专用网络。使用网关可以直接提供这些功能。NetScaler 产品可以访问公用网络和专用网络。
+Hardware Firewall 产品无法访问专用网络。使用网关可以直接提供这些功能。NetScaler 产品可以访问公用网络和专用网络。

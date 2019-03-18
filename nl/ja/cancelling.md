@@ -15,6 +15,7 @@ lastupdated: "2018-11-12"
 {:download: .download}
 
 # ファイアウォールのキャンセル
+{: #canceling-a-firewall}
 
 ファイアウォールは、以下の手順を実行することでいつでもキャンセルできます。
 

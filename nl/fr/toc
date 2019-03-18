@@ -1,14 +1,14 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="fortigate-1g" audience="network" arm="3662772" href="/docs/infrastructure/fortigate-1g/getting-started.html" path="infrastructure/fortigate-1g"}
+{: .toc subcollection="fortigate-1g" audience="network" arm="3662772" href="/docs/infrastructure/fortigate-1g?topic=infrastructure/fortigate-1g-getting-started-with-fortigate-1gbps" path="infrastructure/fortigate-1g"}
 Dispositif de sécurité FortiGate (FSA) 1 Gbit/s
 
     {: .navgroup id="learn"}
     getting-started.md
     about.md
     default-deployment.md
-    [Exploration des pare-feux](../fortigate-10g/explore-firewalls.html)
+    /fortigate-10g/fortigate-10g-exploring-firewalls
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
@@ -22,7 +22,7 @@ Dispositif de sécurité FortiGate (FSA) 1 Gbit/s
     {: .navgroup-end}
     
     {: .navgroup id="reference"}
-    [Plages d'adresses IP IBM Cloud](../hardware-firewall-dedicated/ips.html)
+    /hardware-firewall-dedicated/hardware-firewall-dedicated-ibm-cloud-ip-ranges
     {: .navgroup-end}
 
     {: .navgroup id="help"}

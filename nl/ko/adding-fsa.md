@@ -15,6 +15,7 @@ lastupdated: "2018-11-12"
 {:download: .download}
 
 # 공용 VLAN에 FortiGate Security Appliance 추가
+{: #adding-a-fortigate-security-appliance-to-a-public-vlan}
 
 공용 VLAN에 FortiGate Security Appliance를 추가하려면 다음을 수행하십시오.
 

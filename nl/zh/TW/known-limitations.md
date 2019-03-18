@@ -14,7 +14,9 @@ lastupdated: "2018-11-12"
 {:tip: .tip}
 {:download: .download}
 
-# 已知限制
+# Fortigate Security Appliance 1Gbps 的已知限制
+{: #known-limitations-of-fortigate-security-appliance-1gbps}
+
 FortiGate Security Appliance (FSA) 1Gbps 有下列已知限制：
 
 * 由於處理 ARP 的方式而與「Windows 網路負載平衡 (NLB)」不相容。

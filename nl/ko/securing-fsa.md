@@ -14,11 +14,12 @@ lastupdated: "2018-11-12"
 {:tip: .tip}
 {:download: .download}
 
-# FortiGate Security Appliance 보안
+# FSA(FortiGate Security Appliance) 1Gbps 보안
+{: #securing-the-fortigate-security-appliance-1-gbps}
 
-보안 및 규제 준수를 충족하도록 FSA(FortiGate Security Appliance) 1Gbps를 구성할 수 있습니다. IBM Cloud는 무작위로 지정되는 비밀번호가 있는 VDOM 관리자 계정을 제공합니다. 고객이 해당 비밀번호를 변경하고, 읽기 전용 사용자를 작성하며 지정된 소스 IP(최대 세 개)의 트래픽만 허용하는 "신뢰할 수 있는 호스트"를 기반으로 하여 액세스를 제한할 수 있습니다. 세 가지 활동을 완료하려면 다음을 수행하십시오.
+보안 및 규제 준수를 충족하도록 FSA(FortiGate Security Appliance) 1Gbps를 구성할 수 있습니다. IBM© Cloud는 무작위로 지정되는 비밀번호가 있는 VDOM 관리자 계정을 제공합니다. 고객이 해당 비밀번호를 변경하고, 읽기 전용 사용자를 작성하며 지정된 소스 IP(최대 세 개)의 트래픽만 허용하는 "신뢰할 수 있는 호스트"를 기반으로 하여 액세스를 제한할 수 있습니다. 세 가지 활동을 완료하려면 다음을 수행하십시오.
 
-1. [고객 포털 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){: new_window}의 **디바이스 세부사항** 페이지에서 찾을 수 있는 인증 정보를 사용하여 어플라이언스에 로그인하십시오. [FortiGate Security Appliance를 관리](managing-fsa.html)하는 방법에 대한 지시사항에 따라 인증 정보를 찾으십시오.
+1. [고객 포털 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){: new_window}의 **디바이스 세부사항** 페이지에서 찾을 수 있는 인증 정보를 사용하여 어플라이언스에 로그인하십시오. [FortiGate Security Appliance를 관리](/docs/infrastructure/fortigate-1g?topic=fortigate-1g-managing-the-fortigate-security-appliance-1gbps)하는 방법에 대한 지시사항에 따라 인증 정보를 찾으십시오.
 2. 어플라이언스에 로그인한 다음 **시스템 > 관리 > 관리자**로 이동하십시오. 모든 액세스 및 변경사항이 로그됩니다.
 3. 개별 인터페이스를 구성하려면 **시스템 > 네트워크 > 인터페이스**로 이동하십시오.
 

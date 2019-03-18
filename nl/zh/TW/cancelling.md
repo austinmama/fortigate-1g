@@ -15,6 +15,7 @@ lastupdated: "2018-11-12"
 {:download: .download}
 
 # 取消防火牆
+{: #canceling-a-firewall}
 
 透過執行下列程序，防火牆可以隨時取消：
 

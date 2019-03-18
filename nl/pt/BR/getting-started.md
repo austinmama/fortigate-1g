@@ -14,7 +14,9 @@ lastupdated: "2018-11-12"
 {:tip: .tip}
 {:download: .download}
 
-# Introdução
+# Introdução ao FortiGate Security Appliance 1Gbps
+{: #getting-started-with-fortigate-security-appliance-1gbps}
+
 O Fortigate Security Appliance (FSA) 1Gbps fornece aos clientes uma camada
 essencial de segurança que evita a ocorrência de tráfego indesejado nos servidores,
 reduzindo a superfície de ataque e permitindo que os recursos do servidor sejam

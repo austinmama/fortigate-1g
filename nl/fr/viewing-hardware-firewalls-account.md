@@ -14,14 +14,15 @@ lastupdated: "2018-11-12"
 {:tip: .tip}
 {:download: .download}
 
-# Affichage de vos pare-feux
+# Affichage de vos pare-feux FortiGate
+{: #viewing-your-fortigate-firewalls}
 
 Pour voir quels sont les réseaux locaux virtuels protégés par des pare-feux et pour rechercher d'autres caractéristiques sur les pare-feux individuels, accédez à la page VLAN.
 
 1. Depuis votre navigateur, ouvrez le [portail client ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){: new_window} et connectez-vous à votre compte.
 2. Dans la navigation du portail client, sélectionnez **Réseau > Gestion IP > VLAN**.
 
-Chaque ligne du tableau représente un réseau local virtuel (VLAN) dans votre infrastructure. IBM Cloud remplit automatiquement les informations "Numéro de VLAN" et "Routeur principal" en indiquant le vrai numéro de réseau local virtuel et le routeur sur lequel il est configuré. La zone "Nom" peut être utilisée pour attribuer un nom reconnaissable au réseau local virtuel (par exemple, DMZ, Intranet, Public ou Base de données).
+Chaque ligne du tableau représente un réseau local virtuel (VLAN) dans votre infrastructure. IBM© Cloud renseigne automatiquement les informations "Numéro de VLAN" et "Routeur principal" en indiquant le vrai numéro de réseau local virtuel et le routeur sur lequel il est configuré. La zone "Nom" peut être utilisée pour attribuer un nom reconnaissable au réseau local virtuel (par exemple, DMZ, Intranet, Public ou Base de données).
 
 La colonne à l'extrême droite **Passerelle/pare-feu** contient les détails de la protection par pare-feu en vigueur, par exemple :
 

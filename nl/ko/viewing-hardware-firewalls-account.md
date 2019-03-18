@@ -14,19 +14,20 @@ lastupdated: "2018-11-12"
 {:tip: .tip}
 {:download: .download}
 
-# 방화벽 보기
+# Fortigate 방화벽 보기
+{: #viewing-your-fortigate-firewalls}
 
 어떤 VLAN이 방화벽으로 보호되는지 보고, 개별 방화벽에 대한 추가 세부사항을 찾으려면 VLAN 페이지로 이동하십시오.
 
 1. 브라우저에서 [고객 포털 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){: new_window}을 열고 사용자 계정으로 로그인하십시오.
 2. 고객 포털 탐색에서 **네트워크 > IP 관리 > VLAN**을 선택하십시오.
 
-표의 각 행은 인프라 내의 VLAN을 나타냅니다. IBM Cloud는 구성된 실제 VLAN 번호 및 라우터를 나타내는 "VLAN 번호" 및 "1차 라우터" 정보를 자동으로 채웁니다. "이름" 필드는 VLAN에 인식할 수 있는 이름(DMZ, 인트라넷, 공용 또는 데이터베이스 등)을 지정하는 데 사용될 수 있습니다.
+표의 각 행은 인프라 내의 VLAN을 나타냅니다. IBM© Cloud는 구성된 실제 VLAN 번호 및 라우터를 나타내는 "VLAN 번호" 및 "기본 라우터" 정보를 자동으로 채웁니다. "이름" 필드는 VLAN에 인식할 수 있는 이름(DMZ, 인트라넷, 공용 또는 데이터베이스 등)을 지정하는 데 사용될 수 있습니다.
 
 오른쪽 열 **게이트웨이/방화벽**에는 어떤 방화벽 보호가 준비되어 있는지에 대한 세부사항이 포함됩니다. 예를 들어, 다음과 같습니다.
 
 - **방화벽 추가**는 이 VLAN에 서버에 대한 방화벽이 준비되지 않았음을 표시합니다.
-- **개별적으로 보호되는 서버**는 하나 이상의 서버가 하드웨어 방화벽(공유)을 사용하고 있으며 Hardware Firewall (Dedicated), FortiGate Security Appliance 또는 네트워크 게이트웨이가 준비되지 않았음을 표시합니다. VLAN 방화벽 및 네트워크 게이트웨이는 개별적으로 보호되는 서버가 있는 VLAN에 배치될 수 없습니다.
+- **개별적으로 보호되는 서버**는 하나 이상의 서버가 Hardware Firewall (Shared)을 사용하고 있으며 Hardware Firewall (Dedicated), FortiGate Security Appliance 또는 네트워크 게이트웨이가 준비되지 않았음을 표시합니다. VLAN 방화벽 및 네트워크 게이트웨이는 개별적으로 보호되는 서버가 있는 VLAN에 배치될 수 없습니다.
 - **Firewall-vlanXXXX.networklayer.com**은 Hardware Firewall (Dedicated) 또는 FortiGate Security Appliance가 준비되지 않았음을 표시합니다. 하나의 VLAN 방화벽 또는 네트워크 게이트웨이만 VLAN과 연관될 수 있으나 서버는 VLAN 방화벽에 의해 공용 VLAN에서 보호될 수 있으며 네트워크 게이트웨이를 사용하여 사설 네트워크와 연관될 수 있습니다.
 - **GatewayName**은 해당 네트워크 게이트웨이와 연관된 VLAN을 표시합니다.
 

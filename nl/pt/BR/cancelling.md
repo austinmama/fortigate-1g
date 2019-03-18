@@ -14,7 +14,8 @@ lastupdated: "2018-11-12"
 {:tip: .tip}
 {:download: .download}
 
-# Cancelar um firewall
+# Cancelando um firewall
+{: #canceling-a-firewall}
 
 Os firewalls podem ser cancelados a qualquer momento, executando o procedimento a seguir:
 

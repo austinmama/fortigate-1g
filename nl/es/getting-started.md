@@ -14,7 +14,9 @@ lastupdated: "2018-11-12"
 {:tip: .tip}
 {:download: .download}
 
-# Iniciación
+# Iniciación a Fortigate Security Appliance 1Gbps
+{: #getting-started-with-fortigate-security-appliance-1gbps}
+
 El dispositivo de seguridad (FSA) de 1 Gbps proporciona a los clientes una capa fundamental de seguridad que impide el tráfico no deseado en los servidores, y así reduce la superficie de ataque y permite dedicar los recursos del servidor a su uso previsto.  La FSA es un dispositivo de red que está conectado en sentido ascendente desde el entorno de servidor (pod) y bloquea el tráfico no deseado antes de que llegue al servidor.  
 
 Puede pedir el FSA de 1 Gbps desde la página de VLAN en el portal de clientes.

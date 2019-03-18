@@ -14,7 +14,9 @@ lastupdated: "2018-11-12"
 {:tip: .tip}
 {:download: .download}
 
-# 開始
+# Fortigate Security Appliance 1Gbps の概要
+{: #getting-started-with-fortigate-security-appliance-1gbps}
+
 Fortigate Security Appliance (FSA) 1Gbps は、基本的なセキュリティーの層をお客様に提供します。このセキュリティーの層により、不要なトラフィックがサーバーに到達しなくなります。これにより、攻撃対象領域が削減され、サーバー・リソースがそれぞれの用途専用で使用されるようにします。  FSA は、サーバー環境 (ポッド) の上流に接続されるネットワーク・デバイスで、不要なトラフィックがサーバーに到達する前にそれらのトラフィックをブロックします。  
 
 カスタマー・ポータルの「VLAN」ページから FSA 1Gbps を注文できます。

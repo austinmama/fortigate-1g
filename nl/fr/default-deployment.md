@@ -14,9 +14,10 @@ lastupdated: "2018-11-12"
 {:tip: .tip}
 {:download: .download}
 
-# Déploiement par défaut
+# Déploiement par défaut d'un dispositif de sécurité Fortigate 1 Gbit/s
+{: #default-deployment-of-a-fortigate-security-appliance-1gbps}
 
-Le dispositif de sécurité FortiGate (FSA) 1 Gbit/s est déployé en tant que domaine virtuel (en principe firewall001) sur un dispositif dédié. Le client dispose de l'accès complet aux ressources du dispositif (processeurs, mémoire, etc.), mais l'accès à la configuration de l'unité est limité pour garantir qu'IBM puisse assurer la prise en charge effective de l'unité.
+Le dispositif de sécurité FortiGate (FSA) 1 Gbit/s est déployé en tant que domaine virtuel (en principe firewall001) sur un dispositif dédié. Le client dispose de l'accès complet aux ressources du dispositif (processeurs, mémoire, etc.), mais l'accès à la configuration de l'unité est limité pour garantir qu'IBM© puisse assurer la prise en charge effective de l'unité.
 
 FSA est déployé en mode NAT et réside dans deux VLAN/réseaux au sein de l'infrastructure de réseau public. Le VLAN externe (outside) est le réseau local virtuel public d'IBM Cloud, par lequel le trafic pénètre dans le centre de données et est acheminé vers le dispositif FSA. Le VLAN interne (inside) est le VLAN FCR (Frontend Customer Router) public protégé, affecté par le client, dans lequel résident les ressources de serveur du client.  
 

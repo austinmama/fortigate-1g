@@ -15,6 +15,7 @@ lastupdated: "2018-11-12"
 {:download: .download}
 
 # Eine Firewall stornieren
+{: #canceling-a-firewall}
 
 Firewalls können jederzeit durch Ausführen des folgenden Verfahrens storniert werden:
 

@@ -15,6 +15,7 @@ lastupdated: "2018-11-12"
 {:download: .download}
 
 # 방화벽 취소
+{: #canceling-a-firewall}
 
 다음 절차를 수행하여 언제든지 방화벽을 취소할 수 있습니다.
 

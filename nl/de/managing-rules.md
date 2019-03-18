@@ -14,11 +14,12 @@ lastupdated: "2018-11-12"
 {:tip: .tip}
 {:download: .download}
 
-# Firewallregeln (Richtlinien) verwalten
+# Regeln für Fortigate-Firewall (Richtlinien) verwalten
+{: #managing-fortigate-firewall-rules-policies-}
 
 FortiGate nutzt das Konzept einer "Richtlinie", die Datenverkehr akzeptiert/ablehnt, Sicherheitsprofile anwendet, Datenverkehr reguliert, Datenverkehr protokolliert und einen Zeitrahmen für die Anwendung einer Richtlinie festlegt. Um eine Richtlinie zusammenzustellen, müssen Sie zuerst die Objekte erstellen, die teilnehmen. 
 
-1. Melden Sie sich bei der Appliance mit den Berechtigungsnachweisen an, die auf der Seite **Gerätedetails** im [Kundenportal ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){: new_window} zu finden sind. Folgen Sie den Anweisungen in [Die FortiGate Security Appliance verwalten](managing-fsa.html), um die Berechtigungsnachweise zu suchen.
+1. Melden Sie sich bei der Appliance mit den Berechtigungsnachweisen an, die auf der Seite **Gerätedetails** im [Kundenportal ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){: new_window} zu finden sind. Folgen Sie den Anweisungen in [Die FortiGate Security Appliance verwalten](/docs/infrastructure/fortigate-1g?topic=fortigate-1g-managing-the-fortigate-security-appliance-1gbps), um die Berechtigungsnachweise zu suchen.
 2. Navigieren Sie nach der Anmeldung bei der Appliance zum Menü **Richtlinie und Objekte** und wählen Sie das Protokoll (wie IPv4 oder IPv6) aus, das verwaltet werden soll. Die Richtlinien werden anhand der Sequenznummer (ganz links) für den Datenverkehr implementiert. Benutzer können eine Richtlinie in der Liste nach oben ziehen, um sie früher zu implementieren, oder nach unten ziehen, um sie später zu implementieren.
 3. Klicken Sie zum Hinzufügen einer Richtlinie auf **Neue erstellen** und beziehen Sie sich auf diese Felddefinitionen:
 
@@ -44,7 +45,7 @@ FortiGate nutzt das Konzept einer "Richtlinie", die Datenverkehr akzeptiert/able
 
     **Regulierung des Datenverkehrs:** Auf diese Weise können Sie die maximale und garantierte (minimale) Bandbreite für den Datenverkehr konfigurieren. Sie können zudem ein maximales Verbindungslimit für einen IP-Shaper festlegen. 
 
-    DSCP-Einstellungen sind nicht wirksam, da von Benutzern erstellte QoS-Informationen von der IBM Cloud-Plattform ignoriert werden.
+    DSCP-Einstellungen sind nicht wirksam, da von Benutzern erstellte QoS-Informationen von der IBM© Cloud-Plattform ignoriert werden.
 
     **Protokollierungsoptionen:** Damit wird konfiguriert, wie der zulässige Datenverkehr ("Zulässig") protokolliert wird. Diese Einstellung (und insbesondere die Option "Pakete erfassen") belegt Geräteressourcen.
 

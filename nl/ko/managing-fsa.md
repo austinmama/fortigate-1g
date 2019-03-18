@@ -14,14 +14,15 @@ lastupdated: "2018-11-12"
 {:tip: .tip}
 {:download: .download}
 
-# FortiGate Security Appliance 관리
+# FSA(FortiGate Security Appliance) 1Gbps 관리
+{: #managing-the-fortigate-security-appliance-1gbps}
 
 방화벽이 처음 VLAN에 추가될 때는 모든 트래픽이 허용됩니다. 트래픽을 제어하려면 방화벽에 규칙을 추가해야 합니다. 
 
 1. 브라우저에서 [고객 포털 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){: new_window}을 열고 사용자 계정으로 로그인하십시오.
 2. 고객 포털 탐색에서 **네트워크 > IP 관리 > VLAN**을 선택하십시오. 
 
-	**팁:** 공용 VLAN만 보려면 **필터** 드롭 다운을 클릭하고 **1차 라우터**에 ``fcr``을 입력하십시오.
+	**팁:** 공용 VLAN만 보려면 **필터** 드롭 다운을 클릭하고 **기본 라우터** 필드에 ``fcr``을 입력하십시오.
 3. 관리할 VLAN으로 스크롤하여 **게이트웨이/방화벽** 열에서 방화벽 이름의 링크를 클릭하여 **디바이스 세부사항** 페이지로 이동하십시오.
 4. **디바이스 세부사항** 페이지에서 연관된 서브넷, 방화벽 라우팅의 현재 "상태" 및 관리 정보를 볼 수 있습니다. 
 

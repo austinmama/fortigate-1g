@@ -14,7 +14,9 @@ lastupdated: "2018-11-12"
 {:tip: .tip}
 {:download: .download}
 
-# Einführung
+# Einführung in Fortigate Security Appliance mit 1 Gbit/s
+{: #getting-started-with-fortigate-security-appliance-1gbps}
+
 Die FortiGate Security Appliance (FSA) mit 1 Gbit/s bietet Kunden eine wichtige Sicherheitsstufe, die unerwünschten Datenverkehr auf Ihren Server verhindert, die die Wahrscheinlichkeit eines Angriffs reduziert und die dafür sorgt, dass Ihre Serverressourcen für den beabsichtigen Verwendungszweck zur Verfügung stehen.  Die FSA ist eine Netzeinheit, die der Serverumgebung (Pod) vorgeschaltet ist und unerwünschten Datenverkehr blockiert, bevor er Ihren Server erreicht.  
 
 Sie können die FSA (1 Gbit/s) über die VLAN-Seite im Kundenportal bestellen.

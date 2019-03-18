@@ -15,7 +15,8 @@ lastupdated: "2018-11-12"
 {:download: .download}
 {:faq: data-hd-content-type='faq'}
 
-# Häufig gestellte Fragen
+# Häufig gestellte Fragen zu Fortigate Security Appliance mit 1 Gbit/s
+{: #faqs-for-fortigate-security-appliance-1gbps}
 
 Die folgenden Fragen sind häufig gestellte Fragen zur FortiGate Security Appliance-Firewall (FSA) mit 1 Gbit/s.
 
@@ -29,10 +30,10 @@ Eine Firewall ist ein Netzgerät, das einem Server vorgeschaltet ist. Die Firewa
 
 Der Hauptvorteil einer Firewall besteht darin, dass Ihr Server nur den "guten" Datenverkehr verarbeiten muss. Das bedeutet, dass Ihre Ressource ausschließlich für den beabsichtigten Zweck verwendet wird und für unerwünschten Datenverkehr.
 
-## Welche Firewall bietet IBM an?
+## Welche Firewalls bietet IBM© an?
 {:faq}
 
-In diesem [Abschnitt ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](/docs/infrastructure/fortigate-10g/explore-firewalls.html#explore-firewalls){: new_window} finden Sie einen detaillierten Vergleich aller in der IBM Cloud angebotenen Firewall-Produkte. 
+In [diesem Abschnitt](/docs/infrastructure/fortigate-10g?topic=fortigate-10g-exploring-firewalls) finden Sie einen detaillierten Vergleich aller in der IBM Cloud angebotenen Firewall-Produkte. 
 
 ## Ist die FortiGate Security Appliance (1 Gbit/s) mit den Load-Balancer-Produkten von IBM kompatibel?
 {:faq}
@@ -60,7 +61,7 @@ Diese Ports können in der Regel nicht geändert werden. Wenn Sie jedoch die Fir
 ## Welche IP-Bereiche sind für die Firewall zulässig?
 {:faq}
 
-Die Liste der IP-Adressen und IP-Bereiche, die die Firewall zulässt, finden Sie [hier](/docs/infrastructure/hardware-firewall-dedicated/ips.html){: new_window}. 
+Die Liste der IP-Adressen und IP-Bereiche, die die Firewall zulässt, finden Sie [hier](/docs/infrastructure/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-ibm-cloud-ip-ranges). 
 
 ## Wie viele Server werden von der FortiGate Security Appliance (1 Gbit/s) maximal geschützt?
 {:faq}

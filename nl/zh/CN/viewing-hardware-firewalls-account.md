@@ -14,20 +14,21 @@ lastupdated: "2018-11-12"
 {:tip: .tip}
 {:download: .download}
 
-# 查看防火墙
+# 查看您的 FortiGate 防火墙
+{: #viewing-your-fortigate-firewalls}
 
 要查看受防火墙保护的 VLAN 以及单个防火墙的更多详细信息，请转至 VLAN 页面。
 
 1. 从浏览器中，打开[客户门户网站 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){: new_window}，然后登录到您的帐户。
-2. 在客户门户网站导航中，选择**网络 > IP 管理 > VLAN**。
+2. 在“客户门户网站”导航中，选择**网络 > IP 管理 > VLAN**。
 
-在表格中，一个行代表基础架构中的一个 VLAN。IBM Cloud 会自动填充“VLAN 编号”和“主要路由器”信息，以指示真实的 VLAN 编号以及在其上配置 VLAN 的路由器。“名称”字段可用于为 VLAN 指定可识别的名称（例如，DMZ、内部网、公用或数据库）。
+在表格中，一个行代表基础架构中的一个 VLAN。IBM© Cloud 会自动填充“VLAN 编号”和“主路由器”信息，以指示真实 VLAN 编号以及在其上配置 VLAN 的路由器。“名称”字段可用于为 VLAN 指定可识别的名称（例如，DMZ、内部网、公用或数据库）。
 
 最右边的列是**网关/防火墙**，其中包含有关所设置的防火墙保护的详细信息，例如：
 
 - **添加防火墙**指示没有为此 VLAN 上的服务器设置任何防火墙。
-- **单独保护的服务器**指示一个或多个服务器正在利用硬件防火墙（共享），但没有设置硬件防火墙（专用）、FortiGate Security Appliance 或网关。在具有单独保护的服务器的 VLAN 上，无法设置 VLAN 防火墙和网关。
-- **Firewall-vlanXXXX.networklayer.com** 指示已设置硬件防火墙（专用）或 FortiGate Security Appliance。一个 VLAN 只能与一个 VLAN 防火墙或网关相关联，但服务器可以在公用 VLAN 上受 VLAN 防火墙的保护，而在专用网络上与网关相关联。
+- **单独保护的服务器**指示一个或多个服务器正在利用 Hardware Firewall (Shared)，但没有设置 Hardware Firewall (Dedicated)、FortiGate Security Appliance 或网关。在具有单独保护的服务器的 VLAN 上，无法设置 VLAN 防火墙和网关。
+- **Firewall-vlanXXXX.networklayer.com** 指示已设置 Hardware Firewall (Dedicated) 或 FortiGate Security Appliance。一个 VLAN 只能与一个 VLAN 防火墙或网关相关联，但服务器可以在公用 VLAN 上受 VLAN 防火墙的保护，而在专用网络上与网关相关联。
 - **网关名称**指示 VLAN 与该网关相关联。
 
 ## 单独保护的服务器详细信息

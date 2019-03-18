@@ -14,11 +14,12 @@ lastupdated: "2018-11-12"
 {:tip: .tip}
 {:download: .download}
 
-# 保護 FortiGate Security Appliance
+# 保護 FortiGate Security Appliance 1 Gbps
+{: #securing-the-fortigate-security-appliance-1-gbps}
 
-您可以配置 FortiGate Security Appliance (FSA) 1Gbps 來符合安全及法規需求。IBM Cloud 提供一個「VDOM 管理者」帳戶，以及一個隨機指派的密碼。客戶可以輪換該密碼、建立唯讀使用者，以及根據「授信主機」（只接受來自指定來源 IP（最多三個）的資料流量）來限制存取權。若要完成這些活動，請執行下列步驟：
+您可以配置 FortiGate Security Appliance (FSA) 1Gbps 來符合安全及法規需求。IBM© Cloud 提供一個「VDOM 管理者」帳戶，以及一個隨機指派的密碼。客戶可以輪換該密碼、建立唯讀使用者，以及根據「授信主機」（只接受來自指定來源 IP（最多三個）的資料流量）來限制存取權。若要完成這些活動，請執行下列步驟：
 
-1. 使用[客戶入口網站 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){: new_window} 的**裝置詳細資料**頁面中找到的認證來登入應用裝置。請遵循如何[管理 FortiGate Security Appliance](managing-fsa.html) 指示來尋找認證。
+1. 使用[客戶入口網站 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){: new_window} 的**裝置詳細資料**頁面中找到的認證來登入應用裝置。請遵循如何[管理 FortiGate Security Appliance](/docs/infrastructure/fortigate-1g?topic=fortigate-1g-managing-the-fortigate-security-appliance-1gbps) 指示來尋找認證。
 2. 登入應用裝置之後，導覽至**系統 > 管理 > 管理者**。會記載所有存取及變更。
 3. 若要配置個別介面，請導覽至**系統 > 網路 > 介面**。
 

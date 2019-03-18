@@ -14,7 +14,9 @@ lastupdated: "2018-11-12"
 {:tip: .tip}
 {:download: .download}
 
-# Mise en route
+# Initiation au dispositif de sécurité Fortigate 1 Gbit/s
+{: #getting-started-with-fortigate-security-appliance-1gbps}
+
 Le dispositif de sécurité FortiGate (FSA) 1 Gbit/s offre aux clients une couche de sécurité essentielle qui empêche le trafic indésirable d'atteindre vos serveurs, réduisant votre surface d'attaque et permettant aux ressources de vos serveurs d'être consacrées uniquement à l'usage prévu.  FSA est un périphérique réseau connecté en amont de votre environnement de serveur (pod) pour bloquer le trafic indésirable avant qu'il n'atteigne votre serveur.  
 
 Vous pouvez commander FSA 1 Gbit/s à partir de la page VLAN du portail client.

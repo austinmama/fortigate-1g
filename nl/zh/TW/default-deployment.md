@@ -14,9 +14,10 @@ lastupdated: "2018-11-12"
 {:tip: .tip}
 {:download: .download}
 
-# 預設部署
+# Fortigate Security Appliance 1Gbps 的預設部署
+{: #default-deployment-of-a-fortigate-security-appliance-1gbps}
 
-FortiGate Security Appliance (FSA) 1Gbps 會在專用的應用裝置上部署為單一「虛擬網域」（一般為 firewall001）。客戶可以完全存取應用裝置的資源（處理器、記憶體等），但對裝置層次配置的存取權受到限制，以確保 IBM Cloud 可以有效支援該裝置。
+FortiGate Security Appliance (FSA) 1Gbps 會在專用的應用裝置上部署為單一「虛擬網域」（一般為 firewall001）。客戶可以完全存取應用裝置的資源（處理器、記憶體等），但對裝置層次配置的存取權受到限制，以確保 IBM© Cloud 可以有效支援該裝置。
 
 FSA 在 NAT 模式下進行部署，並位於公用網路基礎架構內的兩個 VLAN/網路中。外部 VLAN 是資料流量進入資料中心並遞送至 FSA 的 IBM Cloud 公用 VLAN。內部 VLAN 是客戶的已指派受保護的公用 FCR（前端客戶路由器）VLAN，是客戶的伺服器資源所在的位置。  
 

@@ -15,7 +15,8 @@ lastupdated: "2018-11-12"
 {:download: .download}
 {:faq: data-hd-content-type='faq'}
 
-# 常見問題 (FAQ)
+# Fortigate Security Appliance 1Gbps 的常見問題
+{: #faqs-for-fortigate-security-appliance-1gbps}
 
 下列是使用 FortiGate Security Appliance (FSA) 1Gbps 時的常見問題。
 
@@ -29,10 +30,10 @@ lastupdated: "2018-11-12"
 
 擁有防火牆的主要優點在於您的伺服器只需處理「良好的」資料流量 - 這表示您的資源僅用於其預期目的，而不是處理不想要的資料流量。
 
-## IBM 提供哪些防火牆產品？
+## IBM© 提供哪些防火牆產品？
 {:faq}
 
-您可以找到 IBM Cloud 中提供的所有防火牆產品的詳細比較資料，方法是檢閱本[主題 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](/docs/infrastructure/fortigate-10g/explore-firewalls.html#explore-firewalls){: new_window}。 
+您可以找到 IBM Cloud 中提供的所有防火牆產品的詳細比較資料，方法是檢閱[本主題](/docs/infrastructure/fortigate-10g?topic=fortigate-10g-exploring-firewalls)。 
 
 ## FortiGate Security Appliance 1Gbps 是否與 IBM 的負載平衡器產品相容？
 {:faq}
@@ -59,7 +60,7 @@ IBM Cloud 提供許多可用於伺服器的不同服務，包括 Evault、SNMP �
 ## 哪些 IP 範圍容許通過防火牆？
 {:faq}
 
-如需容許通過防火牆的 IP 位址及 IP 範圍清單，請進到[這裡](/docs/infrastructure/hardware-firewall-dedicated/ips.html){: new_window}。 
+如需容許通過防火牆的 IP 位址及 IP 範圍清單，請進到[這裡](/docs/infrastructure/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-ibm-cloud-ip-ranges)。 
 
 ## FortiGate Security Appliance 1Gbps 會保護的最大伺服器數目是多少？
 {:faq}

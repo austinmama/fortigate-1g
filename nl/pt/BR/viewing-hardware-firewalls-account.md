@@ -14,7 +14,8 @@ lastupdated: "2018-11-12"
 {:tip: .tip}
 {:download: .download}
 
-# Visualizar seus firewalls
+# Visualizando seus firewalls do FortiGate
+{: #viewing-your-fortigate-firewalls}
 
 Para ver quais VLANs são protegidas com firewalls e encontrar mais detalhes sobre firewalls individuais, acesse a página VLANs.
 
@@ -22,9 +23,7 @@ Para ver quais VLANs são protegidas com firewalls e encontrar mais detalhes sob
 2. Na navegação do Portal do cliente, selecione **Rede > Gerenciamento de
 IP > VLANs**.
 
-Cada linha na tabela representa uma VLAN em sua infraestrutura. O IBM Cloud
-preenche as informações "Número da VLAN" e "Roteador primário" automaticamente indicando
-o número verdadeiro da VLAN e o roteador no qual ela está configurada. O campo "Nome"
+Cada linha na tabela representa uma VLAN em sua infraestrutura. O IBM© Cloud preenche as informações "Número de VLAN" e "Roteador primário" automaticamente, indicando o número verdadeiro da VLAN e o roteador no qual ela está configurada. O campo "Nome"
 pode ser usado para dar à VLAN um nome reconhecível (como DMZ, Intranet, Público ou Banco de dados).
 
 A coluna da extrema direita **Gateway/Firewall** contém detalhes sobre qual proteção de firewall está em vigor, por exemplo:

@@ -15,10 +15,11 @@ lastupdated: "2018-11-12"
 {:download: .download}
 
 # Gestionar reglas de cortafuegos (políticas)
+{: #managing-fortigate-firewall-rules-policies-}
 
 FortiGate utiliza el concepto de "política", que incluye la capacidad para aceptar/denegar tráfico, aplicar perfiles de seguridad, configurar tráfico, registrar tráfico y planificar un periodo de tiempo calendario para aplicar una política. Para ensamblar una política, primero debe crear los objetos que participarán en ella. 
 
-1. Inicie sesión en el dispositivo utilizando las credenciales de la página **Detalles de dispositivo** en el [Portal de clientes ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){: new_window}. Sigas las instrucciones de [Gestionar el dispositivo de seguridad FortiGate](managing-fsa.html) para obtener las credenciales.
+1. Inicie sesión en el dispositivo utilizando las credenciales de la página **Detalles de dispositivo** en el [Portal de clientes ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){: new_window}. Sigas las instrucciones de [Gestionar el dispositivo de seguridad FortiGate](/docs/infrastructure/fortigate-1g?topic=fortigate-1g-managing-the-fortigate-security-appliance-1gbps) para obtener las credenciales.
 2. Después de iniciar sesión en el dispositivo, vaya al menú **Policy and Objects** y seleccione el protocolo que desee gestionar (como IPv4 o IPv6). Las políticas se implementan contra el tráfico en función del número de secuencia, en el extremo izquierdo. Los usuarios pueden arrastrar una política hacia arriba de la lista para que se implemente antes, o viceversa.
 3. Para añadir una política, pulse **Create New** y consulte estas definiciones de campo:
 
@@ -44,7 +45,7 @@ FortiGate utiliza el concepto de "política", que incluye la capacidad para acep
 
     **Traffic Shaping:** permite configurar el ancho de banda máximo y garantizado (mínimo) disponible para el tráfico. También puede establecerse un límite máximo de conexiones por IP. 
 
-    Los valores de DSCP no son eficaces, ya que la plataforma IBM Cloud ignora la información de calidad de servicio generada.
+    Los valores de DSCP no son eficaces, ya que la plataforma IBM© Cloud ignora la información de calidad de servicio generada.
 
     **Logging Options:** configura cuándo se registra el tráfico permitido. Este valor (y especialmente la opción "Capture Packets") utiliza recursos de dispositivo.
 

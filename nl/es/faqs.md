@@ -15,7 +15,8 @@ lastupdated: "2018-11-12"
 {:download: .download}
 {:faq: data-hd-content-type='faq'}
 
-# Preguntas más frecuentes
+# Preguntas más frecuentes de Fortigate Security Appliance 1Gbps
+{: #faqs-for-fortigate-security-appliance-1gbps}
 
 Las preguntas siguientes son las más frecuentes cuando se trabaja con el cortafuegos dispositivo de seguridad FortiGate (FSA) de 1 Gbps.
 
@@ -29,10 +30,10 @@ Un cortafuegos es un dispositivo de red que está conectado en sentido ascendent
 
 La principal ventaja de tener un cortafuegos es que el servidor sólo tiene que manejar el tráfico "bueno", lo que significa que el recurso se va a utilizar únicamente para su propósito previsto, en lugar de manejar también el tráfico no deseado.
 
-## ¿Qué productos de cortafuegos ofrece IBM?
+## ¿Qué productos de cortafuegos ofrece IBM©?
 {:faq}
 
-Para ver una comparación detallada de todos los productos de cortafuegos que se ofrecen en IBM Cloud, consulte este [tema ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](/docs/infrastructure/fortigate-10g/explore-firewalls.html#explore-firewalls){: new_window}. 
+Para ver una comparación detallada de todos los productos de cortafuegos que se ofrecen en IBM Cloud, consulte [este tema](/docs/infrastructure/fortigate-10g?topic=fortigate-10g-exploring-firewalls). 
 
 ## ¿Es compatible el dispositivo de seguridad FortiGate de 1 Gbps con los productos de equilibrador de carga de IBM?
 {:faq}
@@ -60,7 +61,7 @@ Por lo general, estos puertos no se pueden modificar; sin embargo, si restablece
 ## ¿Qué rangos de IP puedo permitir a través del cortafuegos?
 {:faq}
 
-Para consultar la lista de direcciones IP y los rangos IP que se pueden permitir a través del cortafuegos, vaya [aquí](/docs/infrastructure/hardware-firewall-dedicated/ips.html){: new_window}. 
+Para consultar la lista de direcciones IP y los rangos IP que se pueden permitir a través del cortafuegos, vaya [aquí](/docs/infrastructure/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-ibm-cloud-ip-ranges). 
 
 ## ¿Cuál es el número máximo de servidores que protege el dispositivo de seguridad FortiGate de 1 Gbps?
 {:faq}

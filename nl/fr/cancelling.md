@@ -15,6 +15,7 @@ lastupdated: "2018-11-12"
 {:download: .download}
 
 # Annulation d'un pare-feu
+{: #canceling-a-firewall}
 
 Les pare-feux peuvent être annulés à tout moment, en procédant comme suit :
 

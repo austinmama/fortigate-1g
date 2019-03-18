@@ -14,14 +14,15 @@ lastupdated: "2018-11-12"
 {:tip: .tip}
 {:download: .download}
 
-# Firewalls anzeigen
+# Fortigate-Firewalls anzeigen
+{: #viewing-your-fortigate-firewalls}
 
 Um zu erfahren, welche VLANs durch Firewalls geschützt sind, und um weitere Details zu einzelnen Firewalls zu erhalten, gehen Sie zur Seite "VLANs".
 
 1. Öffnen Sie im Browser das [Kundenportal ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){: new_window} und melden Sie sich bei Ihrem Konto an.
 2. Wählen Sie in der Navigation des Kundenportals **Netz > IP-Verwaltung > VLANs** aus.
 
-Jede Zeile in der Tabelle stellt ein VLAN in Ihrer Infrastruktur dar. IBM Cloud gibt die Informationen für "VLAN-Nummer" und "Primärer Router" automatisch ein. Dabei wird die echte VLAN-Nummer und der Router angegeben, auf die sie konfiguriert ist. Das Feld "Name" kann verwendet werden, um dem VLAN einen erkennbaren Namen zu geben (z. B. DMZ, Intranet, Öffentlich oder Datenbank).
+Jede Zeile in der Tabelle stellt ein VLAN in Ihrer Infrastruktur dar. IBM© Cloud gibt die Informationen für "VLAN-Nummer" und "Primärer Router" automatisch ein. Dabei werden die echte VLAN-Nummer und der Router angegeben, auf die sie konfiguriert ist. Das Feld "Name" kann verwendet werden, um dem VLAN einen erkennbaren Namen zu geben (z. B. DMZ, Intranet, Öffentlich oder Datenbank).
 
 Die rechte Spalte **Gateway/Firewall** enthält Details über den implementierten Firewallschutz. Beispiel:
 

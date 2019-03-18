@@ -14,7 +14,9 @@ lastupdated: "2018-11-12"
 {:tip: .tip}
 {:download: .download}
 
-# 시작하기
+# FSA(FortiGate Security Appliance) 1Gbps 시작하기
+{: #getting-started-with-fortigate-security-appliance-1gbps}
+
 FSA(FortiGate Security Appliance) 1Gbps는 원하지 않는 트래픽이 서버로 수신되는 것을 방지하고, 공격에 취약한 부분을 줄이며 서버 리소스가 의도된 대로 사용되도록 기본적인 보안 계층을 제공합니다.  FSA는 원하지 않는 트래픽이 서버에 도달하기 전에 해당 트래픽을 차단하는 서버 환경(Pod)에서 상위로 연결되는 네트워크 디바이스입니다.  
 
 고객 포털의 VLAN 페이지에서 FSA 1Gbps를 주문할 수 있습니다.

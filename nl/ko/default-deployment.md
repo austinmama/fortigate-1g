@@ -14,9 +14,10 @@ lastupdated: "2018-11-12"
 {:tip: .tip}
 {:download: .download}
 
-# 기본 배치
+# FSA(FortiGate Security Appliance) 1Gbps 기본 배치
+{: #default-deployment-of-a-fortigate-security-appliance-1gbps}
 
-FSA(FortiGate Security Appliance) 1Gbps는 전용 어플라이언스에 단일 가상 도메인(일반적으로 firewall001)으로 배치됩니다. 고객이 어플라이언스의 리소스(프로세서, 메모리 등)에 대해 전체 액세스 권한을 가지지만 IBM Cloud가 디바이스를 효과적으로 지원할 수 있도록 디바이스 레벨 구성에 대한 액세스는 제한됩니다.
+FSA(FortiGate Security Appliance) 1Gbps는 전용 어플라이언스에 단일 가상 도메인(일반적으로 firewall001)으로 배치됩니다. 고객이 어플라이언스의 리소스(프로세서, 메모리 등)에 대해 전체 액세스 권한을 가지지만 IBM© Cloud가 디바이스를 효과적으로 지원할 수 있도록 디바이스 레벨 구성에 대한 액세스는 제한됩니다.
 
 FSA는 NAT 모드로 배치되고 공용 네트워크 인프라 내의 두 VLAN/네트워크에 상주합니다. 외부 VLAN은 트래픽이 데이터 센터로 들어와서 FSA로 라우트되는 IBM Cloud 공용 VLAN입니다. 내부 VLAN은 고객이 지정한 보호되는 퍼블릭 프론트 엔드 고객 라우터(FCR) VLAN이며 고객의 서버 리소스가 상주하는 곳입니다.  
 

@@ -14,11 +14,12 @@ lastupdated: "2018-11-12"
 {:tip: .tip}
 {:download: .download}
 
-# Proteger o FortiGate Security Appliance
+# Protegendo o FortiGate Security Appliance 1 Gbps
+{: #securing-the-fortigate-security-appliance-1-gbps}
 
-É possível configurar o FortiGate Security Appliance (FSA) 1Gbps para atender aos requisitos de segurança e conformidade. O IBM Cloud fornece uma conta do administrador de VDOM com uma senha designada aleatoriamente. Os clientes podem girar essa senha, criar usuários somente leitura e restringir o acesso com base em "Hosts confiáveis", que aceita tráfego apenas de IPs de origem especificados (até três). Para concluir essas atividades:
+É possível configurar o FortiGate Security Appliance (FSA) 1Gbps para atender aos requisitos de segurança e conformidade. O IBM© Cloud fornece à conta do administrador do VDOM uma senha designada aleatoriamente. Os clientes podem girar essa senha, criar usuários somente leitura e restringir o acesso com base em "Hosts confiáveis", que aceita tráfego apenas de IPs de origem especificados (até três). Para concluir essas atividades:
 
-1. Efetue login no dispositivo usando as credenciais encontradas na página **Detalhes do dispositivo** no [Portal do cliente ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){: new_window}. Siga as instruções de como [Gerenciar o FortiGate Security Appliance](managing-fsa.html) para localizar as credenciais.
+1. Efetue login no dispositivo usando as credenciais encontradas na página **Detalhes do dispositivo** no [Portal do cliente ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){: new_window}. Siga as instruções de como [Gerenciar o FortiGate Security Appliance](/docs/infrastructure/fortigate-1g?topic=fortigate-1g-managing-the-fortigate-security-appliance-1gbps) para localizar as credenciais.
 2. Depois de efetuar login no dispositivo, navegue para **Sistema > Administrador > Administradores**. Todo o acesso e mudanças são registrados.
 3. Para configurar interfaces individuais, navegue para **Sistema > Rede > Interfaces**.
 

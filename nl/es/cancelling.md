@@ -15,6 +15,7 @@ lastupdated: "2018-11-12"
 {:download: .download}
 
 # Cancelar un cortafuegos
+{: #canceling-a-firewall}
 
 Los cortafuegos se pueden cancelar en cualquier momento mediante el procedimiento siguiente:
 

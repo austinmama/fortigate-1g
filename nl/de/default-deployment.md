@@ -14,9 +14,10 @@ lastupdated: "2018-11-12"
 {:tip: .tip}
 {:download: .download}
 
-# Standard-Bereitstellung
+# Standardbereitstellung einer Instanz von Fortigate Security Appliance mit 1 Gbit/s
+{: #default-deployment-of-a-fortigate-security-appliance-1gbps}
 
-Die FortiGate Security Appliance (FSA) mit 1 Gbit/s wird als einzelne virtuelle Domäne (normalerweise Firewall001) auf einer dedizierten Appliance bereitgestellt. Der Kunde hat vollen Zugriff auf die Ressourcen der Appliance (Prozessoren, Arbeitsspeicher usw.). Der Zugriff auf die Konfiguration auf Geräteebene ist jedoch beschränkt, damit sichergestellt werden kann, dass IBM Cloud das Gerät effektiv unterstützen kann.
+Die FortiGate Security Appliance (FSA) mit 1 Gbit/s wird als einzelne virtuelle Domäne (normalerweise Firewall001) auf einer dedizierten Appliance bereitgestellt. Der Kunde hat vollen Zugriff auf die Ressourcen der Appliance (Prozessoren, Arbeitsspeicher usw.). Der Zugriff auf die Konfiguration auf Geräteebene ist jedoch beschränkt, damit sichergestellt werden kann, dass IBM© Cloud das Gerät effektiv unterstützen kann.
 
 Die FSA wird im NAT-Modus bereitgestellt und befindet sich in zwei VLANs/Netzen innerhalb der öffentlichen Netzinfrastruktur. Das externe VLAN ist das öffentliche IBM Cloud-VLAN, bei dem der Datenverkehr in das Rechenzentrum eintrifft und an die FSA weitergeleitet wird. Das interne VLAN ist das dem Kunden zugewiesene geschützte öffentliche FCR-VLAN (Frontend Customer Router). Dort befinden sich die Serverressourcen des Kunden.  
 
