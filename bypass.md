@@ -16,6 +16,8 @@ subcollection: fortigate-1g
 {:pre: .pre}
 {:screen: .screen}
 {:tip: .tip}
+{:note: .note}
+{:important: .important}
 {:download: .download}
 
 # Bypassing the Firewall Rules

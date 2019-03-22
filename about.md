@@ -17,6 +17,8 @@ subcollection: fortigate-1g
 {:screen: .screen}
 {:tip: .tip}
 {:download: .download}
+{:note: .note}
+{:important: .important}
 
 # About Fortigate Security Appliance 1Gbps
 {: #about-fortigate-security-appliance-1gbps}

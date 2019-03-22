@@ -17,6 +17,8 @@ subcollection: fortigate-1g
 {:screen: .screen}
 {:tip: .tip}
 {:download: .download}
+{:note: .note}
+{:important: .important}
 
 # Managing Fortigate Firewall Rules (Policies)
 {: #managing-fortigate-firewall-rules-policies-}

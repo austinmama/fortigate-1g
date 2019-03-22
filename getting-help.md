@@ -17,6 +17,8 @@ subcollection: fortigate-1g
 {:screen: .screen}
 {:tip: .tip}
 {:download: .download}
+{:note: .note}
+{:important: .important}
 
 # Getting Help and Support for Fortigate Security Appliance 1Gbps
 {: #getting-help-and-support-for-fortigate-security-appliance-1gbps}

@@ -17,6 +17,8 @@ subcollection: fortigate-1g
 {:screen: .screen}
 {:tip: .tip}
 {:download: .download}
+{:note: .note}
+{:important: .important}
 
 # Adding a FortiGate Security Appliance to a public VLAN
 {: #adding-a-fortigate-security-appliance-to-a-public-vlan}

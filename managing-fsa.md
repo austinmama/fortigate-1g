@@ -17,6 +17,8 @@ subcollection: fortigate-1g
 {:screen: .screen}
 {:tip: .tip}
 {:download: .download}
+{:note: .note}
+{:important: .important}
 
 # Managing the FortiGate Security Appliance 1Gbps
 {: #managing-the-fortigate-security-appliance-1gbps}

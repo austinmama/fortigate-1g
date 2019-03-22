@@ -17,6 +17,8 @@ subcollection: fortigate-1g
 {:screen: .screen}
 {:tip: .tip}
 {:download: .download}
+{:note: .note}
+{:important: .important}
 
 # Known Limitations of Fortigate Security Appliance 1Gbps
 {: #known-limitations-of-fortigate-security-appliance-1gbps}

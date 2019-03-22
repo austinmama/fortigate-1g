@@ -17,6 +17,8 @@ subcollection: fortigate-1g
 {:screen: .screen}
 {:tip: .tip}
 {:download: .download}
+{:note: .note}
+{:important: .important}
 
 # Default Deployment of a Fortigate Security Appliance 1Gbps
 {: #default-deployment-of-a-fortigate-security-appliance-1gbps}
@@ -27,4 +29,4 @@ The FSA is deployed in NAT mode and resides in two VLANs/networks within the pub
 
 IBM Cloud deploys the FSA with two bonded 1G interfaces on each of these two networks during the provisioning process. IBM Cloud also deploys a single interface for provisioning and maintenance of the device which is not made available to customers.
 
-The firewall is deployed with all IPv4 and IPv6 traffic allowed, including a specific rule (softlayer-admin) designed to allow the IBM Cloud internal administration network to access devices through the firewall. Denial of Service protections and most other filters are configured not to enforce.
+The firewall is deployed with all IPv4 and IPv6 traffic allowed, including a specific rule (`softlayer-admin`) designed to allow the IBM Cloud internal administration network to access devices through the firewall. Denial of Service protections and most other filters are configured not to enforce.
