@@ -60,6 +60,7 @@ FortiGate utilizes the concept of a "policy", which includes the ability to acce
     **Enable this policy:** Enables or disables the policy
 
 ## Example of a simple "Allow All" rule for web traffic to a web server
+{: #example-of-a-simple-allow-all-rule-for-web-traffic-to-a-web-server}
 
 ***Incoming Interface:*** *outside VLAN*
 

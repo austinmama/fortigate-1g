@@ -32,5 +32,6 @@ To bypass the firewall rules, perform the following procedure:
 	Another option is to route around the firewall. You can use the **Actions** drop down menu to choose **Set Route Bypass** or in the **Status:** section, you can click on the **Route Around** button. Either way, you should get a confirmation dialog. Click **Yes** to confirm the action. Bypassing the route takes approximately two minutes to take effect. While in bypass mode, the "Status" will be "Routing AROUND firewall".
 
 ## Enable the Rules Again
+{: #enable-the-rules-again}
 
 To enable the rules again, follow the instructions above to reach the **Configuration** tab of the device and click on the **Actions** dropdown menu and choose **Set Route Bypass**. You will get a confirmation dialog. Click **Yes** to confirm the action. The "Status" will change back to "Routing THROUGH firewall" within two minutes.
