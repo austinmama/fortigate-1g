@@ -15,7 +15,7 @@ lastupdated: "2018-11-12"
 {:download: .download}
 
 # Introduzione a Fortigate Security Appliance 1Gbps
-{: #getting-started-with-fortigate-security-appliance-1gbps}
+{: #getting-started}
 
 Il Fortigate Security Appliance (FSA) 1Gbps fornisce ai clienti un livello essenziale di sicurezza che impedisce al traffico non desiderato di raggiungere i tuoi server, riducendo la superficie di attacco e consentendo alle tue risorse del server di essere dedicate al loro scopo di utilizzo.  Il FSA è un dispositivo di rete collegato in upstream da un ambiente server (pod), che blocca il traffico non desiderato prima che raggiunga il server.  
 
@@ -24,6 +24,6 @@ Puoi ordinare il FSA 1Gbps dalla pagina delle VLAN nel portale del cliente.
 1. Dal tuo browser, apri [Customer Portal ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){: new_window} e accedi al tuo account.
 2. Nella navigazione del portale del cliente, seleziona **Network > IP Management > VLANs**.
 3. Scorri fino alla VLAN che vuoi proteggere e fai clic sul link **Add Firewall** nella stessa riga. Questo link apre la pagina **Order Hardware Firewall (Dedicated)**.
-4. Seleziona **FortiGate Security Appliance** per ordinare un solo firewall o **FortiGate Security Appliance (High Availability)** per ordinare una coppia di firewall. 
+4. Seleziona **FortiGate Security Appliance** per ordinare un solo firewall o **FortiGate Security Appliance (High Availability)** per ordinare una coppia di firewall.
 5. Immetti le tue informazioni di pagamento e fai clic su **Continue**.
 6. Nella schermata successiva, immetti i codici promozionali se applicabili, leggi e accetta il Master Service Agreement e fai clic su **Place Order**.
