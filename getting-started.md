@@ -21,7 +21,7 @@ subcollection: fortigate-1g
 {:important: .important}
 
 # Getting Started With Fortigate Security Appliance 1Gbps
-{: #getting-started-with-fortigate-security-appliance-1gbps}
+{: #getting-started}
 
 The Fortigate Security Appliance (FSA) 1Gbps provides customers with an essential layer of security that prevents unwanted traffic from hitting your servers, reducing your attack surface, and allowing your server resources to be dedicated for their intended use.  The FSA is a network device that is connected upstream from the server environment (pod), blocking unwanted traffic before it reaches your server.  
 
