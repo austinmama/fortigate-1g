@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2018-11-12"
+  years: 2017, 2019
+lastupdated: "2019-06-11"
 
 keywords: order, fortigate, fsa, 1gbps
 
@@ -27,8 +27,8 @@ The Fortigate Security Appliance (FSA) 1Gbps provides customers with an essentia
 
 You can order the FSA 1Gbps from the VLANs page in the customer portal.
 
-1. From your browser, open [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} and log into your account.
-2. In the Customer Portal navigation, select **Network > IP Management > VLANs**.
+1. From your browser, open the [{{site.data.keyword.cloud}} infrastructure customer portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} and log into your account.
+2. In the customer portal navigation, select **Network > IP Management > VLANs**.
 3. Scroll to the VLAN you want to protect and click on the **Add Firewall** link in the same row. This link opens the **Order Hardware Firewall (Dedicated)** page.
 4. Select **FortiGate Security Appliance** to order a single firewall or **FortiGate Security Appliance (High Availability)** to order a firewall pair.
 5. Enter your payment information and click **Continue**.
