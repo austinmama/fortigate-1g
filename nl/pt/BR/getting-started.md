@@ -15,7 +15,7 @@ lastupdated: "2018-11-12"
 {:download: .download}
 
 # Introdução ao FortiGate Security Appliance 1Gbps
-{: #getting-started}
+{: #getting-started-with-fortigate-security-appliance-1gbps}
 
 O Fortigate Security Appliance (FSA) 1Gbps fornece aos clientes uma camada
 essencial de segurança que evita a ocorrência de tráfego indesejado nos servidores,
@@ -33,7 +33,7 @@ IP > VLANs**.
 firewall** na mesma linha. Esse link abre a página **Pedir Hardware Firewall (Dedicated)**
 4. Selecione **FortiGate Security Appliance** para pedir um
 único firewall ou **FortiGate Security Appliance (alta
-disponibilidade)** para pedir um par de firewalls.
+disponibilidade)** para pedir um par de firewalls. 
 5. Insira suas informações de pagamento e clique em **Continuar**.
 6. Na próxima tela, insira os códigos promocionais, se aplicável, leia e concorde
 com o Contrato de serviço principal e clique em **Fazer pedido**.
