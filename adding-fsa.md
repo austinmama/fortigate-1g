@@ -25,8 +25,8 @@ subcollection: fortigate-1g
 
 To add a FortiGate Security Appliance to a public VLAN:
 
-1. From your browser, open [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} and log into your account.
-2. In the Customer Portal navigation, select **Network > IP Management > VLANs**.
+1. From your browser, open the [IBM Cloud UI Console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/classic/security/firewalls/multivlan/provision){: new_window} and log into your account.
+2. ClICK the navigation menu in the top left of the [IBM Cloud Catalog ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com) and select **Classic Infrastructure > Network > IP Management > VLANs**.
 3. Scroll to the VLAN you want to protect and click on the **Add Firewall** link in the same row. This link opens the **Order Hardware Firewall (Dedicated)** page.
 4. Select **FortiGate Security Appliance** to order a single firewall or **FortiGate Security Appliance (High Availability)** to order a firewall pair.
 5. Enter your payment information and click **Continue**.

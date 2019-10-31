@@ -25,8 +25,8 @@ subcollection: fortigate-1g
 
 To see which VLANs are protected with Firewalls and to find more details of individual Firewalls, go to the VLANs page.
 
-1. From your browser, open [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} and log into your account.
-2. In the Customer Portal navigation, select **Network > IP Management > VLANs**.
+1. From your browser, open the [IBM Cloud UI Console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/classic/security/firewalls/multivlan/provision){: new_window} and log into your account.
+2. ClICK the navigation menu in the top left of the [IBM Cloud Catalog ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com) and select **Classic Infrastructure > Network > IP Management > VLANs**.
 
 Each row in the table represents a VLAN in your infrastructure. IBM© Cloud populates the "VLAN Number" and "Primary Router" information automatically indicating the true VLAN number and the router that it is configured on. The "Name" field can be used to give the VLAN a recognizable name (such as DMZ, Intranet, Public, or Database).
 

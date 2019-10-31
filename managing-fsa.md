@@ -25,8 +25,8 @@ subcollection: fortigate-1g
 
 When the firewall is first added to the VLAN, all traffic is allowed. You need to add rules to the firewall in order to control the traffic.
 
-1. From your browser, open [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} and log into your account.
-2. In the Customer Portal navigation, select **Network > IP Management > VLANs**.
+1. From your browser, open the [IBM Cloud UI Console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/classic/security/firewalls/multivlan/provision){: new_window} and log into your account.
+2. CliCK the navigation menu in the top left of the [IBM Cloud Catalog ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com) and select **Classic Infrastructure > Network > IP Management > VLANs**.
 
 	To view only Public VLANs, click on the **Filter** drop down and enter ``fcr`` in the **Primary Router** field.
   {: tip}
