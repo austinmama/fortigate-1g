@@ -26,7 +26,7 @@ subcollection: fortigate-1g
 Firewalls can be cancelled at any time, by performing the following procedure:
 
 1. From your browser, open the [IBM Cloud UI Console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/classic/security/firewalls/multivlan/provision){: new_window} and log into your account.
-2. ClICK the navigation menu in the top left of the [IBM Cloud Catalog ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com) and select **Classic Infrastructure > Network > IP Management > VLANs** and click on the firewall device you want to cancel.
+2. Click the navigation menu in the top left of the [IBM Cloud Catalog ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com) and select **Classic Infrastructure > Network > IP Management > VLANs** and click on the firewall device you want to cancel.
 3. Click the **Device Details** page. From the **Configuration** tab, click on the **Actions** drop down menu and choose **Cancel Device**. In the confirmation dialog, choose whether you want to cancel immediately or in the next billing cycle. Click **Continue** to continue cancelling the device.
 
 Cancelling the firewall will leave all devices on the VLAN without frontend firewall protection. This service is provided month to month and billing will be discontinued for the next month upon cancellation.
