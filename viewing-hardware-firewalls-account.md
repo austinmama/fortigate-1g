@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017,2018
-lastupdated: "2018-11-12"
+lastupdated: "2019-11-12"
 
 keywords: view, viewing, vlans, vlan, gateway, firewall
 
@@ -23,7 +23,8 @@ subcollection: fortigate-1g
 # Viewing your Fortigate Firewalls
 {: #viewing-your-fortigate-firewalls}
 
-To see which VLANs are protected with Firewalls and to find more details of individual Firewalls, go to the VLANs page.
+You can see which VLANs are protected with firewalls and find more details about your individual firewalls by visiting the VLANs page.
+{: shortdesc}
 
 1. From your browser, open the [IBM Cloud UI Console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/classic/security/firewalls/multivlan/provision){: new_window} and log into your account.
 2. ClICK the navigation menu in the top left of the [IBM Cloud Catalog ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com) and select **Classic Infrastructure > Network > IP Management > VLANs**.

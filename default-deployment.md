@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2018-11-12"
+lastupdated: "2019-11-12"
 
 keywords: default, deployment
 
@@ -24,6 +24,7 @@ subcollection: fortigate-1g
 {: #default-deployment-of-a-fortigate-security-appliance-1gbps}
 
 The FortiGate Security Appliance (FSA) 1Gbps is deployed as a single Virtual Domain (typically firewall001) on a dedicated appliance. The customer has full access to the resources of the appliance (processors, memory, and so on), but access to device-level configuration is constrained to ensure IBM© Cloud can effectively support the device.
+{: shortdesc}
 
 The FSA is deployed in NAT mode and resides in two VLANs/networks within the public network infrastructure. The Outside VLAN is the IBM Cloud public VLAN where traffic enters the data center and is routed to the FSA. The inside VLAN is the customer's assigned protected public FCR (Frontend Customer Router) VLAN and is where the customer's server resources reside.  
 

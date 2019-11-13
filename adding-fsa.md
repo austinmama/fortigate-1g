@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2018-11-12"
+lastupdated: "2019-11-12"
 
 keywords: add, vlan, public
 
@@ -23,7 +23,8 @@ subcollection: fortigate-1g
 # Adding a FortiGate Security Appliance to a public VLAN
 {: #adding-a-fortigate-security-appliance-to-a-public-vlan}
 
-To add a FortiGate Security Appliance to a public VLAN:
+You can add a FortiGate Security Appliance to a public VLAN by following the instructions here.
+{: shortdesc}
 
 1. From your browser, open the [IBM Cloud UI Console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/classic/security/firewalls/multivlan/provision){: new_window} and log into your account.
 2. ClICK the navigation menu in the top left of the [IBM Cloud Catalog ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com) and select **Classic Infrastructure > Network > IP Management > VLANs**.

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2018-11-12"
+lastupdated: "2019-11-12"
 
 keywords: manage, managing, rules, policies, policy
 
@@ -23,7 +23,8 @@ subcollection: fortigate-1g
 # Managing Fortigate Firewall Rules (Policies)
 {: #managing-fortigate-firewall-rules-policies-}
 
-FortiGate utilizes the concept of a "policy", which includes the ability to accept/deny traffic, apply security profiles, shape traffic, log traffic, and schedule a timeframe for a policy to apply. To assemble a policy, you must first create the objects that will take part in it.
+The Fortigate Security Appliance 1Gbps (FSA) utilizes the concept of a "policy", which includes the ability to accept/deny traffic, apply security profiles, shape traffic, log traffic, and schedule a timeframe for a policy to apply. To assemble a policy, you must first create the objects that will take part in it.
+{: shortdesc}
 
 1. From your browser, open the [IBM Cloud UI Console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/classic/security/firewalls/multivlan/provision){: new_window} and log into your account.
 2. Follow the How to [Manage the FortiGate Security Appliance](/docs/infrastructure/fortigate-1g?topic=fortigate-1g-managing-the-fortigate-security-appliance-1gbps) instructions to find the credentials.

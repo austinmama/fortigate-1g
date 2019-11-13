@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2018-11-12"
+lastupdated: "2019-11-12"
 
 keywords: manage, managing, firewall
 
@@ -23,7 +23,8 @@ subcollection: fortigate-1g
 # Managing the FortiGate Security Appliance 1Gbps
 {: #managing-the-fortigate-security-appliance-1gbps}
 
-When the firewall is first added to the VLAN, all traffic is allowed. You need to add rules to the firewall in order to control the traffic.
+When the Fortigate Security Appliance 1Gbps (FSA) is first added to the VLAN, all traffic is allowed. You need to add rules to the firewall in order to control the traffic.
+{: shortdesc}
 
 1. From your browser, open the [IBM Cloud UI Console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/classic/security/firewalls/multivlan/provision){: new_window} and log into your account.
 2. CliCK the navigation menu in the top left of the [IBM Cloud Catalog ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com) and select **Classic Infrastructure > Network > IP Management > VLANs**.

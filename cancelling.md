@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-11-12"
+lastupdated: "2019-11-12"
 
 keywords: cancel, firewall
 
@@ -23,7 +23,8 @@ subcollection: fortigate-1g
 # Canceling a Firewall
 {: #canceling-a-firewall}
 
-Firewalls can be cancelled at any time, by performing the following procedure:
+You can cancel your Fortigate Security Appliance 1Gbps (FSA) any time using the instructions here.
+{: shortdesc}
 
 1. From your browser, open the [IBM Cloud UI Console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/classic/security/firewalls/multivlan/provision){: new_window} and log into your account.
 2. Click the navigation menu in the top left of the [IBM Cloud Catalog ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com) and select **Classic Infrastructure > Network > IP Management > VLANs** and click on the firewall device you want to cancel.

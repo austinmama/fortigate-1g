@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2018-11-12"
+lastupdated: "2019-11-12"
 
 keywords: secure, securing, firewall, fsa, configure, security
 
@@ -23,7 +23,10 @@ subcollection: fortigate-1g
 # Securing the FortiGate Security Appliance 1 Gbps
 {: #securing-the-fortigate-security-appliance-1-gbps}
 
-You can configure the FortiGate Security Appliance (FSA) 1Gbps to meet security and compliance requirements. IBM© Cloud provides a VDOM Administrator account with a randomly assigned password. Customers can rotate that password, create read-only users and restrict access based on "Trusted Hosts," which accepts traffic only from specified source IPs (up to three). To complete these activities:
+You can configure the FortiGate Security Appliance (FSA) 1Gbps to meet security and compliance requirements. IBM© Cloud provides a VDOM Administrator account with a randomly assigned password. Customers can rotate that password, create read-only users and restrict access based on "Trusted Hosts," which accepts traffic only from specified source IPs (up to three).
+{: shortdesc}
+
+To complete these activities:
 
 1. From your browser, open the [IBM Cloud UI Console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/classic/security/firewalls/multivlan/provision){: new_window} and log into your account.
 2. Follow the How to [Manage the FortiGate Security Appliance](/docs/infrastructure/fortigate-1g?topic=fortigate-1g-managing-the-fortigate-security-appliance-1gbps) instructions to find the credentials.

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017,2018
-lastupdated: "2018-11-12"
+lastupdated: "2019-11-12"
 
 keywords: faqs, questions, firewall, fortigate, traffic, public, private, bandwidth, ports, ip, vpn, nat, vlan
 
@@ -25,6 +25,7 @@ subcollection: fortigate-1g
 {: #faqs-for-fortigate-security-appliance-1gbps}
 
 The following are frequently asked questions when working with the FortiGate Security Appliance (FSA) 1Gbps firewall.
+{: shortdesc}
 
 ## What is a firewall?
 {: faq}
