@@ -81,11 +81,10 @@ The FortiGate Security Appliance 1Gbps can protect every server on a Public VLAN
 Not all firewalls offer VPN and not all VPN options are the same. The general options for VPN are:
 
 * Each customer receives unlimited SSL VPN connections to our private network. These connections can be established by clicking the VPN link at the top of the page while logged into the Cloud Catalog console.
-* Customers also receive one PPTP VPN per account. They can add additional PPTP VPN users to their account in packs of 5 for $5/month extra.
-* IBM Cloud also offers a basic multi-tenant IPSec VPN service.
-* The FortiGate Security Appliance 1Gbps provides SSL and IPSec VPN options with Public network access only (no access to the IBM Cloud private network).
-* The Network Gateway provides SSL, IPSec and OpenVPN capabilities on the public or private network.
-* The NetScaler products can provide SSL and IPSec VPN on the public or private network.
+* IBM Cloud also offers a basic multi-tenant IPsec VPN service.
+* The FortiGate Security Appliance 1Gbps provides SSL and IPsec VPN options with Public network access only (no access to the IBM Cloud private network).
+* The Network Gateway provides SSL, IPsec and OpenVPN capabilities on the public or private network.
+* The NetScaler products can provide SSL and IPsec VPN on the public or private network.
 * Customers can also deploy a VPN solution on to a server within their IBM Cloud environment.
 
 ## When I select the High Availability option, what steps do I have to take to leverage this feature?

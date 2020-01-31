@@ -39,6 +39,6 @@ Since monthly server bandwidth is recorded at the server switch port, traffic bl
 
 **User Interface:** Fortigate GUI and Command Line Interface
 
-**Features:** Stateful Packet Inspection, VLAN Protection, Ingress Firewall Rules, Egress Firewall Rules, NAT, SSL VPN Termination, IPSec VPN Termination, Advanced Logging, High Availability (Optional)
+**Features:** Stateful Packet Inspection, VLAN Protection, Ingress Firewall Rules, Egress Firewall Rules, NAT, SSL VPN Termination, IPsec VPN Termination, Advanced Logging, High Availability (Optional)
 
 **Throughput:** 1Gbps (2Gbps Aggregated)
