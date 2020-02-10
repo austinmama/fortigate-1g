@@ -29,7 +29,7 @@ You can configure the FortiGate Security Appliance (FSA) 1Gbps to meet security 
 To complete these activities:
 
 1. From your browser, open the [IBM Cloud UI Console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/classic/security/firewalls/multivlan/provision){: new_window} and log into your account.
-2. Follow the How to [Manage the FortiGate Security Appliance](/docs/infrastructure/fortigate-1g?topic=fortigate-1g-managing-the-fortigate-security-appliance-1gbps) instructions to find the credentials.
+2. Follow the How to [Manage the FortiGate Security Appliance](/docs/fortigate-1g?topic=fortigate-1g-managing-the-fortigate-security-appliance-1gbps) instructions to find the credentials.
 3. After logging into the appliance, navigate to **System > Admin > Administrators**. All access and changes are logged.
 4. To configure individual interfaces, navigate to **System > Network > Interfaces**.
 

@@ -27,7 +27,7 @@ The Fortigate Security Appliance 1Gbps (FSA) utilizes the concept of a "policy",
 {: shortdesc}
 
 1. From your browser, open the [IBM Cloud UI Console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/classic/security/firewalls/multivlan/provision){: new_window} and log into your account.
-2. Follow the How to [Manage the FortiGate Security Appliance](/docs/infrastructure/fortigate-1g?topic=fortigate-1g-managing-the-fortigate-security-appliance-1gbps) instructions to find the credentials.
+2. Follow the How to [Manage the FortiGate Security Appliance](/docs/fortigate-1g?topic=fortigate-1g-managing-the-fortigate-security-appliance-1gbps) instructions to find the credentials.
 3. After logging into the appliance, navigate to the **Policy and Objects** menu and select the protocol you wish to manage (such as IPv4 or IPv6). Policies are implemented against traffic based on the Sequence Number on the far left. Users can drag a policy higher in the list to have it implemented earlier or vice versa.
 4. To add a policy, click **Create New** and refer to these field definitions:
 

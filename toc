@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="fortigate-1g" category="compute,security" audience="network" arm="3662772" href="/docs/infrastructure/fortigate-1g?topic=infrastructure/fortigate-1g-getting-started-with-fortigate-1gbps" path="infrastructure/fortigate-1g"}
+{: .toc subcollection="fortigate-1g" category="security" audience="network" arm="3662772" href="/docs/fortigate-1g?topic=infrastructure/fortigate-1g-getting-started-with-fortigate-1gbps" path="fortigate-1g"}
 FortiGate Security Appliance (FSA) 1Gbps
 
     {: .navgroup id="learn"}
@@ -20,7 +20,7 @@ FortiGate Security Appliance (FSA) 1Gbps
     bypass.md
     cancelling.md
     {: .navgroup-end}
-    
+
     {: .navgroup id="reference"}
     /hardware-firewall-dedicated/hardware-firewall-dedicated-ibm-cloud-ip-ranges
     {: .navgroup-end}
