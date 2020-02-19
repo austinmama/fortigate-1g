@@ -19,9 +19,13 @@ subcollection: fortigate-1g
 {:download: .download}
 {:note: .note}
 {:important: .important}
+{:help: data-hd-content-type='help'}
+{:support: data-reuse='support'}
 
 # Default Deployment of a Fortigate Security Appliance 1Gbps
 {: #default-deployment-of-a-fortigate-security-appliance-1gbps}
+{: help}
+{: support}
 
 The FortiGate Security Appliance (FSA) 1Gbps is deployed as a single Virtual Domain (typically firewall001) on a dedicated appliance. The customer has full access to the resources of the appliance (processors, memory, and so on), but access to device-level configuration is constrained to ensure IBM© Cloud can effectively support the device.
 {: shortdesc}

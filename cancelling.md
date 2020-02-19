@@ -19,9 +19,13 @@ subcollection: fortigate-1g
 {:download: .download}
 {:note: .note}
 {:important: .important}
+{:help: data-hd-content-type='help'}
+{:support: data-reuse='support'}
 
 # Canceling a Firewall
 {: #canceling-a-firewall}
+{: help}
+{: support}
 
 You can cancel your Fortigate Security Appliance 1Gbps (FSA) any time using the instructions here.
 {: shortdesc}

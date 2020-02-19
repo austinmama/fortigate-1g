@@ -19,9 +19,13 @@ subcollection: fortigate-1g
 {:download: .download}
 {:note: .note}
 {:important: .important}
+{:help: data-hd-content-type='help'}
+{:support: data-reuse='support'}
 
 # Adding a FortiGate Security Appliance to a public VLAN
 {: #adding-a-fortigate-security-appliance-to-a-public-vlan}
+{: help}
+{: support}
 
 You can add a FortiGate Security Appliance to a public VLAN by following the instructions here.
 {: shortdesc}

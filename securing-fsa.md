@@ -19,9 +19,13 @@ subcollection: fortigate-1g
 {:download: .download}
 {:note: .note}
 {:important: .important}
+{:help: data-hd-content-type='help'}
+{:support: data-reuse='support'}
 
 # Securing the FortiGate Security Appliance 1 Gbps
 {: #securing-the-fortigate-security-appliance-1-gbps}
+{: help}
+{: support}
 
 You can configure the FortiGate Security Appliance (FSA) 1Gbps to meet security and compliance requirements. IBM© Cloud provides a VDOM Administrator account with a randomly assigned password. Customers can rotate that password, create read-only users and restrict access based on "Trusted Hosts," which accepts traffic only from specified source IPs (up to three).
 {: shortdesc}

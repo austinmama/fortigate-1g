@@ -20,6 +20,7 @@ subcollection: fortigate-1g
 {:faq: data-hd-content-type='faq'}
 {:note: .note}
 {:important: .important}
+{:support: data-reuse='support'}
 
 # FAQs for Fortigate Security Appliance 1Gbps
 {: #faqs-for-fortigate-security-appliance-1gbps}
@@ -38,12 +39,16 @@ A firewall is a network device that is connected upstream from a server. The fir
 The primary advantage of having a firewall is that your server only has to handle “good” traffic – this means your resource is solely being used for its intended purpose as opposed to handling unwanted traffic, too.
 
 ## What firewall products does IBM© offer?
+{: #products}
 {: faq}
+{: support}
 
 You can find a detailed comparison of all firewall products offered in the IBM Cloud by reviewing [this topic](/docs/fortigate-10g?topic=fortigate-10g-exploring-firewalls).
 
 ## Is the FortiGate Security Appliance 1Gbps compatible with IBM's load balancer products?
+{: #load-balancing}
 {: faq}
+{: support}
 
 Yes. The FSA 1Gbps is compatible with the cloud load balancing service, local load balancer, as well as the Citrix Netscaler VPX and MPX.
 
@@ -56,27 +61,34 @@ Coming from the public internet in, the load balancing products are first, the H
 {: faq}
 
 The FortiGate Security Appliance 1Gbps is not metered for bandwidth. Additionally, the FSA can reduce total bandwidth utilization by limiting the traffic that servers must respond to.
-{: faq}
 
 ## What are the grayed out ports in my Windows Firewall?
+{: #greyed-ports}
 {: faq}
+{: support}
 
 IBM Cloud offers many different services that you can utilize with your server including Evault, SNMP and Nagios monitoring. These services require that our internal systems communicate with your server to some degree. The grayed out ports you see in the Exceptions list are ports open on the internal network port only. They are still blocked on the public (internet) network connection. Since the internal network is a secured network, having these ports open is considered secure.
 
 These ports generally cannot be modified; however, if you reset the firewall rules, the ports will be cleared from the Exceptions list. Please be aware that resetting the firewall rules may have an adverse effect on these additional services and can cause other issues as well depending on your server configuration.
 
 ## What IP ranges do I allow through the firewall?
+{: #ip}
 {: faq}
+{: support}
 
 For the list of IP addresses and IP ranges to allow through the firewall, go [here](/docs/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-ibm-cloud-ip-ranges).
 
 ## What is the maximum number of servers that the FortiGate Security Appliance 1Gbps will protect?
+{: #max-servers}
 {: faq}
+{: support}
 
 The FortiGate Security Appliance 1Gbps can protect every server on a Public VLAN. However it is important to note that since these firewall devices are connected with 2Gbps Uplink, we recommend scaling the number of firewall instances to meet the performance needs of your application. You can do so by deploying additional public VLAN Firewalls within a pod to allow for additional firewall and associated compute resources to be added.
 
 ## What VPN options are included with each Firewall product?
+{: #vpn}
 {: faq}
+{: support}
 
 Not all firewalls offer VPN and not all VPN options are the same. The general options for VPN are:
 
@@ -88,11 +100,15 @@ Not all firewalls offer VPN and not all VPN options are the same. The general op
 * Customers can also deploy a VPN solution on to a server within their IBM Cloud environment.
 
 ## When I select the High Availability option, what steps do I have to take to leverage this feature?
+{: #ha}
 {: faq}
+{: support}
 
 None. When ordered in HA, IBM Cloud automatically provisions the appliances in HA configuration.  In the event that the primary device fails, a secondary passive device will take over as the primary active instance and begin passing traffic. While this failover is typically automatic, it is best practice to monitor servers and ensure traffic is being passed successfully.
 
 ## Which firewall products support public-to-private NAT and/or private VLAN segmentation?
+{: #nat}
 {: faq}
+{: support}
 
 None of the Hardware Firewall products have access to the private network.  A Network Gateway is required to supply these capabilities in-line and the NetScaler products have access to both the public and private networks.

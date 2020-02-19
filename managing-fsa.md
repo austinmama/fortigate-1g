@@ -19,9 +19,13 @@ subcollection: fortigate-1g
 {:download: .download}
 {:note: .note}
 {:important: .important}
+{:help: data-hd-content-type='help'}
+{:support: data-reuse='support'}
 
 # Managing the FortiGate Security Appliance 1Gbps
 {: #managing-the-fortigate-security-appliance-1gbps}
+{: help}
+{: support}
 
 When the Fortigate Security Appliance 1Gbps (FSA) is first added to the VLAN, all traffic is allowed. You need to add rules to the firewall in order to control the traffic.
 {: shortdesc}
