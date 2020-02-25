@@ -1,16 +1,16 @@
 {
     "load-balancing": [
-      "FortiGate Security Appliance 1Gbps compatible with IBM's load balancer",
+      "FortiGate Security Appliance 1 Gbps compatible with IBM's load balancer",
       "FSA 1G compatible with load balancing",
       "FSA 1g and load balancers compatible",
-      "FSA 1Gbps compatible with IBM's load balancer",
+      "FSA 1 Gbps compatible with IBM's load balancer",
       "Hardware Firewall compatible with citrix",
       "load balancer and FSA 1g compatible",
       "FortiGate Security Appliance 1G and load balancer compatibility",
       "compatability between FSA 1g firewall and load balancers"
     ],
     "max-servers": [ 
-      "maximum number of servers that the FortiGate Security Appliance 1Gbps will protect",
+      "maximum number of servers that the FortiGate Security Appliance 1 Gbps will protect",
       "max number of servers that the FortiGate Security Appliance 1G will protect",
       "max amount of servers that FSA 1G protects",
       "many servers does FSA 1g protect",

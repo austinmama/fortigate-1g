@@ -23,39 +23,39 @@ subcollection: fortigate-1g
 # Viewing your Fortigate Firewalls
 {: #viewing-your-fortigate-firewalls}
 
-You can see which VLANs are protected with firewalls and find more details about your individual firewalls by visiting the VLANs page.
+You can see which VLANs are protected with firewalls and find more details about your individual firewalls by visiting the VLAN page.
 {: shortdesc}
 
-1. From your browser, open the [IBM Cloud UI Console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/classic/security/firewalls/multivlan/provision){: new_window} and log into your account.
-2. ClICK the navigation menu in the top left of the [IBM Cloud Catalog ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com) and select **Classic Infrastructure > Network > IP Management > VLANs**.
+1. From your browser, open the [IBM Cloud UI Console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/classic/security/firewalls/multivlan/provision){: new_window} and log in to your account.
+2. Click the navigation menu in the [IBM Cloud Catalog ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com) and select **Classic Infrastructure > Network > IP Management > VLANs**.
 
-Each row in the table represents a VLAN in your infrastructure. IBM© Cloud populates the "VLAN Number" and "Primary Router" information automatically indicating the true VLAN number and the router that it is configured on. The "Name" field can be used to give the VLAN a recognizable name (such as DMZ, Intranet, Public, or Database).
+Each row in the table represents a VLAN in your infrastructure. IBM© Cloud populates the "VLAN Number" and "Primary Router" information automatically indicating the true VLAN number and the router that it is configured on. The "Name" field can be used to give the VLAN a recognizable name (such as DMZ, intranet, Public, or database).
 
 The far right column **Gateway/Firewall** contains details about what firewall protection is in place, for example:
 
 * **Add Firewall** indicates that there are no firewalls in place for servers on this VLAN.
-* **Individually Protected Servers** indicates that one or more servers is utilizing a Hardware Firewall (Shared) and that there is not a Hardware Firewall (Dedicated), FortiGate Security Appliance, or Network Gateway in place. VLAN firewalls and network gateways are not able to be placed on a VLAN that has individually protected servers.
-* **Firewall-vlanXXXX.networklayer.com** indicates that there is a Hardware Firewall (Dedicated) or a FortiGate Security Appliance in place. Only one VLAN firewall or Network Gateway can be associated with a VLAN, but a server can be protected on the public VLAN by a VLAN firewall and associated on the private network with a Network Gateway.
-* **GatewayName** indicates the VLAN is associated with that Network Gateway.
+* **Individually Protected Servers** indicates that one or more servers is using a Hardware Firewall (Shared) and that there is not a Hardware Firewall (Dedicated), FortiGate Security Appliance, or Network Gateway in place. VLAN firewalls and network gateways are not able to be placed on a VLAN that contains individually protected servers.
+* **Firewall-vlanXXXX.networklayer.com** indicates that there is a Hardware Firewall (Dedicated) or a FortiGate Security Appliance in place. Only one VLAN firewall or Network Gateway can be associated with a VLAN. Also, a server can be protected on the public VLAN by a VLAN firewall and associated on the private network with a Network Gateway.
+* **GatewayName** indicates that the VLAN is associated with that Network Gateway.
 
 ## Individually Protected Servers Details
 {: #individually-protected-servers-details}
 
-For VLANs that have **Individually Protected Servers** in the **Gateway/Firewall** field, you can click on the associated VLAN number link to display the details of the VLAN, including the associated devices.
+For VLANs that contain **Individually Protected Servers** in the **Gateway/Firewall** field, you can click the associated VLAN number link to display the details of the VLAN, including the associated devices.
 
-In the list of associated devices, you can click on each device and scroll to the bottom of the Configuration tab. You will see **Firewall** in the Addons section with **Installed** or **Not Installed** for the status.
+In the list of associated devices, you can click each device and scroll to the bottom of the Configuration tab. You see **Firewall** in the Addons section with **Installed** or **Not Installed** for the status.
 
 * **Not Installed** indicates that no firewall is in place for this device.
-* **Installed** indicates that a firewall is in place and you will have a **Firewall** tab available on the device where you can manage the firewall configuration.
+* **Installed** indicates that a firewall is in place and you have a **Firewall** tab available on the device where you can manage the firewall configuration.
 
 ## Dedicated Firewall Details
 {: #dedicated-firewall-details}
 
-For VLANs that have `Firewall-vlanXXXX.networklayer.com` in the **Gateway/Firewall** field, you can click on that firewall link to display the details of the Firewall. The device details include the associated router, VLAN, IPv4/IPv6 subnets, the devices associated with that VLAN, and the controls for routing traffic through or around the firewall.
+For VLANs that have `Firewall-vlanXXXX.networklayer.com` in the **Gateway/Firewall** field, you can click that firewall link to display the details of the Firewall. The device details include the associated router, VLAN, IPv4 and IPv6 subnets, the devices associated with that VLAN, and the controls for routing traffic through or around the firewall.
 
-FortiGate Security Appliance devices will have the management IP, username, and password.  Management of FortiGate Security Appliances is completed through their own GUI or SSH-based console.
+FortiGate Security Appliance devices have the management IP, username, and password. Management of FortiGate Security Appliances is completed through their own GUI or SSH-based console.
 
 ## Network Gateway Details
 {: #network-gateway-details}
 
-For VLANs that have a Network Gateway device name in the **Gateway/Firewall** field, you can click on the Network Gateway name to display details of the Network Gateway. The device details include the associated frontend (FCR) and backend (BCR) VLANs and Network Gateway management options.
+For VLANs that have a Network Gateway device name in the **Gateway/Firewall** field, you can click the Network Gateway name to display details of the Network Gateway. The device details include the associated front end (FCR) and backend (BCR) VLANs and Network Gateway management options.

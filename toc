@@ -2,7 +2,7 @@
 {:topicgroup: .topicgroup}
 
 {: .toc subcollection="fortigate-1g" category="security" audience="network" arm="3662772" href="/docs/fortigate-1g?topic=fortigate-1g-getting-started" path="fortigate-1g"}
-FortiGate Security Appliance (FSA) 1Gbps
+FortiGate Security Appliance (FSA) 1 Gbps
 
     {: .navgroup id="learn"}
     getting-started.md

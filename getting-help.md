@@ -20,17 +20,17 @@ subcollection: fortigate-1g
 {:note: .note}
 {:important: .important}
 
-# Getting Help and Support for Fortigate Security Appliance 1Gbps
+# Getting Help and Support for Fortigate Security Appliance 1 Gbps
 {: #getting-help-and-support-for-fortigate-security-appliance-1gbps}
 
-If you have problems or questions when using the FortiGate Security Appliance (FSA) 1Gbps, you can get help by searching for information or by asking questions through one of the forums listed below. You can also open a support case.
+If you have problems or questions about using the FortiGate Security Appliance (FSA) 1 Gbps, you can get help by searching for information or by asking questions through one of the forums listed. You can also open a support case.
 {: shortdesc}
 
-When using the forums to ask a question, tag your question so that it is seen by the IBM© Cloud development teams.
+If you use the forums to ask a question, tag your question so that it is seen by the IBM© Cloud development teams.
 
-* If you have technical questions about the FortiGate Security Appliance (FSA) 1Gbps, post your question on [Stack Overflow](https://stackoverflow.com/search?q=fsa-1g+ibm-cloud) and tag your question with "fsa-1g" and "ibm-cloud".
+* If you have technical questions about the FortiGate Security Appliance (FSA) 1 Gbps, post your question on [Stack Overflow](https://stackoverflow.com/search?q=fsa-1g+ibm-cloud) and tag your question with "fsa-1g" and "ibm-cloud".
 * For questions about the service and getting started instructions, use the [IBM developerWorks dW Answers](https://developer.ibm.com/answers/topics/fsa-1g.html?smartspace=ibm-cloud) forum. Include the "fsa-1g" and "ibm-cloud" tags.
 
 See [Getting help](https://{DomainName}/docs/get-support?topic=get-support-using-avatar) for more details about using the forums.
 
-For information about opening an IBM support case, or about support levels and case severities, see [Contacting support](/docs/get-support?topic=get-support-getting-customer-support).
+For more information about opening an IBM support case, or about support levels and case severities, see [Contacting support](/docs/get-support?topic=get-support-getting-customer-support).

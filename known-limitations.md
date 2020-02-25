@@ -20,16 +20,16 @@ subcollection: fortigate-1g
 {:note: .note}
 {:important: .important}
 
-# Known Limitations of Fortigate Security Appliance 1Gbps
+# Known Limitations of Fortigate Security Appliance 1 Gbps
 {: #known-limitations-of-fortigate-security-appliance-1gbps}
 
-There are some limitations to be aware of when using your FortiGate Security Appliance (FSA) 1Gbps.
+There are some limitations to be aware of using your FortiGate Security Appliance (FSA) 1 Gbps.
 {: shortdesc}
 
 * Incompatible with Windows Network Load Balancing (NLB) due to the way ARP is processed.
 
-* High Availability failover functionality is not exposed to the user. If the master firewall malfunctions, but does not failover automatically, a support case will be required. Device monitoring for critical services is recommended to ensure that firewalls are appropriately passing traffic.
+* High Availability fail over functionality is not exposed to the user. If the master firewall malfunctions, but does not fail over automatically, a support case is required. Device monitoring for critical services is recommended to ensure that firewalls are passing traffic.
 
-* A FortiGate Security Appliance cannot be deployed on a VLAN that is currently associated with a Network Gateway, Hardware Firewall, or another FortiGate Security Appliance.
+* A FortiGate Security Appliance cannot be deployed on a VLAN that is associated with a Network Gateway, Hardware Firewall, or another FortiGate Security Appliance.
 
 * The FortiGate Security Appliance is associated with a single public customer VLAN (the "inside" VLAN) and cannot access the private network.
