@@ -32,7 +32,7 @@ You can manage the FSA either through the web-based FortiOS GUI or the CLI (Comm
 
 Since monthly server bandwidth is recorded at the server switch port, traffic that is blocked by the FSA 1 Gbps is not counted against your monthly allotments. As a result, the need to pay for unwanted traffic is eliminated.
 
-## Overview and Features
+## Overview and features
 {: #overview-and-features}
 
 **Intended Use:** Single Public VLAN Protection

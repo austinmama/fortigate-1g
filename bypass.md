@@ -20,7 +20,7 @@ subcollection: fortigate-1g
 {:important: .important}
 {:download: .download}
 
-# Bypassing the Firewall Rules
+# Bypassing the firewall rules
 {: #bypassing-the-firewall-rules}
 
 You can bypass the rules of your Fortigate Security Appliance 1 Gbps (FSA) by following the instructions here.
@@ -32,7 +32,7 @@ You can bypass the rules of your Fortigate Security Appliance 1 Gbps (FSA) by fo
 
 	Another option is to route around the firewall. You can use the **Actions** drop down menu to choose **Set Route Bypass** or in the **Status:** section, you can click the **Route Around** button. Either way, you receive a confirmation dialog. Click **Yes** to confirm the action. Bypassing the route takes approximately two minutes to take effect. While in bypass mode, the "Status" is "Routing AROUND firewall".
 
-## Enable the Rules Again
+## Enable the rules again
 {: #enable-the-rules-again}
 
 To enable the rules again, follow the previous instructions to reach the **Configuration** tab of the device and click the **Actions** dropdown menu and choose **Set Route Bypass**. You receive a confirmation dialog. Click **Yes** to confirm the action. The "Status" changes back to "Routing THROUGH firewall" within two minutes.

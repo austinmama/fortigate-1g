@@ -22,7 +22,7 @@ subcollection: fortigate-1g
 {:help: data-hd-content-type='help'}
 {:support: data-reuse='support'}
 
-# Canceling a Firewall
+# Canceling a firewall
 {: #canceling-a-firewall}
 {: help}
 {: support}
