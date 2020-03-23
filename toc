@@ -1,14 +1,15 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="fortigate-1g" category="security" audience="network" arm="3662772" href="/docs/fortigate-1g?topic=fortigate-1g-getting-started" path="fortigate-1g"}
+{: .toc subcollection="fortigate-1g" category="security" audience="network" arm="3662772" href="/docs/fortigate-1g?topic=fortigate-1g-getting-started" console-page="/catalog/infrastructure/fortigate-security-appliance-group" product-page="https://www.ibm.com/cloud/network-security" path="fortigate-1g"}
 FortiGate Security Appliance (FSA) 1 Gbps
 
     {: .navgroup id="learn"}
     getting-started.md
     about.md
     default-deployment.md
-    /fortigate-10g/fortigate-10g-exploring-firewalls
+    /fortigate-10g/fortigate-10g-exploring-firewalls    
+    [What is network security?](https://www.ibm.com/cloud/learn/networking-a-complete-guide)
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
