@@ -42,5 +42,3 @@ When the Fortigate Security Appliance 1 Gbps (FSA) is first added to the VLAN, a
 	The management information includes a **Management IP**, a **username**, and a **Password**. This Management IP is publicly accessible by default. For automation purposes or advanced use cases, administration is also available using SSH with the same IP and credentials.
 5. To access the GUI, click the Management IP link and enter the username and password provided.
 6. From the Management UI, you can manage the FortiGate Security Appliance as a VDOM Administrator. Some functions not available with the Management UI, such as managing SSL Certificates, initiating a manual HA failover, rebooting, upgrading, or performing a default configuration restore. In these cases, a support case needs to be opened.
-
-Fortinet maintains [online documentation, which includes an interactive cookbook ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://cookbook.fortinet.com/fortigate/){: new_window} that can be used for reference during configuration.
