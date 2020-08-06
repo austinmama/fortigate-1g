@@ -27,7 +27,7 @@ subcollection: fortigate-1g
 {: help}
 {: support}
 
-You can cancel your Fortigate Security Appliance 1 Gbps (FSA) anytime with the instructions here.
+You can cancel your FortiGate Security Appliance 1 Gbps (FSA) anytime with the instructions here.
 {: shortdesc}
 
 1. From your browser, open the [IBM Cloud UI Console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/classic/security/firewalls/multivlan/provision){: new_window} and log in to your account.

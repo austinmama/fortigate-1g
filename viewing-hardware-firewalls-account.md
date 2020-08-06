@@ -20,7 +20,7 @@ subcollection: fortigate-1g
 {:important: .important}
 {:download: .download}
 
-# Viewing your Fortigate firewalls
+# Viewing your FortiGate firewalls
 {: #viewing-your-fortigate-firewalls}
 
 You can see which VLANs are protected with firewalls and find more details about your individual firewalls by visiting the VLAN page.

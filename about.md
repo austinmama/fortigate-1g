@@ -20,10 +20,10 @@ subcollection: fortigate-1g
 {:note: .note}
 {:important: .important}
 
-# About Fortigate Security Appliance 1 Gbps
+# About FortiGate Security Appliance 1 Gbps
 {: #about-fortigate-security-appliance-1gbps}
 
-A Fortigate Security Appliance 1 Gbps (FSA) is a dedicated single-tenant network device that is connected upstream from a server that protects any or all servers on a public VLAN. It is purchased separate from a server and can be added to a VLAN at any time. IBM© Cloud deploys the [Fortigate 1 Gbps ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://www.fortinet.com/sites/default/files/productdatasheets/FortiGate-300C.pdf){: new_window} within a Virtual Domain (VDOM) on the dedicated appliance. You have full access to that virtual domain without compromising the integrity of the device.
+A FortiGate Security Appliance 1 Gbps (FSA) is a dedicated single-tenant network device that is connected upstream from a server that protects any or all servers on a public VLAN. It is purchased separate from a server and can be added to a VLAN at any time. IBM© Cloud deploys the [FortiGate 1 Gbps ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://www.fortinet.com/sites/default/files/productdatasheets/FortiGate-300C.pdf){: new_window} within a Virtual Domain (VDOM) on the dedicated appliance. You have full access to that virtual domain without compromising the integrity of the device.
 {: shortdesc}
 
 With the FSA 1 Gbps, you have advanced features and the ability to fine-tune the device to a much higher degree than other products. The firewall blocks or shapes traffic before the traffic ever reaches the server. The main advantages are that a server handles 'good' traffic exclusively and that bandwidth can be constrained for less critical communications.
@@ -37,7 +37,7 @@ Since monthly server bandwidth is recorded at the server switch port, traffic th
 
 **Intended Use:** Single Public VLAN Protection
 
-**User Interface:** Fortigate GUI and Command Line Interface
+**User Interface:** FortiGate GUI and Command Line Interface
 
 **Features:** Stateful Packet Inspection, VLAN Protection, Ingress Firewall Rules, Egress Firewall Rules, NAT, SSL VPN Termination, IPsec VPN Termination, Advanced Logging, High Availability (Optional)
 

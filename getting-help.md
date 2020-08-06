@@ -20,7 +20,7 @@ subcollection: fortigate-1g
 {:note: .note}
 {:important: .important}
 
-# Getting help and support for Fortigate Security Appliance 1 Gbps
+# Getting help and support for FortiGate Security Appliance 1 Gbps
 {: #getting-help-and-support-for-fortigate-security-appliance-1gbps}
 
 If you have problems or questions about using the FortiGate Security Appliance (FSA) 1 Gbps, you can search for information or ask questions by using [Stack Overflow](https://stackoverflow.com/search?q=dl+ibm-cloud){: external}. Post your question then and tag it with "fsa-1g" and "ibm-cloud".

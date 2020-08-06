@@ -23,7 +23,7 @@ subcollection: fortigate-1g
 # Bypassing the firewall
 {: #bypassing-the-firewall}
 
-You can bypass your Fortigate Security Appliance 1 Gbps (FSA) by following the instructions here.
+You can bypass your FortiGate Security Appliance 1 Gbps (FSA) by following the instructions here.
 {: shortdesc}
 
 Follow these steps:

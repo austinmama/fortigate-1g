@@ -20,7 +20,7 @@ subcollection: fortigate-1g
 {:note: .note}
 {:important: .important}
 
-# Known limitations of Fortigate Security Appliance 1 Gbps
+# Known limitations of FortiGate Security Appliance 1 Gbps
 {: #known-limitations-of-fortigate-security-appliance-1gbps}
 
 There are some limitations to be aware of using your FortiGate Security Appliance (FSA) 1 Gbps.

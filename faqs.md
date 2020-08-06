@@ -22,7 +22,7 @@ subcollection: fortigate-1g
 {:important: .important}
 {:support: data-reuse='support'}
 
-# FAQs for Fortigate Security Appliance 1 Gbps
+# FAQs for FortiGate Security Appliance 1 Gbps
 {: #faqs-for-fortigate-security-appliance-1gbps}
 
 The following are frequently asked questions when working with the FortiGate Security Appliance (FSA) 1 Gbps firewall.

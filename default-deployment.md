@@ -22,7 +22,7 @@ subcollection: fortigate-1g
 {:help: data-hd-content-type='help'}
 {:support: data-reuse='support'}
 
-# Default deployment of a Fortigate Security Appliance 1 Gbps
+# Default deployment of a FortiGate Security Appliance 1 Gbps
 {: #default-deployment-of-a-fortigate-security-appliance-1gbps}
 {: help}
 {: support}
