@@ -7,10 +7,17 @@ FortiGate Security Appliance (FSA) 1 Gbps
     {: .navgroup id="learn"}
     getting-started.md
     about.md
+    
+    {: .topicgroup}
+    FSA 1Gbps migration guide
+        eom-announcement.md
+        migration-steps.md
+        
     default-deployment.md
     /fortigate-10g/fortigate-10g-exploring-firewalls    
     [What is network security?](https://www.ibm.com/cloud/learn/networking-a-complete-guide)
-    {: .navgroup-end}
+    {: .navgroup-end}    
+   
 
     {: .navgroup id="howto"}
     adding-fsa.md
