@@ -27,7 +27,7 @@ subcollection: fortigate-1g
 The FortiGate Security Appliance (FSA) 1 Gbps provides customers with an essential layer of security that prevents unwanted traffic from hitting your servers. 
 {: shortdesc}
 
-All instances of this service are deprecated. Existing instances can be used until it is no longer supported on 30 May 2021. Use one of the other available [firewall options](/docs/fortigate-1g?topic=fortigate-10g-exploring-firewalls) to get our latest mobile security capabilities on IBM Cloud. For migration information, see [Migrating FortiGate Security Appliance 1Gbps](/docs/fortigate-1g?topic=fortigate-1g-migration-overview).
+All instances of this service are deprecated. Existing instances can be used until it is no longer supported on 30 May 2021. Use one of the other available [firewall options](/docs/fortigate-1g?topic=fortigate-10g-exploring-firewalls) to get our latest security capabilities on IBM Cloud. For migration information, see [Migrating FortiGate Security Appliance 1Gbps](/docs/fortigate-1g?topic=fortigate-1g-migration-overview).
 {: deprecated}
 
 You can order the FSA 1 Gbps from the VLAN page in the IBM Cloud catalog.
