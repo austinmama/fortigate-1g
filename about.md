@@ -24,7 +24,7 @@ subcollection: fortigate-1g
 # About FortiGate Security Appliance 1 Gbps
 {: #about-fortigate-security-appliance-1gbps}
 
-A FortiGate Security Appliance 1 Gbps (FSA) is a dedicated single-tenant network device that is connected upstream from a server that protects any or all servers on a public VLAN. It is purchased separate from a server and can be added to a VLAN at any time. IBM© Cloud deploys the [FortiGate 1 Gbps ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://www.fortinet.com/sites/default/files/productdatasheets/FortiGate-300C.pdf){: new_window} within a Virtual Domain (VDOM) on the dedicated appliance. You have full access to that virtual domain without compromising the integrity of the device.
+A FortiGate Security Appliance 1 Gbps (FSA) is a dedicated single-tenant network device that is connected upstream from a server that protects any or all servers on a public VLAN. It is purchased separate from a server and can be added to a VLAN at any time. IBM© Cloud deploys the FortiGate 1 Gbps within a Virtual Domain (VDOM) on the dedicated appliance. You have full access to that virtual domain without compromising the integrity of the device.
 {: shortdesc}
 
 All instances of this service are deprecated. Existing instances can be used until it is no longer supported on 30 May 2021. Use one of the other available [firewall options](/docs/fortigate-1g?topic=fortigate-10g-exploring-firewalls) to get our latest security capabilities on IBM Cloud. For migration information, see [Migrating FortiGate Security Appliance 1Gbps](/docs/fortigate-1g?topic=fortigate-1g-migration-overview)
