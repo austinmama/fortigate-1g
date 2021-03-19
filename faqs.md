@@ -112,3 +112,13 @@ None. When ordered in HA, IBM Cloud automatically provisions the appliances in H
 {: support}
 
 None of the Hardware Firewall products have access to the private network. A Network Gateway is required to supply these capabilities inline and the NetScaler products have access to both the public and private networks.
+
+## What are the default DNS servers of FortiGate 1 Gbps?
+{: #default-dns-servers}
+{: faq}
+{: support}
+
+By default, FortiGate 1 Gbps uses the following FortiGuard DNS servers:
+
+* Primary: `208.91.112.53`
+* Secondary: `208.91.112.52`
