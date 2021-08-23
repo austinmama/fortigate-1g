@@ -76,7 +76,7 @@ These ports generally cannot be modified; however, if you reset the firewall rul
 {: faq}
 {: support}
 
-For the list of IP addresses and IP ranges to allow through the firewall, go [here](/docs/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-ibm-cloud-ip-ranges).
+For the list of IP addresses and IP ranges to allow through the firewall, go [here](/docs/hardware-firewall-shared?topic=hardware-firewall-shared-ibm-cloud-ip-ranges).
 
 ## What is the maximum number of servers that the FortiGate Security Appliance 1 Gbps will protect?
 {: #max-servers}

@@ -30,7 +30,7 @@ FortiGate Security Appliance (FSA) 1 Gbps
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-    /hardware-firewall-dedicated/hardware-firewall-dedicated-ibm-cloud-ip-ranges
+    /hardware-firewall-shared/hardware-firewall-shared-ibm-cloud-ip-ranges
     {: .navgroup-end}
 
     {: .navgroup id="help"}
